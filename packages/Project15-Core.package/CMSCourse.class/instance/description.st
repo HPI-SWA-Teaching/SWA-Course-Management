@@ -1,4 +1,4 @@
 accessing
 description 
 	
-	^ self description 
+	^ description 

@@ -9,9 +9,7 @@ renderContentOn: html
 "MainContent -> hier werden einzelne Komponeten, wie LoginForm, Tablleen usw. ausgetauscht ausgetausch"
 	html div
 		class: 'mainContent';
-		with: [
-			html text: 'CMS MainContent'
-		].
+		with: CMSCourseListComponent new.
 "Footer -> ..." 
 	html div
 		class: 'footer';

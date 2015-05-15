@@ -1,4 +1,4 @@
 accessing
 term: aTerm
 	
-	self term: aTerm
+	term := aTerm

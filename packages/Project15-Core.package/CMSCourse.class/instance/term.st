@@ -1,4 +1,4 @@
 accessing
 term
 	
-	^ self term
+	^ term

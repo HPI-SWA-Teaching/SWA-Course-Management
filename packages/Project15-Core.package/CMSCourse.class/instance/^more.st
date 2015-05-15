@@ -1,0 +1,4 @@
+comparing
+> aCMSCourse
+
+	^ aCMSCourse < self

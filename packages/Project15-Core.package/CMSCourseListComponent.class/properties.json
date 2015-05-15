@@ -1,16 +1,14 @@
 {
 	"category" : "Project15-Core",
 	"classinstvars" : [
-		"registeredCourses" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"title",
-		"description",
-		"term" ],
-	"name" : "CMSCourse",
+		 ],
+	"name" : "CMSCourseListComponent",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "WAComponent",
 	"type" : "normal" }

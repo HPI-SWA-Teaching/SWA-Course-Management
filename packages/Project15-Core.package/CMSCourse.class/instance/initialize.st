@@ -2,5 +2,5 @@ initialization
 initialize
 
 	self description: '';
-		term: '';
+		term: CMSSemester currentSemester;
 		title: ''

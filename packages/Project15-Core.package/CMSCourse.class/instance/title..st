@@ -1,4 +1,4 @@
 accessing
 title: aTitle
 	
-	self title: aTitle
+	title := aTitle

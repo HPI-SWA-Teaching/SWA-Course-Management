@@ -1,4 +1,4 @@
 accessing
 title 
 	
-	^ self title
+	^ title
