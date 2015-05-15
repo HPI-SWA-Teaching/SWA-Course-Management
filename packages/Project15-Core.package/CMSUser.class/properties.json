@@ -1,0 +1,15 @@
+{
+	"category" : "Project15-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"username",
+		"isAdmin" ],
+	"name" : "CMSUser",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

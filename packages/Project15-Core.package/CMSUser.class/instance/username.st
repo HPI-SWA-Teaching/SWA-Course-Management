@@ -1,0 +1,4 @@
+accessing
+username 
+	
+	^ self username

@@ -1,0 +1,4 @@
+accessing
+term
+	
+	^ self term
