@@ -6,8 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"demo" ],
-	"name" : "SwtProject15DemoTest",
+		"SS14",
+		"WS15",
+		"WS16",
+		"SS14a" ],
+	"name" : "SwtProject15SemesterTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

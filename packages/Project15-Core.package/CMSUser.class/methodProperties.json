@@ -1,7 +1,14 @@
 {
 	"class" : {
-		 },
+		"checkLoginInformation:" : "tk 5/15/2015 13:17",
+		"mayRegisterUser:" : "tk 5/15/2015 13:19",
+		"registerUser:" : "tk 5/15/2015 13:20",
+		"registeredUsers" : "tk 5/15/2015 13:03",
+		"registeredUsers:" : "tk 5/15/2015 13:03" },
 	"instance" : {
+		"isAdmin" : "tk 5/15/2015 12:49",
 		"isAdmin:" : "msc 5/15/2015 12:50",
+		"password" : "tk 5/15/2015 12:49",
+		"password:" : "tk 5/15/2015 12:49",
 		"username" : "msc 5/15/2015 12:50",
 		"username:" : "msc 5/15/2015 12:52" } }

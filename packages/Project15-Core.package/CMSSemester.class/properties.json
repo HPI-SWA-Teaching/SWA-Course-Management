@@ -6,8 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "SwtProject15Demo",
+		"year",
+		"winter" ],
+	"name" : "CMSSemester",
 	"pools" : [
 		 ],
 	"super" : "Object",
