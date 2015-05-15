@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'ProjectXX-Tests'!
+SystemOrganization addCategory: #'Project15-Tests'!

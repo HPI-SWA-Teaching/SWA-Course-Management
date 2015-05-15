@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'ProjectXX-Core'!
+SystemOrganization addCategory: #'Project15-Core'!
