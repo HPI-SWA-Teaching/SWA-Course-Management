@@ -3,7 +3,9 @@
 		 },
 	"instance" : {
 		"initialize" : "msc 5/15/2015 13:05",
+		"isLoggedIn" : "msc 5/19/2015 12:58",
 		"isLoggedIn:" : "msc 5/15/2015 12:30",
 		"login:" : "msc 5/15/2015 12:30",
 		"logout" : "msc 5/15/2015 12:27",
-		"user" : "msc 5/15/2015 12:22" } }
+		"user" : "msc 5/15/2015 12:22",
+		"user:" : "msc 5/19/2015 13:18" } }

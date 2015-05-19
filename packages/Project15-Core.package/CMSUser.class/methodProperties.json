@@ -6,9 +6,13 @@
 		"registeredUsers" : "tk 5/15/2015 13:03",
 		"registeredUsers:" : "tk 5/15/2015 13:03" },
 	"instance" : {
+		"addTask:" : "msc 5/15/2015 17:45",
+		"initialize" : "msc 5/15/2015 17:42",
 		"isAdmin" : "tk 5/15/2015 12:49",
 		"isAdmin:" : "msc 5/15/2015 12:50",
 		"password" : "tk 5/15/2015 12:49",
 		"password:" : "tk 5/15/2015 12:49",
+		"tasks" : "msc 5/15/2015 17:43",
+		"tasks:" : "msc 5/15/2015 17:44",
 		"username" : "msc 5/15/2015 12:50",
 		"username:" : "msc 5/15/2015 12:52" } }
