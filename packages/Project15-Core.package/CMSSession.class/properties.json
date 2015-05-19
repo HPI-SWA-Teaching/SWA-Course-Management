@@ -1,0 +1,14 @@
+{
+	"category" : "Project15-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"user" ],
+	"name" : "CMSSession",
+	"pools" : [
+		 ],
+	"super" : "WASession",
+	"type" : "normal" }
