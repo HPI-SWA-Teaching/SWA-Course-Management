@@ -1,0 +1,21 @@
+rendering
+renderContentOn: html
+" "
+
+	self session isLoggedIn
+		ifTrue: [html text: 'Hi ' , self session user]
+		ifFalse: [
+			html div 
+				class: 'loginForm';	
+				with: [
+					html heading: 'Login'. 
+					html form: [
+						html table: [
+							html 
+								tableRow: [self renderInputUsernameOn: html];
+								tableRow: [self renderCheckboxAdminOn: html];
+								tableRow: [self renderSubmitButtonOn: html].
+						]
+					]
+				]
+			].
