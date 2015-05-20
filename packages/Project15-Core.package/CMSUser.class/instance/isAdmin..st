@@ -1,4 +1,4 @@
 accessing
-isAdmin: aUser
+isAdmin: hasAdminRole
 	
-	^ self isAdmin
+	isAdmin := hasAdminRole

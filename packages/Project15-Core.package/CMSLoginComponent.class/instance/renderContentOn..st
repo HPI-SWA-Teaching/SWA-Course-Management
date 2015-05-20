@@ -1,6 +1,5 @@
 rendering
 renderContentOn: html
-" "
 
 	self session isLoggedIn
 		ifTrue: [html text: 'Hi ' , self session user]

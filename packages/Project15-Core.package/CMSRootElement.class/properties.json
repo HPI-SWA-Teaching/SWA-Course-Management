@@ -6,8 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"mainContent",
-		"user" ],
+		"mainContent" ],
 	"name" : "CMSRootElement",
 	"pools" : [
 		 ],

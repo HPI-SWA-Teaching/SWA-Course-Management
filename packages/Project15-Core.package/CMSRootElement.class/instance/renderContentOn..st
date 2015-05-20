@@ -9,7 +9,7 @@ renderContentOn: html
 "MainContent -> hier werden einzelne Komponeten, wie LoginForm, Tablleen usw. ausgetauscht ausgetausch"
 	html div
 		class: 'mainContent';
-		with: CMSLoginComponent new.
+		with: self mainContent.
 "Footer -> ..." 
 	html div
 		class: 'footer';
