@@ -1,11 +1,11 @@
 {
 	"class" : {
-		 },
+		"for:" : "tk 5/19/2015 13:15" },
 	"instance" : {
 		"course" : "tk 5/15/2015 16:48",
 		"course:" : "tk 5/15/2015 16:48",
-		"renderButtonsOn:" : "tk 5/15/2015 17:12",
-		"renderContentOn:" : "tk 5/15/2015 16:56",
-		"renderDescriptionFieldOn:" : "tk 5/15/2015 17:11",
-		"renderSemesterRowOn:" : "tk 5/15/2015 18:17",
-		"renderTitleRowOn:" : "tk 5/15/2015 17:12" } }
+		"renderButtonsOn:" : "tk 5/20/2015 11:16",
+		"renderContentOn:" : "tk 5/20/2015 09:06",
+		"renderDescriptionFieldOn:" : "tk 5/20/2015 08:59",
+		"renderSemesterRowOn:" : "tk 5/20/2015 09:01",
+		"renderTitleRowOn:" : "tk 5/20/2015 08:59" } }

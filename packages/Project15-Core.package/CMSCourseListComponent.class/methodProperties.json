@@ -2,6 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
+		"editCourse:" : "tk 5/20/2015 11:19",
+		"editor" : "tk 5/19/2015 17:35",
+		"editor:" : "tk 5/19/2015 17:35",
+		"initialize" : "tk 5/19/2015 18:25",
 		"renderContentOn:" : "tk 5/15/2015 16:17",
-		"renderCoursesOn:" : "tk 5/15/2015 16:34",
+		"renderCoursesOn:" : "tk 5/20/2015 08:29",
 		"renderTableHeadersOn:" : "tk 5/15/2015 16:20" } }
