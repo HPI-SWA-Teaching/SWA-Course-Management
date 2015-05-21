@@ -2,9 +2,12 @@
 	"class" : {
 		"canBeRoot" : "msc 5/15/2015 13:40" },
 	"instance" : {
-		"initialize" : "msc 5/15/2015 18:16",
+		"displayMenuBar" : "MarvMaster 5/21/2015 14:09",
+		"initialize" : "MarvMaster 5/21/2015 14:11",
 		"mainContent" : "msc 5/15/2015 16:02",
 		"mainContent:" : "msc 5/15/2015 15:34",
-		"renderContentOn:" : "msc 5/20/2015 19:03",
+		"menuContent" : "MarvMaster 5/21/2015 13:49",
+		"menuContent:" : "MarvMaster 5/21/2015 13:50",
+		"renderContentOn:" : "MarvMaster 5/21/2015 13:50",
 		"user" : "msc 5/15/2015 15:30",
 		"user:" : "msc 5/15/2015 15:30" } }
