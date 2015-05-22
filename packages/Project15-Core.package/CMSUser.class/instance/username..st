@@ -1,4 +1,4 @@
 accessing
 username: aUsername
 
-	self username: aUsername
+	username := aUsername

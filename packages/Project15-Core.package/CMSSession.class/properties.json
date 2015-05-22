@@ -1,7 +1,8 @@
 {
 	"category" : "Project15-Core",
 	"classinstvars" : [
-		 ],
+		"registeredUsers",
+		"registeredCourses" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",

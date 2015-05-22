@@ -1,4 +1,4 @@
 accessing
 username 
 	
-	^ self username
+	^ username
