@@ -1,4 +1,4 @@
 accessing
 registeredCourses
 
-	^ registeredCourses
+	^ registeredCourses ifNil: [registeredCourses := OrderedCollection new]

@@ -1,8 +1,11 @@
 as yet unclassified
 editCourse: aCMSCourse
 
-	| editedCourse |
+	| editorAnswer |
 	self editor course: (CMSCourse newFrom: aCMSCourse).
-	editedCourse := self call: self editor.
-	editedCourse ifNotNil: [
-		aCMSCourse copyFrom: editedCourse]
+	editorAnswer := self call: self editor.
+	editorAnswer = #Save
+		ifTrue: [aCMSCourse copyFrom: self editor course].
+	"#Cancel does nothing"
+	editorAnswer = #Delete
+		ifTrue: [CMSCourse registeredCourses remove: aCMSCourse].

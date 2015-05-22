@@ -8,4 +8,5 @@ renderSemesterRowOn: html
 				add: true;
 				on: #winter of: self course term;
 				labels: [ :value | value ifTrue: 'Winter' ifFalse: 'Summer' ].
-			html numberInput on: #year of: self course term]]
+			html numberInput callback: [:value | self course term year: value asInteger];
+				value: self course term year]]

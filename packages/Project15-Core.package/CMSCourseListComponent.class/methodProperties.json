@@ -1,11 +1,13 @@
 {
 	"class" : {
-		 },
+		"canBeRoot" : "tk 5/20/2015 11:53" },
 	"instance" : {
-		"editCourse:" : "tk 5/20/2015 11:19",
+		"createNewCourse" : "tk 5/22/2015 11:26",
+		"editCourse:" : "tk 5/22/2015 11:27",
 		"editor" : "tk 5/19/2015 17:35",
 		"editor:" : "tk 5/19/2015 17:35",
 		"initialize" : "tk 5/19/2015 18:25",
-		"renderContentOn:" : "tk 5/15/2015 16:17",
-		"renderCoursesOn:" : "tk 5/20/2015 08:29",
+		"renderContentOn:" : "tk 5/22/2015 11:19",
+		"renderCoursesOn:" : "tk 5/20/2015 12:04",
+		"renderNewCourseButtonOn:" : "tk 5/22/2015 11:20",
 		"renderTableHeadersOn:" : "tk 5/15/2015 16:20" } }
