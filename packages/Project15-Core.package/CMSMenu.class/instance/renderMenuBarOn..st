@@ -5,8 +5,14 @@ renderMenuBarOn: html
 		html tableRow: [
 			html tableData: [ 
 				html anchor
-					callback: [self rootComponent mainContent: (self rootComponent loadComponent: CMSCourseListComponent)];
+					callback: [self rootComponent mainContent: (self rootComponent loadComponent: CMSGlobalCourseListComponent)];
 					with: 'Aktuelle Lehrveranstaltungen'.
+				html space.
+			].
+			html tableData: [ 
+				html anchor
+					callback: [self rootComponent mainContent: (self rootComponent loadComponent: CMSUserCourseListComponent)];
+					with: 'Meine Lehrveranstaltungen'.
 				html space.
 			].
 			html tableData: [ 

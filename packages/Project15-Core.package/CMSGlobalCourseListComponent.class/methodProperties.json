@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"createNewCourse" : "msc 5/22/2015 17:05",
+		"editCourse:" : "msc 5/22/2015 17:04",
+		"editor" : "tk 5/19/2015 17:35",
+		"editor:" : "tk 5/19/2015 17:35",
+		"enroleCourse:" : "msc 5/22/2015 19:22",
+		"initialize" : "msc 5/22/2015 20:14",
+		"renderContentOn:" : "msc 5/22/2015 19:49",
+		"renderCoursesOn:" : "msc 5/22/2015 20:24",
+		"renderNewCourseButtonOn:" : "msc 5/22/2015 17:13" } }

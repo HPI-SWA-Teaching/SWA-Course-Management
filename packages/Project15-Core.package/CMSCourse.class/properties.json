@@ -8,7 +8,8 @@
 	"instvars" : [
 		"title",
 		"description",
-		"term" ],
+		"term",
+		"participents" ],
 	"name" : "CMSCourse",
 	"pools" : [
 		 ],

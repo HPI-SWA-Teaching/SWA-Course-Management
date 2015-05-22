@@ -2,12 +2,7 @@
 	"class" : {
 		"canBeRoot" : "tk 5/20/2015 11:53" },
 	"instance" : {
-		"createNewCourse" : "msc 5/22/2015 17:05",
-		"editCourse:" : "msc 5/22/2015 17:04",
-		"editor" : "tk 5/19/2015 17:35",
-		"editor:" : "tk 5/19/2015 17:35",
-		"initialize" : "tk 5/19/2015 18:25",
-		"renderContentOn:" : "msc 5/22/2015 17:14",
-		"renderCoursesOn:" : "msc 5/22/2015 17:10",
-		"renderNewCourseButtonOn:" : "msc 5/22/2015 17:13",
+		"initialize" : "msc 5/22/2015 20:14",
+		"renderContentOn:" : "msc 5/22/2015 19:49",
+		"renderCoursesOn:" : "msc 5/22/2015 20:17",
 		"renderTableHeadersOn:" : "tk 5/15/2015 16:20" } }

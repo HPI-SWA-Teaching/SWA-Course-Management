@@ -2,8 +2,12 @@
 	"class" : {
 		"named:" : "msc 5/22/2015 16:25" },
 	"instance" : {
-		"initialize" : "msc 5/20/2015 19:28",
+		"addCourse:" : "msc 5/22/2015 19:21",
+		"courses" : "msc 5/22/2015 19:06",
+		"courses:" : "msc 5/22/2015 19:06",
+		"initialize" : "msc 5/22/2015 19:30",
 		"isAdmin" : "tk 5/15/2015 12:49",
 		"isAdmin:" : "msc 5/20/2015 19:28",
+		"remove:" : "msc 5/22/2015 19:09",
 		"username" : "tk 5/22/2015 12:15",
 		"username:" : "tk 5/22/2015 12:15" } }

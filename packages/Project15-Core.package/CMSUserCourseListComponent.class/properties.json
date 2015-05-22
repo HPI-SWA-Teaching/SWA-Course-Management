@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"username",
-		"isAdmin",
-		"courses" ],
-	"name" : "CMSUser",
+		 ],
+	"name" : "CMSUserCourseListComponent",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "CMSCourseListComponent",
 	"type" : "normal" }
