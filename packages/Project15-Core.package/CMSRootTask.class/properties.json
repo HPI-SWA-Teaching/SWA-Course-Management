@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"user" ],
-	"name" : "CMSSession",
+		 ],
+	"name" : "CMSRootTask",
 	"pools" : [
 		 ],
-	"super" : "WASession",
+	"super" : "WATask",
 	"type" : "normal" }

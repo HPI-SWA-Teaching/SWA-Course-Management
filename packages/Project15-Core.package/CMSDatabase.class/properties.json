@@ -1,14 +1,15 @@
 {
 	"category" : "Project15-Core",
 	"classinstvars" : [
-		 ],
+		"courseDb",
+		"userDb" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"user" ],
-	"name" : "CMSSession",
+		 ],
+	"name" : "CMSDatabase",
 	"pools" : [
 		 ],
-	"super" : "WASession",
+	"super" : "Object",
 	"type" : "normal" }

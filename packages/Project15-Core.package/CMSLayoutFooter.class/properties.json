@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"user" ],
-	"name" : "CMSSession",
+		 ],
+	"name" : "CMSLayoutFooter",
 	"pools" : [
 		 ],
-	"super" : "WASession",
+	"super" : "WAComponent",
 	"type" : "normal" }
