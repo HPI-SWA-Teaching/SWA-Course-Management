@@ -2,7 +2,9 @@
 	"class" : {
 		"courseDb" : "msc 5/22/2015 16:38",
 		"courseDb:" : "msc 5/22/2015 16:38",
+		"registerCourse:" : "msc 5/22/2015 17:02",
 		"registerUser:" : "msc 5/22/2015 16:44",
+		"unregisterCourse:" : "msc 5/22/2015 17:03",
 		"userDb" : "msc 5/22/2015 16:38",
 		"userDb:" : "msc 5/22/2015 16:38" },
 	"instance" : {

@@ -3,12 +3,16 @@
 		"canBeRoot" : "msc 5/15/2015 13:40" },
 	"instance" : {
 		"children" : "msc 5/20/2015 21:11",
+		"components" : "msc 5/22/2015 18:07",
+		"components:" : "msc 5/22/2015 18:07",
+		"createComponent:" : "msc 5/22/2015 18:12",
 		"displayMenuBar" : "MarvMaster 5/21/2015 14:09",
 		"footer" : "msc 5/20/2015 21:12",
 		"footer:" : "msc 5/20/2015 21:12",
-		"initialize" : "MarvMaster 5/21/2015 14:11",
+		"initialize" : "msc 5/22/2015 18:15",
+		"loadComponent:" : "msc 5/22/2015 18:13",
 		"mainContent" : "msc 5/15/2015 16:02",
 		"mainContent:" : "msc 5/15/2015 15:34",
 		"menuContent" : "MarvMaster 5/21/2015 13:49",
 		"menuContent:" : "MarvMaster 5/21/2015 13:50",
-		"renderContentOn:" : "msc 5/20/2015 21:14" } }
+		"renderContentOn:" : "msc 5/22/2015 18:39" } }

@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"rootComponent" ],
-	"name" : "CMSRootTask",
+		 ],
+	"name" : "CMSUserListComponent",
 	"pools" : [
 		 ],
-	"super" : "WATask",
+	"super" : "WAComponent",
 	"type" : "normal" }

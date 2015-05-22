@@ -3,11 +3,9 @@ renderContentOn: html
 "Header -> mit Logo, mit Menü, Logout Button..."
 	html div 
 		class: 'header';
-		with: [
-			html heading: 'CMS Header' 
-		].
+		with: self menuContent.
 "MainContent -> hier werden einzelne Komponeten, wie LoginComponent, Tabellen usw. ausgetauscht"
-	html div
+	html div 
 		class: 'mainContent';
 		with: self mainContent.
 "Footer -> ..." 

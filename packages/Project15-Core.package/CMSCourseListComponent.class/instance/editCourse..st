@@ -8,4 +8,4 @@ editCourse: aCMSCourse
 		ifTrue: [aCMSCourse copyFrom: self editor course].
 	"#Cancel does nothing"
 	editorAnswer = #Delete
-		ifTrue: [CMSSession registeredCourses remove: aCMSCourse].
+		ifTrue: [CMSDatabase unregisterCourse: aCMSCourse].
