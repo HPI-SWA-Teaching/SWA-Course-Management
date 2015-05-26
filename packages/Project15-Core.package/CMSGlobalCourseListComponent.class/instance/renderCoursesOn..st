@@ -3,7 +3,7 @@ renderCoursesOn: html
 	
 	| isEnroled |
 
-	(CMSDatabase courseDb asOrderedCollection) sort do: [:course |
+	CMSDatabase courseDb sort do: [:course |
 		isEnroled := false.
 		html tableRow: [
 			html tableData: course term asString.

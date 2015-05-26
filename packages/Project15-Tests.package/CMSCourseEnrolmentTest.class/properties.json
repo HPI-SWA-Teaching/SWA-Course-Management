@@ -1,0 +1,15 @@
+{
+	"category" : "Project15-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"course",
+		"participant" ],
+	"name" : "CMSCourseEnrolmentTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
