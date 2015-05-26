@@ -7,4 +7,6 @@ go
 
 	user ifNotNil: [
 		self session login: user.
+		self rootComponent mainContent:
+			(self rootComponent loadComponent: CMSUserCourseListComponent).
 		self call: self rootComponent].
