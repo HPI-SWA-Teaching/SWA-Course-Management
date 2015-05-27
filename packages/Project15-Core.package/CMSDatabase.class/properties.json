@@ -1,10 +1,10 @@
 {
 	"category" : "Project15-Core",
 	"classinstvars" : [
-		"courseDb",
-		"userDb" ],
-	"classvars" : [
 		 ],
+	"classvars" : [
+		"CourseDb",
+		"UserDb" ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],

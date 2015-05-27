@@ -1,4 +1,4 @@
 accessing
 courseDb: anObject
 
-	courseDb := anObject
+	CourseDb := anObject

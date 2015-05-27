@@ -1,4 +1,4 @@
 accessing
 userDb: anObject
 
-	userDb := anObject
+	UserDb := anObject
