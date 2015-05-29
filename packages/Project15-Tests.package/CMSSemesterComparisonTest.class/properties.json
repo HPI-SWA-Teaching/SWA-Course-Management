@@ -6,8 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "CMSCourseEnrolmentTest",
+		"SS14",
+		"WS15",
+		"WS16",
+		"SS14a" ],
+	"name" : "CMSSemesterComparisonTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

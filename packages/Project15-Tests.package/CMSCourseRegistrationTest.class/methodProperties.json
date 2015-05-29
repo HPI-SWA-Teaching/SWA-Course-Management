@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testRegistrationAndDeletion" : "tk 5/29/2015 12:59",
+		"testRegistrationOfIdenticalCourses" : "tk 5/29/2015 13:03",
+		"testRegistrationOfMultipleCourses" : "tk 5/29/2015 13:02" } }

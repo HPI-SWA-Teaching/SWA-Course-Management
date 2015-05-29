@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "CMSCourseEnrolmentTest",
+	"name" : "CMSSessionTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",
