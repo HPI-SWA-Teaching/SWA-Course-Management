@@ -6,11 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"components",
-		"mainContent",
-		"menuContent",
-		"footer" ],
-	"name" : "CMSRootElement",
+		"messageText",
+		"messageType",
+		"wasShown" ],
+	"name" : "MessageComponent",
 	"pools" : [
 		 ],
 	"super" : "WAComponent",

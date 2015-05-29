@@ -1,0 +1,4 @@
+accessing
+wasShown
+
+	^ wasShown
