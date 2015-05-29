@@ -6,4 +6,4 @@ createNewCourse
 	editorAnswer := self call: self editor.
 	editorAnswer = #Save
 		ifTrue: [CMSDatabase registerCourse: self editor course].
-	"#Cancel & #Delete do nothing"
+	"#Cancel and #Delete do nothing"

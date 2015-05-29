@@ -1,4 +1,4 @@
 loggingin
 loginFailed
 	
-	self inform: 'Login failed!'
+	self session messageComponent errorMessage: 'Login failed.'.

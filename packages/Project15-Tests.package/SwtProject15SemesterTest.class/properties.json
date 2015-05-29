@@ -1,0 +1,17 @@
+{
+	"category" : "Project15-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"SS14",
+		"WS15",
+		"WS16",
+		"SS14a" ],
+	"name" : "SwtProject15SemesterTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

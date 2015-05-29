@@ -1,28 +1,19 @@
 as yet unclassified
 renderCoursesOn: html
-	
-	| isEnroled |
 
 	CMSDatabase courseDb sort do: [:course |
-		isEnroled := false.
 		html tableRow: [
 			html tableData: course term asString.
 			html tableData: course title.
 			html tableData: course description.
-			self session user courses do: [:userCourse |
-				isEnroled
+			html tableData: [
+				(self session user isEnrolled: course)
 					ifFalse: [
-						isEnroled := (userCourse == course).
-					].
-			].
-			isEnroled 
-				ifFalse: [
-					html tableData: [
 						html anchor 
 							callback: [self enroleCourse: course];
 							with: 'Enrole'
 					].
-				].
+			].
 			self session user isAdmin
 				ifTrue: [
 					html tableData: [

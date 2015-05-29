@@ -1,11 +1,13 @@
 as yet unclassified
 renderUsersOn: html
 
+	html render: self session messageComponent.
 	(CMSDatabase userDb values sort: [:a :b | 
 		a username <= b username.
 	]) do: [:user |
 		html tableRow: [
 			html tableData: user username.
+			html tableData: (user isAdmin ifTrue: ['Admin'] ifFalse: ['User']).
 			html tableData: [
 				user = self session user 
 					ifFalse: [			

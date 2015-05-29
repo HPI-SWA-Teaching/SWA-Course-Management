@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"createNewCourse" : "msc 5/22/2015 17:05",
-		"editCourse:" : "msc 5/22/2015 17:04",
+		"createNewCourse" : "msc 5/29/2015 14:46",
+		"editCourse:" : "msc 5/29/2015 14:47",
 		"editor" : "tk 5/19/2015 17:35",
 		"editor:" : "tk 5/19/2015 17:35",
-		"enroleCourse:" : "msc 5/22/2015 19:22",
+		"enroleCourse:" : "msc 5/29/2015 14:47",
 		"initialize" : "msc 5/22/2015 20:14",
-		"renderContentOn:" : "msc 5/22/2015 19:49",
-		"renderCoursesOn:" : "tk 5/26/2015 08:48",
-		"renderNewCourseButtonOn:" : "msc 5/22/2015 17:13" } }
+		"renderCoursesOn:" : "msc 5/29/2015 13:52",
+		"renderNewCourseButtonOn:" : "msc 5/22/2015 17:13",
+		"shouldRenderNewButton" : "tk 5/29/2015 13:09:25.21" } }

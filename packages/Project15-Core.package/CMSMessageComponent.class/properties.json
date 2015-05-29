@@ -9,7 +9,7 @@
 		"messageText",
 		"messageType",
 		"wasShown" ],
-	"name" : "MessageComponent",
+	"name" : "CMSMessageComponent",
 	"pools" : [
 		 ],
 	"super" : "WAComponent",

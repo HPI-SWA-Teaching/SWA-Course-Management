@@ -1,6 +1,12 @@
 {
 	"class" : {
-		 },
+		"errorMissingCourseDescription" : "msc 5/29/2015 14:30",
+		"errorMissingCourseTitle" : "msc 5/29/2015 14:30",
+		"infoDeleteCourse:" : "msc 5/29/2015 14:39",
+		"infoDemoteUser:" : "msc 5/29/2015 14:58",
+		"infoEnroleCourse:" : "msc 5/29/2015 13:38",
+		"infoLeftCourse:" : "msc 5/29/2015 13:32",
+		"infoPromoteUser:" : "msc 5/29/2015 14:58" },
 	"instance" : {
 		"errorMessage:" : "msc 5/29/2015 11:32",
 		"infoMessage:" : "msc 5/29/2015 11:33",
@@ -9,6 +15,6 @@
 		"messageText:" : "msc 5/29/2015 11:29",
 		"messageType" : "msc 5/29/2015 11:29",
 		"messageType:" : "msc 5/29/2015 11:29",
-		"renderContentOn:" : "msc 5/29/2015 11:33",
+		"renderContentOn:" : "msc 5/29/2015 14:59",
 		"wasShown" : "msc 5/29/2015 11:29",
 		"wasShown:" : "msc 5/29/2015 11:29" } }

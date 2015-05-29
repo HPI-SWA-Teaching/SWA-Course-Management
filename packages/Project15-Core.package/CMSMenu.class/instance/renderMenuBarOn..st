@@ -26,7 +26,7 @@ renderMenuBarOn: html
 				]
 			].
 			html tableData: [
-				html text: 'user: ', user username, ' ' , self session user isAdmin.
+				html text: 'user: ', user username, ' role:' , (user isAdmin ifTrue: ['Admin'] ifFalse: ['User']).
 			].
 			html tableData: [ 
 				html anchor 

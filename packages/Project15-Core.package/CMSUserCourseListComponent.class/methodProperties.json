@@ -2,5 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"leaveCourse:" : "tk 5/26/2015 13:05",
-		"renderCoursesOn:" : "msc 5/22/2015 20:18" } }
+		"leaveCourse:" : "msc 5/29/2015 13:35",
+		"renderCoursesOn:" : "msc 5/29/2015 12:42",
+		"shouldRenderNewButton" : "tk 5/29/2015 13:09:25.21" } }
