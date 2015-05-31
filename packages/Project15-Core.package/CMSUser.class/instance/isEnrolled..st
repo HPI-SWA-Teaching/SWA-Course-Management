@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 isEnrolled: aCourse
 
 	^ self courses includes: aCourse.

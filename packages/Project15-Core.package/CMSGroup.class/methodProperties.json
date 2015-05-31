@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"named:" : "tk 5/31/2015 10:23" },
+	"instance" : {
+		"addMember:" : "tk 5/31/2015 10:14",
+		"addNewMember:" : "tk 5/31/2015 10:09",
+		"disband" : "tk 5/31/2015 10:20",
+		"initialize" : "tk 5/31/2015 09:51",
+		"isMember:" : "tk 5/31/2015 10:10",
+		"members" : "tk 5/31/2015 09:51",
+		"members:" : "tk 5/31/2015 09:51",
+		"removeAllMembers" : "tk 5/31/2015 10:20",
+		"removeGroupMember:" : "tk 5/31/2015 10:13",
+		"removeMember:" : "tk 5/31/2015 10:14",
+		"title" : "tk 5/29/2015 13:33",
+		"title:" : "tk 5/29/2015 13:33" } }

@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"username",
-		"isAdmin",
-		"courses",
-		"groups" ],
-	"name" : "CMSUser",
+		"title",
+		"members" ],
+	"name" : "CMSGroup",
 	"pools" : [
 		 ],
 	"super" : "Object",

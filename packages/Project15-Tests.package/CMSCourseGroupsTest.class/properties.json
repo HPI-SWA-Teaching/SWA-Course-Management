@@ -1,17 +1,14 @@
 {
-	"category" : "Project15-Core",
+	"category" : "Project15-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"username",
-		"isAdmin",
-		"courses",
-		"groups" ],
-	"name" : "CMSUser",
+		 ],
+	"name" : "CMSCourseGroupsTest",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TestCase",
 	"type" : "normal" }

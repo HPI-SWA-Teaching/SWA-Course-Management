@@ -2,11 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"course" : "tk 5/26/2015 12:57",
-		"course:" : "tk 5/26/2015 12:57",
-		"participant" : "tk 5/26/2015 12:57",
-		"participant:" : "tk 5/26/2015 12:57",
-		"setUp" : "tk 5/26/2015 12:59",
-		"test" : "tk 5/26/2015 13:04",
 		"testCourseDeletion" : "tk 5/29/2015 12:32",
 		"testEnrolementAndLeaving" : "tk 5/29/2015 12:26" } }

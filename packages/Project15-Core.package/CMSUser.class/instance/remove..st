@@ -1,4 +1,4 @@
-initalization
+accessing
 remove: aCourse
 	
 	self courses remove: aCourse.
