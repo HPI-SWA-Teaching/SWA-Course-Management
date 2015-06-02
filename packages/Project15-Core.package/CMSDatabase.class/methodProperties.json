@@ -1,11 +1,5 @@
 {
 	"class" : {
-		"courseDb" : "tk 5/27/2015 12:18",
-		"courseDb:" : "tk 5/27/2015 12:18",
-		"registerCourse:" : "msc 5/22/2015 17:02",
-		"registerUser:" : "msc 5/22/2015 16:44",
-		"unregisterCourse:" : "tk 5/26/2015 13:26",
-		"userDb" : "tk 5/27/2015 12:18",
-		"userDb:" : "tk 5/27/2015 12:19" },
+		 },
 	"instance" : {
 		 } }

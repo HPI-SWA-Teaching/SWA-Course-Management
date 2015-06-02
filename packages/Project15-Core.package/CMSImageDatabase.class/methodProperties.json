@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"instance" : "msc 6/2/2015 17:29",
+		"reset" : "msc 6/2/2015 17:30" },
+	"instance" : {
+		"courseDb" : "msc 6/2/2015 17:30",
+		"courseDb:" : "msc 6/2/2015 17:30",
+		"initialize" : "msc 6/2/2015 17:33",
+		"registerCourse:" : "msc 6/2/2015 17:34",
+		"registerUser:" : "msc 6/2/2015 17:34",
+		"unregisterCourse:" : "msc 6/2/2015 17:34",
+		"userDb" : "msc 6/2/2015 17:30",
+		"userDb:" : "msc 6/2/2015 17:30" } }

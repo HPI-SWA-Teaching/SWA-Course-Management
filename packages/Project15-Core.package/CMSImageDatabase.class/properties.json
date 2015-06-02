@@ -1,0 +1,15 @@
+{
+	"category" : "Project15-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Instance" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"courseDb",
+		"userDb" ],
+	"name" : "CMSImageDatabase",
+	"pools" : [
+		 ],
+	"super" : "CMSDatabase",
+	"type" : "normal" }

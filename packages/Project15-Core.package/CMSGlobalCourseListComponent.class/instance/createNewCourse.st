@@ -6,7 +6,7 @@ createNewCourse
 	editorAnswer := self call: self editor.
 	editorAnswer = #Save
 		ifTrue: [
-			CMSDatabase registerCourse: self editor course.
+			CMSImageDatabase instance registerCourse: self editor course.
 			self session messageComponent infoMessage: (CMSMessageComponent infoCreateCourse: self editor course title).
 		].
 	"#Cancel and #Delete do nothing"

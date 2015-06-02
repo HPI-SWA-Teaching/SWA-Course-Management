@@ -2,7 +2,7 @@ as yet unclassified
 renderUsersOn: html
 
 	html render: self session messageComponent.
-	(CMSDatabase userDb values sort: [:a :b | 
+	(CMSImageDatabase instance userDb values sort: [:a :b | 
 		a username <= b username.
 	]) do: [:user |
 		html tableRow: [

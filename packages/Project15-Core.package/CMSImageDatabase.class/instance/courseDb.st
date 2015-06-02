@@ -1,4 +1,4 @@
 accessing
 courseDb
 
-	^ CourseDb
+	^ courseDb

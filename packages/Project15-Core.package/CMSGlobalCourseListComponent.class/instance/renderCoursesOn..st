@@ -1,7 +1,7 @@
 as yet unclassified
 renderCoursesOn: html
 
-	CMSDatabase courseDb sort do: [:course |
+	CMSImageDatabase instance courseDb sort do: [:course |
 		html tableRow: [
 			html tableData: course term asString.
 			html tableData: course title.

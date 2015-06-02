@@ -1,4 +1,4 @@
 accessing
 userDb
 
-	^ UserDb
+	^ userDb

@@ -11,7 +11,7 @@ editCourse: aCMSCourse
 		].
 	editorAnswer = #Delete
 		ifTrue: [
-			CMSDatabase unregisterCourse: aCMSCourse.
+			CMSImageDatabase instance unregisterCourse: aCMSCourse.
 			self session messageComponent infoMessage: (CMSMessageComponent infoDeleteCourse: self editor course title).
 		].
 	"#Cancel does nothing"
