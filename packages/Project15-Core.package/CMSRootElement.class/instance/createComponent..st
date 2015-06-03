@@ -2,7 +2,7 @@ as yet unclassified
 createComponent: aComponentClass 
 
 	| newComponent |
-	newComponent := aComponentClass new.
+	newComponent := aComponentClass rootedAt: self.
 	self components at: aComponentClass put: newComponent.
 	^ newComponent.
 

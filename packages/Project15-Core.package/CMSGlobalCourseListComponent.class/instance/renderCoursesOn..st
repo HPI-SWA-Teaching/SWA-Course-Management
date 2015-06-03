@@ -7,6 +7,10 @@ renderCoursesOn: html
 			html tableData: course title.
 			html tableData: course description.
 			html tableData: [
+				html anchor
+					callback: [self viewCourse: course];
+					with: 'View'].
+			html tableData: [
 				(self session user isEnrolled: course)
 					ifFalse: [
 						html anchor 

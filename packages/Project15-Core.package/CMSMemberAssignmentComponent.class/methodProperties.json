@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"memberSortBlock" : "tk 6/2/2015 14:49" },
+	"instance" : {
+		"canRemoveMember:" : "tk 6/3/2015 08:52",
+		"group" : "tk 6/2/2015 14:48",
+		"group:" : "tk 6/2/2015 14:48",
+		"renderBackLinkOn:" : "tk 6/2/2015 14:35",
+		"renderCandidatesOn:" : "tk 6/3/2015 10:07",
+		"renderContentOn:" : "tk 6/2/2015 14:34",
+		"renderMembersOn:" : "tk 6/3/2015 09:14",
+		"returnToGroupView" : "tk 6/2/2015 14:36" } }

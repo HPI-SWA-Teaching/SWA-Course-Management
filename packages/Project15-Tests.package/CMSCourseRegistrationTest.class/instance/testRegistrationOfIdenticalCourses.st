@@ -7,6 +7,7 @@ testRegistrationOfIdenticalCourses
 
 	self deny: (courseA < courseB).
 	self deny: (courseA > courseB).
+	self deny: (courseA = courseB).
 
 	self deny: (CMSImageDatabase instance courseDb includes: courseA).
 	self deny: (CMSImageDatabase instance courseDb includes: courseB).

@@ -10,5 +10,5 @@
 	"name" : "CMSCourseListComponent",
 	"pools" : [
 		 ],
-	"super" : "WAComponent",
+	"super" : "CMSEmbeddedComponent",
 	"type" : "normal" }

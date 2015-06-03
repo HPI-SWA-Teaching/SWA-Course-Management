@@ -10,5 +10,5 @@
 	"name" : "CMSUserListComponent",
 	"pools" : [
 		 ],
-	"super" : "WAComponent",
+	"super" : "CMSEmbeddedComponent",
 	"type" : "normal" }

@@ -10,5 +10,5 @@
 	"name" : "CMSCourseEditingComponent",
 	"pools" : [
 		 ],
-	"super" : "WAComponent",
+	"super" : "CMSEmbeddedComponent",
 	"type" : "normal" }

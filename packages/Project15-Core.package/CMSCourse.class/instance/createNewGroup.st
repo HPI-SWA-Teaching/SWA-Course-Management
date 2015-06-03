@@ -3,6 +3,7 @@ createNewGroup
 
 	| newGroup |
 
-	newGroup := CMSGroup named: self getDefaultGroupName.
+	newGroup := (CMSGroup named: self getDefaultGroupName)
+		course: self.
 	self groups add: newGroup.
 	^ newGroup.

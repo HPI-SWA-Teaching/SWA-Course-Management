@@ -2,7 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "msc 5/15/2015 16:21",
 		"isAdmin" : "msc 5/15/2015 16:37",
 		"isAdmin:" : "msc 5/15/2015 16:38",
 		"loginFailed" : "msc 5/29/2015 11:53",
