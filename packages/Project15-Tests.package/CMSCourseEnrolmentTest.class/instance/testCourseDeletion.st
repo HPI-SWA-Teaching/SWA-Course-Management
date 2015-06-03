@@ -6,7 +6,7 @@ testCourseDeletion
 	participantA := CMSUser new.
 	participantB := CMSUser new.
 
-	CMSDatabase registerCourse: course.
+	CMSImageDatabase instance registerCourse: course.
 	participantA addCourse: course.
 	participantB addCourse: course.
 
@@ -15,7 +15,7 @@ testCourseDeletion
 	self assert: (course participents includes: participantA).
 	self assert: (course participents includes: participantB).
 
-	CMSDatabase unregisterCourse: course.
+	CMSImageDatabase instance unregisterCourse: course.
 
 	self deny: (participantA courses includes: course).
 	self deny: (participantB courses includes: course).

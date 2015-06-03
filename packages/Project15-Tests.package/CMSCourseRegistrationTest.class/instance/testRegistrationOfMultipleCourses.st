@@ -5,22 +5,22 @@ testRegistrationOfMultipleCourses
 	courseA := CMSCourse new title: 'Course A'.
 	courseB := CMSCourse new title: 'Course B'.
 
-	self deny: (CMSDatabase courseDb includes: courseA).
-	self deny: (CMSDatabase courseDb includes: courseB).
+	self deny: (CMSImageDatabase instance courseDb includes: courseA).
+	self deny: (CMSImageDatabase instance courseDb includes: courseB).
 
-	CMSDatabase registerCourse: courseA.
+	CMSImageDatabase instance registerCourse: courseA.
 
-	self assert: (CMSDatabase courseDb includes: courseA).
+	self assert: (CMSImageDatabase instance courseDb includes: courseA).
 
-	CMSDatabase registerCourse: courseB.
+	CMSImageDatabase instance registerCourse: courseB.
 
-	self assert: (CMSDatabase courseDb includes: courseB).
+	self assert: (CMSImageDatabase instance courseDb includes: courseB).
 
-	CMSDatabase unregisterCourse: courseA.
+	CMSImageDatabase instance unregisterCourse: courseA.
 
-	self assert: (CMSDatabase courseDb includes: courseB).
-	self deny: (CMSDatabase courseDb includes: courseA).
+	self assert: (CMSImageDatabase instance courseDb includes: courseB).
+	self deny: (CMSImageDatabase instance courseDb includes: courseA).
 
-	CMSDatabase unregisterCourse: courseB.
+	CMSImageDatabase instance unregisterCourse: courseB.
 
-	self deny: (CMSDatabase courseDb includes: courseB).
+	self deny: (CMSImageDatabase instance courseDb includes: courseB).

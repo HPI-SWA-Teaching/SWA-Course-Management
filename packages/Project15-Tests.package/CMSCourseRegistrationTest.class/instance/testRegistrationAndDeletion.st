@@ -4,12 +4,12 @@ testRegistrationAndDeletion
 	| course |
 	course := CMSCourse new.
 
-	self deny: (CMSDatabase courseDb includes: course).
+	self deny: (CMSImageDatabase instance courseDb includes: course).
 
-	CMSDatabase registerCourse: course.
+	CMSImageDatabase instance registerCourse: course.
 
-	self assert: (CMSDatabase courseDb includes: course).
+	self assert: (CMSImageDatabase instance courseDb includes: course).
 
-	CMSDatabase unregisterCourse: course.
+	CMSImageDatabase instance unregisterCourse: course.
 
-	self deny: (CMSDatabase courseDb includes: course).
+	self deny: (CMSImageDatabase instance courseDb includes: course).
