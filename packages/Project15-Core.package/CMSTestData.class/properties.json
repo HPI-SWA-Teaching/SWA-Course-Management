@@ -3,12 +3,11 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"CourseDb",
-		"UserDb" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "CMSDatabase",
+	"name" : "CMSTestData",
 	"pools" : [
 		 ],
 	"super" : "Object",

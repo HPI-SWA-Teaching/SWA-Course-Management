@@ -11,5 +11,5 @@
 	"name" : "CMSImageDatabase",
 	"pools" : [
 		 ],
-	"super" : "CMSDatabase",
+	"super" : "Object",
 	"type" : "normal" }
