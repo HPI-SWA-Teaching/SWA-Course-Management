@@ -2,10 +2,12 @@
 	"class" : {
 		"groupSortingBlock" : "tk 6/2/2015 14:00" },
 	"instance" : {
+		"addGroup" : "tk 6/3/2015 12:19",
+		"assignMembers:" : "tk 6/3/2015 12:17",
 		"course" : "tk 6/2/2015 13:27",
 		"course:" : "tk 6/2/2015 13:27",
 		"mayManageGroups" : "tk 6/3/2015 08:42",
 		"renderContentOn:" : "tk 6/2/2015 14:03",
 		"renderGeneralInformationOn:" : "tk 6/2/2015 14:10",
-		"renderGroupsOn:" : "tk 6/3/2015 08:44",
+		"renderGroupsOn:" : "tk 6/3/2015 12:19",
 		"viewGroup:" : "tk 6/2/2015 14:23" } }

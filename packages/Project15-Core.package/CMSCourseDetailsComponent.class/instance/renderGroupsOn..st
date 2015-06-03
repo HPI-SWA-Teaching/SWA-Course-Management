@@ -4,7 +4,7 @@ renderGroupsOn: html
 	html text: 'Groups:'.
 	self mayManageGroups ifTrue: [
 		html anchor
-			callback: [self course createNewGroup];
+			callback: [self addGroup];
 			with: ' New Group'.].
 	html table: [
 		html tableRow: [
