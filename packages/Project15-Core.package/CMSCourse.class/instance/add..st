@@ -1,4 +1,4 @@
 participents
 add: aUser
 	
-	self participents add: aUser.
+	aUser addCourse: self.

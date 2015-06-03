@@ -2,4 +2,4 @@ accessing
 addCourse: aCourse
 	
 	self courses add: aCourse.
-	aCourse add: self.
+	aCourse participents add: self.
