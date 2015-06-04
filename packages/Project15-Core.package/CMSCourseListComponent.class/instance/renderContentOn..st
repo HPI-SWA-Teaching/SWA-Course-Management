@@ -3,10 +3,7 @@ renderContentOn: html
 
 	html render: self session messageComponent.
 	self shouldRenderNewButton
-		ifTrue: [
-			self renderNewCourseButtonOn: html.
-		].
+		ifTrue: [self renderNewCourseButtonOn: html].
 	html table: [
 		self renderTableHeadersOn: html.
-		self renderCoursesOn: html
-	].
+		self renderCoursesOn: html].

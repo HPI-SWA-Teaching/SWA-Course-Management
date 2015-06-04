@@ -13,7 +13,4 @@ renderCoursesOn: html
 			html tableData: [
 				html anchor 
 					callback: [self leaveCourse: course];
-					with: 'Leave'.
-			].
-		].
-	].
+					with: 'Leave']]]

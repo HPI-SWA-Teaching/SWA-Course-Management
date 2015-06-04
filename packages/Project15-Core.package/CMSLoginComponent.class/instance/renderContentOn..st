@@ -12,9 +12,4 @@ renderContentOn: html
 						html table: [
 							html 
 								tableRow: [self renderInputUsernameOn: html];
-								tableRow: [self renderCheckboxAdminOn: html];
-								tableRow: [self renderSubmitButtonOn: html].
-						]
-					]
-				]
-			].
+								tableRow: [self renderSubmitButtonOn: html]]]]]

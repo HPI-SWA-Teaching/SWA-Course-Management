@@ -5,5 +5,4 @@ renderSubmitButtonOn: html
 		tableData;
 		tableData: [ 
 			html submitButton callback: [self validateLogin];
-			text: 'Login'
-		].
+			text: 'Login']

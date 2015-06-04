@@ -15,16 +15,10 @@ renderCoursesOn: html
 					ifFalse: [
 						html anchor 
 							callback: [self enroleCourse: course];
-							with: 'Enrole'
-					].
-			].
+							with: 'Enrole']].
 			self session user isAdmin
 				ifTrue: [
 					html tableData: [
 						html anchor
 							callback: [self editCourse: course];
-							with: 'Edit'
-					]
-				]
-		]
-	].
+							with: 'Edit']]]]

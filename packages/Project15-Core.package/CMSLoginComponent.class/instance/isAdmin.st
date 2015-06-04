@@ -1,4 +1,0 @@
-accessing
-isAdmin
-
-	^ isAdmin

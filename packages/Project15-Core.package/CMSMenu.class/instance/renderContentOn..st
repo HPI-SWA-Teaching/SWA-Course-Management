@@ -5,5 +5,4 @@ renderContentOn: html
 	ifTrue: [
 		html div
 		class: 'menu';
-		with:[ self renderMenuBarOn: html ].
-	]
+		with:[ self renderMenuBarOn: html ]]
