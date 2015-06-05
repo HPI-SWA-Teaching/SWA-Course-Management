@@ -1,5 +1,5 @@
 validating
-validateCourse
+validateEditor
 
 	self course title isEmpty 
 		ifTrue: [

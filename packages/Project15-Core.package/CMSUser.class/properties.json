@@ -9,7 +9,8 @@
 		"username",
 		"isAdmin",
 		"courses",
-		"groups" ],
+		"groups",
+		"topics" ],
 	"name" : "CMSUser",
 	"pools" : [
 		 ],

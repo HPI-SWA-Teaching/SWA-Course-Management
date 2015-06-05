@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"course",
-		"topicEditor" ],
-	"name" : "CMSCourseDetailsComponent",
+		"topic" ],
+	"name" : "CMSTopicEditingComponent",
 	"pools" : [
 		 ],
-	"super" : "CMSEmbeddedComponent",
+	"super" : "CMSEditingComponent",
 	"type" : "normal" }

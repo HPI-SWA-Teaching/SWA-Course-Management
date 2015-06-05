@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"named:" : "t.a. 6/5/2015 18:00" },
+	"instance" : {
+		"addMember:" : "t.a. 6/5/2015 17:19",
+		"addNewMember:" : "t.a. 6/5/2015 17:27",
+		"course" : "t.a. 6/5/2015 17:17",
+		"course:" : "t.a. 6/5/2015 17:17",
+		"description" : "t.a. 6/5/2015 17:17",
+		"description:" : "t.a. 6/5/2015 17:17",
+		"disband" : "t.a. 6/5/2015 18:08",
+		"initialize" : "t.a. 6/5/2015 17:19",
+		"members" : "t.a. 6/5/2015 17:17",
+		"members:" : "t.a. 6/5/2015 17:17",
+		"removeAllMembers" : "t.a. 6/5/2015 17:41",
+		"removeGroupMember:" : "t.a. 6/5/2015 17:41",
+		"removeMember:" : "t.a. 6/5/2015 17:37",
+		"title" : "t.a. 6/5/2015 17:17",
+		"title:" : "t.a. 6/5/2015 17:17" } }

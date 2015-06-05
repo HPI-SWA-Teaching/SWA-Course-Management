@@ -10,5 +10,5 @@
 	"name" : "CMSCourseEditingComponent",
 	"pools" : [
 		 ],
-	"super" : "CMSEmbeddedComponent",
+	"super" : "CMSEditingComponent",
 	"type" : "normal" }

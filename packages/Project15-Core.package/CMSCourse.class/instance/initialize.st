@@ -5,4 +5,5 @@ initialize
 		term: CMSSemester currentSemester;
 		title: '';
 		participents: Set new;
-		groups: OrderedCollection new.
+		groups: OrderedCollection new;
+		topics: OrderedCollection new.

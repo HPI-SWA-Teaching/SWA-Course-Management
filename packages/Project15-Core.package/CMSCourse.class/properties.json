@@ -10,7 +10,8 @@
 		"description",
 		"term",
 		"participents",
-		"groups" ],
+		"groups",
+		"topics" ],
 	"name" : "CMSCourse",
 	"pools" : [
 		 ],

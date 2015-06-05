@@ -2,7 +2,10 @@
 	"class" : {
 		"errorMissingCourseDescription" : "msc 5/29/2015 14:30",
 		"errorMissingCourseTitle" : "msc 5/29/2015 14:30",
+		"errorMissingTopicDescription" : "t.a. 6/5/2015 19:46",
+		"errorMissingTopicTitle" : "t.a. 6/5/2015 19:45",
 		"infoCreateCourse:" : "msc 6/2/2015 13:17",
+		"infoCreateTopic:" : "t.a. 6/5/2015 20:53",
 		"infoDeleteCourse:" : "msc 5/29/2015 14:39",
 		"infoDemoteUser:" : "msc 5/29/2015 14:58",
 		"infoEnroleCourse:" : "msc 5/29/2015 13:38",
