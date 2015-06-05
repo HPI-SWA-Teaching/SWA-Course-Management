@@ -4,5 +4,7 @@ renderContentOn: html
 	self session isLoggedIn 
 	ifTrue: [
 		html div
-		class: 'menu';
-		with:[ self renderMenuBarOn: html ]]
+			class: 'menu';
+			with: [self renderMenuBarOn: html].
+		html div
+			with: [self rootComponent mainContent renderTraceOn: html]]

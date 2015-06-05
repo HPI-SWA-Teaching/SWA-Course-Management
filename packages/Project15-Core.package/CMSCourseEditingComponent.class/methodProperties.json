@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"caption" : "MarvMaster 6/5/2015 10:58:09.65",
 		"for:" : "tk 5/19/2015 13:15" },
 	"instance" : {
 		"course" : "tk 5/15/2015 16:48",
@@ -9,4 +10,5 @@
 		"renderDescriptionFieldOn:" : "tk 5/20/2015 08:59",
 		"renderSemesterRowOn:" : "tk 5/22/2015 11:51",
 		"renderTitleRowOn:" : "tk 5/20/2015 08:59",
+		"renderTraceOn:" : "MarvMaster 6/5/2015 10:58:09.65",
 		"validateCourse" : "tk 5/29/2015 13:09:25.21" } }

@@ -8,19 +8,19 @@ renderMenuBarOn: html
 			html tableData: [ 
 				html anchor
 					callback: [self rootComponent mainContent: (self rootComponent loadComponent: CMSGlobalCourseListComponent)];
-					with: 'Aktuelle Lehrveranstaltungen'.
+					with: CMSGlobalCourseListComponent caption.
 				html space].
 			html tableData: [ 
 				html anchor
 					callback: [self rootComponent mainContent: (self rootComponent loadComponent: CMSUserCourseListComponent)];
-					with: 'Meine Lehrveranstaltungen'.
+					with: CMSUserCourseListComponent caption.
 				html space].
 			user isAdmin 
 			ifTrue: [
 				html tableData: [
 				html anchor
 					callback: [self rootComponent mainContent: (self rootComponent loadComponent: CMSUserListComponent)];
-					with: 'Userlist']].
+					with: CMSUserListComponent caption]].
 			html tableData: [
 				html text: 'user: ', user username, ' role:' , (user isAdmin ifTrue: ['Admin'] ifFalse: ['User'])].
 			html tableData: [ 

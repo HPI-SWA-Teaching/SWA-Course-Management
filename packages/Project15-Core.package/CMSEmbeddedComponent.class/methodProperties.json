@@ -1,6 +1,9 @@
 {
 	"class" : {
+		"caption" : "MarvMaster 6/5/2015 10:58:09.65",
 		"rootedAt:" : "tk 6/2/2015 13:47" },
 	"instance" : {
+		"renderTraceOn:" : "MarvMaster 6/5/2015 10:58:09.65",
+		"renderTraceSpacerOn:" : "MarvMaster 6/5/2015 10:58:09.65",
 		"rootComponent" : "tk 6/2/2015 13:46",
 		"rootComponent:" : "tk 6/2/2015 13:46" } }
