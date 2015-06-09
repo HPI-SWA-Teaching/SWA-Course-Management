@@ -2,10 +2,9 @@ as yet unclassified
 renderGroupsOn: html
 
 	html text: 'Groups:'.
-	self mayManageGroups ifTrue: [
-		html anchor
-			callback: [self addGroup];
-			with: ' New Group'.].
+	html anchor
+		callback: [self addGroup];
+		with: ' New Group'.
 	html table: [
 		html tableRow: [
 			html tableData: 'Name'.

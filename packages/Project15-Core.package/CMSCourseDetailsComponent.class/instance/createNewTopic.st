@@ -8,6 +8,5 @@ createNewTopic
 		ifTrue: [
 			self course addTopic: self topicEditor topic.
 			self session messageComponent infoMessage: 
-				(CMSMessageComponent infoCreateTopic: self topicEditor topic title)
-		].
+				(CMSMessageComponent infoCreateTopic: self topicEditor topic title)].
 	"#Cancel and #Delete do nothing"

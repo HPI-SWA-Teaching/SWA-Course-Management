@@ -1,4 +1,4 @@
 initializing
-initialize 
-	
-	self members: Set new.
+initialize
+
+	self groups: OrderedCollection new

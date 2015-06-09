@@ -8,8 +8,8 @@
 	"instvars" : [
 		"title",
 		"description",
-		"members",
-		"course" ],
+		"course",
+		"groups" ],
 	"name" : "CMSTopic",
 	"pools" : [
 		 ],

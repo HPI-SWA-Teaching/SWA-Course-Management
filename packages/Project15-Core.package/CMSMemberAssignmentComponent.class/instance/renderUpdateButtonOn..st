@@ -1,5 +1,5 @@
 as yet unclassified
-renderButtonOn: html
+renderUpdateButtonOn: html
 
 	html submitButton
 		callback: [];

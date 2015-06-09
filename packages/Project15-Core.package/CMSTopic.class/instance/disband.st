@@ -1,4 +1,0 @@
-accessing
-disband
-	
-	self removeAllMembers.

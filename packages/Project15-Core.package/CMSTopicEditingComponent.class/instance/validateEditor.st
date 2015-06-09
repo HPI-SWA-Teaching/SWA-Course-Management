@@ -5,14 +5,12 @@ validateEditor
 		ifTrue: [
 			self session messageComponent errorMessage: 
 				(CMSMessageComponent errorMissingTopicTitle).
-			^self.
-		].
+			^self].
 	self topic description isEmpty 
 		ifTrue: [
 			self session messageComponent errorMessage: 
 				(CMSMessageComponent errorMissingTopicDescription).
-			^self.
-		].
+			^self].
 	self answer: #Save.
 
 

@@ -1,17 +1,14 @@
 {
-	"category" : "Project15-Core",
+	"category" : "Project15-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"title",
-		"members",
-		"course",
-		"topic" ],
-	"name" : "CMSGroup",
+		 ],
+	"name" : "CMSTopicTest",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TestCase",
 	"type" : "normal" }

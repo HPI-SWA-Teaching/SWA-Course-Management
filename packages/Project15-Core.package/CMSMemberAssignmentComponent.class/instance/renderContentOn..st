@@ -2,6 +2,7 @@ as yet unclassified
 renderContentOn: html
 
 	html form: [
-		self renderButtonOn: html.
+		self renderBackLinkOn: html.
+		self renderUpdateButtonOn: html.
 		self renderMembersOn: html.
 		self renderCandidatesOn: html]

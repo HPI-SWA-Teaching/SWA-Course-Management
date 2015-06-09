@@ -9,12 +9,10 @@ renderTopicsOn: html
 
 	html table: [
 		html tableRow: [
-			html tableData: 'Name'.
-			html tableData: 'Members'].
+			html tableData: 'Name'].
 		(self course topics sort: self class groupSortingBlock) do: [:topic |
 			html tableRow: [
 				html tableData: topic title.
-				html tableData: topic members size.
 				"TODO:html tableData: [
 					html anchor
 						callback: [self viewGroup: group];
