@@ -3,7 +3,10 @@
 		"caption" : "MarvMaster 6/5/2015 10:58:09.65",
 		"rootedAt:" : "tk 6/2/2015 13:47" },
 	"instance" : {
-		"renderTraceOn:" : "MarvMaster 6/5/2015 10:58:09.65",
+		"renderBreadcrumbAnchor:text:on:" : "t.a. 6/9/2015 19:26",
+		"renderLastBreadcrumbText:on:" : "t.a. 6/9/2015 19:27",
+		"renderPanelWithHeader:content:on:" : "t.a. 6/9/2015 19:54",
+		"renderTraceOn:" : "t.a. 6/9/2015 19:28",
 		"renderTraceSpacerOn:" : "MarvMaster 6/5/2015 10:58:09.65",
 		"rootComponent" : "tk 6/2/2015 13:46",
 		"rootComponent:" : "tk 6/2/2015 13:46" } }

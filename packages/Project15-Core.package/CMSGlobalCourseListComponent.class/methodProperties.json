@@ -5,7 +5,9 @@
 		"createNewCourse" : "tk 6/9/2015 16:31",
 		"editCourse:" : "tk 6/9/2015 16:56",
 		"editor" : "tk 6/9/2015 17:21",
+		"editor:" : "tk 5/19/2015 17:35",
 		"enroleCourse:" : "msc 5/29/2015 14:47",
+		"initialize" : "msc 5/22/2015 20:14",
 		"renderCoursesOn:" : "tk 6/4/2015 17:03",
 		"renderNewCourseButtonOn:" : "msc 5/22/2015 17:13",
 		"shouldRenderNewButton" : "tk 5/29/2015 13:09:25.21" } }

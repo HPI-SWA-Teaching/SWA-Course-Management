@@ -1,12 +1,5 @@
 as yet unclassified
 renderTraceOn: html
-
-	html anchor
-		callback: [self showCourse];
-		with: self group course title.
-	self renderTraceSpacerOn: html.
-	html anchor
-		callback: [self returnToGroupView];
-		with: self group title.
-	self renderTraceSpacerOn: html.
-	html text: self class caption
+	self renderBreadcrumbAnchor: [self showCourse] text: (self group course title) on: html.
+	self renderBreadcrumbAnchor: [self returnToGroupView] text: self group title on: html.
+	self renderLastBreadcrumbText: self class caption on: html.

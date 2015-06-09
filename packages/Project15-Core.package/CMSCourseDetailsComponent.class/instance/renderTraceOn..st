@@ -1,4 +1,3 @@
 as yet unclassified
 renderTraceOn: html
-
-	html text: self course title
+	self renderLastBreadcrumbText: (self course title) on: html.

@@ -1,4 +1,3 @@
 as yet unclassified
 renderTraceOn: html
-
-	html text: self class caption
+	self renderLastBreadcrumbText: self class caption on: html.

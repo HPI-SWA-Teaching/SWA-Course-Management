@@ -6,12 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"components",
-		"mainContent",
-		"menuContent",
-		"footer",
-		"sidebarContent" ],
-	"name" : "CMSRootElement",
+		"rootComponent" ],
+	"name" : "CMSHeader",
 	"pools" : [
 		 ],
 	"super" : "WAComponent",

@@ -1,4 +1,4 @@
 as yet unclassified
 renderTraceOn: html
-
-	html text: (self originalCourse ifNil: ['new course'] ifNotNil: [self originalCourse title])
+	self renderBreadcrumbAnchor: [self answer: #Cancel] text: self course title on: html.
+	self renderLastBreadcrumbText: self course title on: html.

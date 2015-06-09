@@ -9,10 +9,14 @@
 		"displayMenuBar" : "MarvMaster 5/21/2015 14:09",
 		"footer" : "msc 5/20/2015 21:12",
 		"footer:" : "msc 5/20/2015 21:12",
-		"initialize" : "msc 5/22/2015 19:54",
+		"initialize" : "t.a. 6/9/2015 18:15",
 		"loadComponent:" : "tk 6/4/2015 17:11",
 		"mainContent" : "msc 5/15/2015 16:02",
 		"mainContent:" : "msc 5/15/2015 15:34",
 		"menuContent" : "MarvMaster 5/21/2015 13:49",
 		"menuContent:" : "MarvMaster 5/21/2015 13:50",
-		"renderContentOn:" : "msc 5/22/2015 18:39" } }
+		"renderContentHeaderOn:" : "t.a. 6/9/2015 19:22",
+		"renderContentOn:" : "t.a. 6/9/2015 19:50",
+		"sidebarContent" : "t.a. 6/9/2015 17:22",
+		"sidebarContent:" : "t.a. 6/9/2015 17:22",
+		"updateRoot:" : "t.a. 6/9/2015 18:35" } }
