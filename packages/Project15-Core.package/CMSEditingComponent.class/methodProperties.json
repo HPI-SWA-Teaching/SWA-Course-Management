@@ -2,6 +2,10 @@
 	"class" : {
 		"for:" : "t.a. 6/5/2015 18:47" },
 	"instance" : {
-		"renderButtonsOn:" : "t.a. 6/5/2015 18:54",
+		"changeBack" : "tk 6/9/2015 16:51",
+		"renderButtonsOn:" : "tk 6/9/2015 16:38",
 		"renderContentOn:" : "t.a. 6/5/2015 18:47",
+		"sendCancelAnswer" : "tk 6/9/2015 16:34",
+		"sendDeleteAnswer" : "tk 6/9/2015 16:33",
+		"sendSaveAnswer" : "tk 6/9/2015 16:33",
 		"validateEditor" : "t.a. 6/5/2015 18:54" } }

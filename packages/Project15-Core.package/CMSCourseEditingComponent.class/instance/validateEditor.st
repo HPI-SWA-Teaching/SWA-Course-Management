@@ -4,16 +4,13 @@ validateEditor
 	self course title isEmpty 
 		ifTrue: [
 			self session messageComponent errorMessage: (CMSMessageComponent errorMissingCourseTitle).
-			^self.
-		].
+			^false].
 	self course description isEmpty 
 		ifTrue: [
 			self session messageComponent errorMessage: (CMSMessageComponent errorMissingCourseDescription).
-			^self.
-		].
+			^false].
 	"TODO: kurse, die in der Vergangenheit liegen, sollen mittels seperatem Popup durch Admin bestätigt werden".
-	self answer: #Save.
-
+	^true
 
 
 	

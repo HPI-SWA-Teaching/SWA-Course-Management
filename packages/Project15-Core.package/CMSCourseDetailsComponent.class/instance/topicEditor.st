@@ -1,4 +1,4 @@
 accessing
 topicEditor
 
-	^ topicEditor
+	^ self rootComponent loadComponent: CMSTopicEditingComponent

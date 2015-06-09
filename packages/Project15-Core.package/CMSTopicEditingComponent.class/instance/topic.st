@@ -1,4 +1,4 @@
 accessing
 topic
 
-	^ topic
+	^ topic ifNil: [topic := CMSTopic new. ^topic]

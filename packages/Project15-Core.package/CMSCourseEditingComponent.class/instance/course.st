@@ -1,4 +1,4 @@
 accessing
 course
 
-	^ course
+	^ course ifNil: [course := CMSCourse new. ^course]

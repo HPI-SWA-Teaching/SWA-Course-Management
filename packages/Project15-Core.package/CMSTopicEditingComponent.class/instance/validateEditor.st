@@ -1,17 +1,17 @@
-rendering
+validating
 validateEditor
 
 	self topic title isEmpty 
 		ifTrue: [
 			self session messageComponent errorMessage: 
 				(CMSMessageComponent errorMissingTopicTitle).
-			^self].
+			^false].
 	self topic description isEmpty 
 		ifTrue: [
 			self session messageComponent errorMessage: 
 				(CMSMessageComponent errorMissingTopicDescription).
-			^self].
-	self answer: #Save.
+			^false].
+	^ true
 
 
 

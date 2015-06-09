@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"topic" ],
+		"topic",
+		"originalTopic",
+		"course" ],
 	"name" : "CMSTopicEditingComponent",
 	"pools" : [
 		 ],

@@ -1,7 +1,10 @@
 as yet unclassified
 editCourse: aCMSCourse
 
-	| editorAnswer |
+	self rootComponent mainContent:
+		(self editor setUpWithCourse: aCMSCourse)
+
+	"| editorAnswer |
 	self editor course: (CMSCourse newFrom: aCMSCourse).
 	editorAnswer := self call: self editor.
 	editorAnswer = #Save
@@ -12,4 +15,4 @@ editCourse: aCMSCourse
 		ifTrue: [
 			CMSImageDatabase instance unregisterCourse: aCMSCourse.
 			self session messageComponent infoMessage: (CMSMessageComponent infoDeleteCourse: self editor course title)].
-	"#Cancel does nothing"
+	'#Cancel does nothing'"
