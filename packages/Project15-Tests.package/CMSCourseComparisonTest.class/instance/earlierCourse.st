@@ -1,4 +1,0 @@
-accessing
-earlierCourse
-
-	^ earlierCourseA

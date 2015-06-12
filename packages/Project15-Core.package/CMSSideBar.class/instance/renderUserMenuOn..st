@@ -13,7 +13,7 @@ renderUserMenuOn: html
 				class: 'pull-left info';
 				with: [
 					html paragraph
-						with: user name.
+						with: user username.
 					html anchor
 						url: '#';
 						with: [
