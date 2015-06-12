@@ -1,6 +1,6 @@
 as yet unclassified
 changeBack
 
-	self rootComponent mainContent:
-		((self rootComponent loadComponent: CMSCourseDetailsComponent)
-			course: self course)
+	self rootComponent
+		setMainContentTo: CMSCourseDetailsComponent
+		preparedBy: [ :component | component course: self course]

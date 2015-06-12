@@ -4,11 +4,10 @@
 		"groupSortingBlock" : "tk 6/2/2015 14:00" },
 	"instance" : {
 		"addGroup" : "tk 6/3/2015 12:19",
-		"assignMembers:" : "tk 6/3/2015 12:17",
+		"assignMembers:" : "tk 6/12/2015 16:36",
 		"course" : "tk 6/2/2015 13:27",
 		"course:" : "tk 6/2/2015 13:27",
-		"createNewTopic" : "tk 6/9/2015 17:03",
-		"initialize" : "t.a. 6/5/2015 21:00",
+		"createNewTopic" : "tk 6/12/2015 16:34",
 		"mayManageGroups" : "tk 6/3/2015 08:42",
 		"mayManageTopics" : "t.a. 6/5/2015 18:39",
 		"renderContentOn:" : "t.a. 6/5/2015 21:05",
@@ -16,6 +15,4 @@
 		"renderGroupsOn:" : "tk 6/5/2015 12:48",
 		"renderTopicsOn:" : "tk 6/9/2015 13:43",
 		"renderTraceOn:" : "t.a. 6/9/2015 19:29",
-		"topicEditor" : "tk 6/9/2015 17:29",
-		"topicEditor:" : "t.a. 6/5/2015 20:22",
-		"viewGroup:" : "tk 6/2/2015 14:23" } }
+		"viewGroup:" : "tk 6/12/2015 16:35" } }

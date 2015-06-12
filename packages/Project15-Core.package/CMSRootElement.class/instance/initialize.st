@@ -3,7 +3,7 @@ initialize
 	
 	super initialize.
 	self components: Dictionary new.
-	self mainContent: (self loadComponent: CMSUserCourseListComponent).
+	self setMainContentTo: CMSUserCourseListComponent.
 	self sidebarContent: CMSSideBar new.
 	self sidebarContent rootComponent: self.
 	self menuContent: CMSHeader new.

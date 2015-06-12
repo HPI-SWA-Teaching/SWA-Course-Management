@@ -7,19 +7,19 @@ renderMenuBarOn: html
 		html tableRow: [
 			html tableData: [ 
 				html anchor
-					callback: [self rootComponent mainContent: (self rootComponent loadComponent: CMSGlobalCourseListComponent)];
+					callback: [self rootComponent setMainContentTo: CMSGlobalCourseListComponent];
 					with: CMSGlobalCourseListComponent caption.
 				html space].
 			html tableData: [ 
 				html anchor
-					callback: [self rootComponent mainContent: (self rootComponent loadComponent: CMSUserCourseListComponent)];
+					callback: [self rootComponent setMainContentTo: CMSUserCourseListComponent];
 					with: CMSUserCourseListComponent caption.
 				html space].
 			user isAdmin 
 			ifTrue: [
 				html tableData: [
 				html anchor
-					callback: [self rootComponent mainContent: (self rootComponent loadComponent: CMSUserListComponent)];
+					callback: [self rootComponent setMainContentTo: CMSUserListComponent];
 					with: CMSUserListComponent caption]].
 			html tableData: [
 				html text: 'user: ', user username, ' role:' , (user isAdmin ifTrue: ['Admin'] ifFalse: ['User'])].
@@ -28,5 +28,5 @@ renderMenuBarOn: html
 					callback: [
 						self session logout.
 						self rootComponent answer: nil.
-						self rootComponent mainContent: (self rootComponent loadComponent: CMSLoginComponent)];
+						self rootComponent setMainContentTo: CMSLoginComponent];
 					with: 'Ausloggen']]]
