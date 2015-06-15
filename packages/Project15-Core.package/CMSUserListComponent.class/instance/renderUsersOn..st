@@ -1,7 +1,7 @@
 as yet unclassified
 renderUsersOn: html
-
-	html render: self session messageComponent.
+	
+	html tableBody: [
 	(CMSImageDatabase instance userDb values sort: [:a :b | a username <= b username.]) do: [:user |
 		html tableRow: [
 			html tableData: user username.
@@ -17,4 +17,4 @@ renderUsersOn: html
 							ifFalse: [
 								html anchor 
 									callback: [self promote: user];
-									with: 'Promote']]]]]
+									with: 'Promote']]]]]]

@@ -8,17 +8,20 @@ renderCoursesOn: html
 			html tableData: course description.
 			html tableData: [
 				html anchor
+					class: 'btn btn-xs btn-primary';
 					callback: [self viewCourse: course];
 					with: 'View'].
 			html tableData: [
 				(self session user isEnrolled: course)
 					ifFalse: [
 						html anchor 
+							class: 'btn btn-xs btn-success';
 							callback: [self enroleCourse: course];
 							with: 'Enrole']].
 			self session user isAdmin
 				ifTrue: [
 					html tableData: [
 						html anchor
+							class: 'btn btn-xs btn-primary';
 							callback: [self editCourse: course];
 							with: 'Edit']]]]

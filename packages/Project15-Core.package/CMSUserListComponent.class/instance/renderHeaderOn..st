@@ -1,8 +1,8 @@
 as yet unclassified
 renderHeaderOn: html
-
+	html tableHead: [
 	html tableRow: [
-		html tableData: 'Username'.
-		html tableData: 'Role'].
-
-	
+		html tableHeading: 'Username'.
+		html tableHeading: 'Role'.
+		html tableHeading: 'Actions'.].
+	]	

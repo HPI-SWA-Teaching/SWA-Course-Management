@@ -2,5 +2,12 @@ as yet unclassified
 renderContentOn: html
 
 	self renderGeneralInformationOn: html.
-	self renderGroupsOn: html.
-	self renderTopicsOn: html.
+	html div
+		class: 'row';
+		with: [
+			html div
+				class: 'col-md-6';
+				with: [ self renderGroupsOn: html ].
+			html div
+				class: 'col-md-6';
+				with: [ self renderTopicsOn: html ]]
