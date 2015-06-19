@@ -1,4 +1,4 @@
 as yet unclassified
 infoEnroleCourse: aCouseTitle
 
-	^ 'enrolled: ', aCouseTitle.
+	^ 'Du wurdest in die Veranstaltung ', aCouseTitle, ' erfolgreich eingeschrieben'.

@@ -1,0 +1,15 @@
+{
+	"category" : "Project15-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"CourseDb",
+		"UserDb" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CMSDatabase",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

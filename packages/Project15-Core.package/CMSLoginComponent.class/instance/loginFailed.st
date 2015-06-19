@@ -1,4 +1,4 @@
-loggingin
+login
 loginFailed
 	
-	self session messageComponent errorMessage: 'Login failed.'.
+	self session messageComponent infoMessage: (CMSMessageComponent errorLoginFailed).

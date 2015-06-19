@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"caption" : "MarvMaster 6/5/2015 10:58:09.65",
+		"caption" : "msc 6/16/2015 15:57",
 		"for:" : "tk 5/19/2015 13:15" },
 	"instance" : {
 		"changeBack" : "tk 6/12/2015 16:36",
@@ -8,13 +8,15 @@
 		"course:" : "t.a. 6/5/2015 19:39",
 		"originalCourse" : "tk 6/9/2015 17:06",
 		"originalCourse:" : "tk 6/9/2015 17:06",
+		"renderButtonsOn:" : "msc 6/16/2015 15:11",
 		"renderContentOn:" : "msc 5/29/2015 14:25",
-		"renderDescriptionFieldOn:" : "t.a. 6/5/2015 19:39",
-		"renderSemesterRowOn:" : "tk 5/22/2015 11:51",
-		"renderTitleRowOn:" : "t.a. 6/5/2015 19:39",
+		"renderDescriptionFieldOn:" : "msc 6/16/2015 15:12",
+		"renderSemesterRowOn:" : "msc 6/16/2015 15:12",
+		"renderTitleRowOn:" : "msc 6/16/2015 15:12",
 		"renderTraceOn:" : "t.a. 6/9/2015 19:32",
 		"sendDeleteAnswer" : "tk 6/9/2015 16:39",
 		"sendSaveAnswer" : "tk 6/9/2015 17:25",
 		"setUpNewCourse" : "tk 6/9/2015 16:56",
 		"setUpWithCourse:" : "tk 6/9/2015 17:18",
-		"validateEditor" : "tk 6/9/2015 16:55" } }
+		"validateCourse" : "msc 6/19/2015 16:32",
+		"validateEditor" : "msc 6/19/2015 16:31" } }

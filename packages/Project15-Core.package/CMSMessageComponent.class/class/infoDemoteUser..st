@@ -1,4 +1,4 @@
 as yet unclassified
 infoDemoteUser: aUsername
 
-	^ 'User ', aUsername, ' demoted.'.
+	^ 'Die Rolle des Benutzers ', aUsername, ' wurde auf User geändert.'.

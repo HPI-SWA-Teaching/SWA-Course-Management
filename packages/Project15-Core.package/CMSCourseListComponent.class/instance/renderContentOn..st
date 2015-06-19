@@ -17,7 +17,7 @@ renderContentOn: html
 									html heading
 										level3
 										class: 'box-title';
-										with: 'Lehrveranstaltungen'.
+										with: 'Lehrveranstaltungsverzeichnis'.
 								self shouldRenderNewButton
 									ifTrue: [self renderNewCourseButtonOn: html]].
 							html div

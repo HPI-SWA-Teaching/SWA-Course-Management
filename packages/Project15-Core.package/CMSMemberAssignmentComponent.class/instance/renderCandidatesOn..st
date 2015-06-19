@@ -4,7 +4,7 @@ renderCandidatesOn: html
 	html table: [
 		html tableRow: [
 			html tableData.
-			html tableData: 'Course Participants'].
+			html tableData: 'Alle Kursteilnehmer:'].
 		((CMSImageDatabase instance userDb values
 			select: [:user | user canJoinToGroup: self group])
 			sort: self class memberSortBlock)

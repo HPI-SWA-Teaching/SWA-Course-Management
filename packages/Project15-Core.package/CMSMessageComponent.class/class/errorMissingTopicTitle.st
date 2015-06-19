@@ -1,4 +1,4 @@
 as yet unclassified
 errorMissingTopicTitle
 
-	^ 'Please enter a topic title.'.
+	^ 'Bitte gebe den Titel des Themas ein.'.

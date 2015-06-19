@@ -1,4 +1,4 @@
 as yet unclassified
 caption
 
-	^ 'Course Details'
+	^ 'Veranstaltungsübersicht'

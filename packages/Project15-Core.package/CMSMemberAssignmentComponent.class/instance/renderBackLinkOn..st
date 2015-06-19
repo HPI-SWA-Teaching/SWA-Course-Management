@@ -3,4 +3,4 @@ renderBackLinkOn: html
 
 	html anchor
 		callback: [self returnToGroupView];
-		with: 'Back'.
+		with: 'Zurück zur Gruppenübersicht'.

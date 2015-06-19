@@ -1,5 +1,4 @@
-loggingin
+login
 logout
 
 	self session logout.
-	self inform: 'Goodbye!'.

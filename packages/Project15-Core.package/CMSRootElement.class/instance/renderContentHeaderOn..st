@@ -1,5 +1,6 @@
 rendering
 renderContentHeaderOn: html
+
 	html heading
 		level: 1;
 		with: (mainContent class caption).

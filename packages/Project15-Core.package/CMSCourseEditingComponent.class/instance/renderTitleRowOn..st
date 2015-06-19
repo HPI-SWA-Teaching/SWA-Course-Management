@@ -2,6 +2,6 @@ rendering
 renderTitleRowOn: html
 
 	html tableRow: [
-		html tableData: 'Title: '.
+		html tableData: 'Lehrveranstaltung: '.
 		html tableData: [
 			html textInput on: #title of: self course]]

@@ -1,8 +1,8 @@
 {
 	"class" : {
-		 },
+		"canBeRoot" : "tk 5/20/2015 11:53" },
 	"instance" : {
-		"renderContentOn:" : "AK 6/15/2015 17:14",
+		"renderContentOn:" : "msc 6/16/2015 14:51",
 		"renderCoursesOn:" : "tk 6/3/2015 10:02",
-		"renderTableHeadersOn:" : "tk 5/15/2015 16:20",
+		"renderTableHeadersOn:" : "msc 6/16/2015 14:52",
 		"viewCourse:" : "tk 6/12/2015 16:36" } }

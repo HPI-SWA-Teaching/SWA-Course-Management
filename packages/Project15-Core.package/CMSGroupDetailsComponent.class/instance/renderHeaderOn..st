@@ -3,6 +3,6 @@ renderHeaderOn: html
 
 	html anchor
 		callback: [self showCourse];
-		with: 'Back'.
+		with: 'Zurück zur Veranstaltung'.
 	html break.
 	html text: self group title.

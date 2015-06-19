@@ -1,4 +1,4 @@
 as yet unclassified
 errorMissingTopicDescription
 
-	^ 'Please enter a topic description.'.
+	^ 'Bitte gebe eine Beschreibung des Themas ein.'.

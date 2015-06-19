@@ -3,4 +3,4 @@ renderUpdateButtonOn: html
 
 	html submitButton
 		callback: [];
-		with: 'Update'
+		with: 'Speichern'.

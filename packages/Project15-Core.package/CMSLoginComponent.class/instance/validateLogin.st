@@ -1,4 +1,4 @@
-loggingin
+login
 validateLogin 
 	
 	| user userDatabase|

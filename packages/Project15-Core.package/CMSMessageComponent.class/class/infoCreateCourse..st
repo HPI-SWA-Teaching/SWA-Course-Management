@@ -1,4 +1,4 @@
 as yet unclassified
 infoCreateCourse: aCourseTitle
 
-	^ 'Course ', aCourseTitle, ' created'.
+	^ 'Die Veranstaltung ', aCourseTitle, ' wurde erfolgreich gepeichert.'.

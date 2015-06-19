@@ -15,16 +15,16 @@ html div
 								html heading
 								level3;
 							class: 'box-title';
-								with: 'Course Details'. ].
+								with: 'Veranstaltung:'. ].
 							html div
 								class: 'box-body';
 								with: [
 									html definitionList
 										class: 'dl-horizontal';
 										with: [
-											html definitionTerm: 'Title'.
+											html definitionTerm: 'Veranstaltung:'.
 											html definitionData: self course title.
-											html definitionTerm: 'Term'.
+											html definitionTerm: 'Semester'.
 											html definitionData: self course term asString.
-											html definitionTerm: 'Description'.
+											html definitionTerm: 'Zusatzinformation:'.
 											html definitionData: self course description ]]]]].

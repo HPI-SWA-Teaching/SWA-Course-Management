@@ -10,9 +10,9 @@ renderCoursesOn: html
 				html anchor
 					class: 'btn btn-xs btn-primary';
 					callback: [self viewCourse: course];
-					with: 'View'].
+					with: 'Anzeigen'].
 			html tableData: [
 				html anchor 
 					class: 'btn btn-xs btn-danger';
 					callback: [self leaveCourse: course];
-					with: 'Leave']]]
+					with: 'Ausschreiben']]]

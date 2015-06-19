@@ -4,7 +4,7 @@ renderMembersOn: html
 	html table: [
 		html tableRow: [
 			html tableData.
-			html tableData: 'Members'].
+			html tableData: 'Aktuelle Gruppenmitglieder:'].
 		(self group members asOrderedCollection sort: self class memberSortBlock)
 			do: [:member |
 				html tableRow: [
@@ -14,4 +14,5 @@ renderMembersOn: html
 								callback: [:v | v ifFalse:
 									[self group removeGroupMember: member]];
 								value: true]].
-						html tableData: member username]]]
+						html tableData: member username]]].
+						html break.

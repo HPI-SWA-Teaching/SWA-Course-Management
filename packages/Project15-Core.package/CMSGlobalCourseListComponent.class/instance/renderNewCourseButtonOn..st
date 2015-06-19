@@ -6,4 +6,4 @@ renderNewCourseButtonOn: html
 			html anchor
 				class: 'btn btn-xs btn-success';
 				callback: [self createNewCourse];
-				with: 'New']
+				with: 'Neue Veranstaltung erstellen']

@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"caption" : "t.a. 6/5/2015 19:24",
+		"caption" : "msc 6/16/2015 15:57",
 		"for:" : "t.a. 6/5/2015 19:41" },
 	"instance" : {
 		"changeBack" : "tk 6/12/2015 16:43",
@@ -9,9 +9,9 @@
 		"originalTopic" : "tk 6/9/2015 16:49",
 		"originalTopic:" : "tk 6/9/2015 16:49",
 		"renderContentOn:" : "t.a. 6/5/2015 18:58",
-		"renderDescriptionFieldOn:" : "t.a. 6/5/2015 22:06",
-		"renderTitleRowOn:" : "t.a. 6/5/2015 22:05",
-		"renderTraceOn:" : "t.a. 6/9/2015 20:40",
+		"renderDescriptionFieldOn:" : "msc 6/16/2015 15:26",
+		"renderTitleRowOn:" : "msc 6/16/2015 15:26",
+		"renderTraceOn:" : "msc 6/19/2015 16:31",
 		"sendDeleteAnswer" : "tk 6/9/2015 16:50",
 		"sendSaveAnswer" : "tk 6/9/2015 17:26",
 		"setUpNewTopic" : "tk 6/9/2015 16:53",

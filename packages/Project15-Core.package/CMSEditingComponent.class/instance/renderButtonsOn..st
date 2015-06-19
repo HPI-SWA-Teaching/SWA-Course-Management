@@ -5,11 +5,11 @@ renderButtonsOn: html
 		html tableData: [
 			html submitButton
 				callback: [self validateEditor ifTrue: [self sendSaveAnswer]];
-				with: 'Save'].
+				with: 'Speichern'].
 		html tableData: [
 			html submitButton
 				callback: [self sendCancelAnswer];
-				with: 'Cancel'.
+				with: 'Abbrechen'.
 			html submitButton
 				callback: [self sendDeleteAnswer];
-				with: 'Delete']]
+				with: 'Löschen']]

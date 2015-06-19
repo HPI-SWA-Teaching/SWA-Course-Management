@@ -1,4 +1,4 @@
 as yet unclassified
 infoLeftCourse: aCourseTitle
 
-	^ 'Left: ', aCourseTitle.
+	^ 'Du wurdest aus der Veranstaltung ', aCourseTitle , ' ausgeschrieben.'.

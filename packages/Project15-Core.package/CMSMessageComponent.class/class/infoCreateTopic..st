@@ -1,4 +1,4 @@
 as yet unclassified
 infoCreateTopic: aTopicTitle
 
-	^ 'Course ', aTopicTitle, ' created'.
+	^ 'Das Thema ', aTopicTitle, ' wurde erfolgreich gepeichert.'.

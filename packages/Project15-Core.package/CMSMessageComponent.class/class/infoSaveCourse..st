@@ -1,4 +1,4 @@
 as yet unclassified
 infoSaveCourse: aCourseTitle
 
-	^ 'Course ', aCourseTitle, ' saved.'.
+	^ 'Die Veranstaltung ', aCourseTitle, ' wurde erfolgreich geändert..'.

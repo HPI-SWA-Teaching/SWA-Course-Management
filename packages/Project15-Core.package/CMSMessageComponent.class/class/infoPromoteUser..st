@@ -1,4 +1,4 @@
 as yet unclassified
 infoPromoteUser: aUsername
 
-	^ 'User ', aUsername, ' promoted.'.
+	^ 'Die Rolle des Benutzers ' , aUsername, ' wurde auf Admin geändert.'.

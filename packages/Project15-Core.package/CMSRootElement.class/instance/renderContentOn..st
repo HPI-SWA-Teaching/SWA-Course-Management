@@ -1,5 +1,6 @@
 rendering
 renderContentOn: html
+
 	html script
 		url: 'static/plugins/jQuery/jQuery-2.1.4.min.js'.
 	html script
@@ -13,11 +14,9 @@ renderContentOn: html
 	html div
 		class: 'wrapper';
 		with: [
-			"Header -> mit Logo, mit Menü, Logout Button..."
 			html div 
 				class: 'main-header';
 				with: self menuContent.
-			"MainContent -> hier werden einzelne Komponeten, wie LoginComponent, 				Tabellen usw. ausgetauscht"
 			html div
 				class: 'main-sidebar';
 				with: self sidebarContent.

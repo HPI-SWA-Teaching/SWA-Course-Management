@@ -1,5 +1,6 @@
 rendering
 renderContentOn: html
+
 	html anchor
 		class: 'logo';
 		with: 'New De[h]li'.

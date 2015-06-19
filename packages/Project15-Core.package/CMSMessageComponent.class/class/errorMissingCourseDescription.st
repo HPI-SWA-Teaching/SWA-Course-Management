@@ -1,4 +1,4 @@
 as yet unclassified
 errorMissingCourseDescription
 
-	^ 'Please enter a course description.'.
+	^ 'Bitte gebe eine Beschreibung der Veranstaltung ein.'.

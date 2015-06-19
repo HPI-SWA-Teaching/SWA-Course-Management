@@ -13,8 +13,8 @@ renderUsersOn: html
 							ifTrue: [
 								html anchor 
 									callback: [self demote: user];
-									with: 'Demote']
+									with: 'zum User ernennen']
 							ifFalse: [
 								html anchor 
 									callback: [self promote: user];
-									with: 'Promote']]]]]]
+									with: 'zum Admin ernennen']]]]]]

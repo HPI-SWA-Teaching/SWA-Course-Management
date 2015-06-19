@@ -2,9 +2,10 @@
 	"class" : {
 		"caption" : "MarvMaster 6/5/2015 10:58:09.65" },
 	"instance" : {
-		"loginFailed" : "msc 5/29/2015 11:53",
-		"logout" : "msc 5/19/2015 13:14",
-		"renderContentOn:" : "tk 6/5/2015 12:31",
+		"loginFailed" : "msc 6/19/2015 16:16",
+		"logout" : "msc 6/19/2015 16:14",
+		"renderCheckboxAdminOn:" : "msc 5/15/2015 16:36",
+		"renderContentOn:" : "msc 6/19/2015 16:28",
 		"renderInputUsernameOn:" : "msc 5/15/2015 16:28",
 		"renderSubmitButtonOn:" : "tk 6/4/2015 17:05",
 		"username" : "msc 5/15/2015 16:25",

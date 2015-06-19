@@ -1,4 +1,4 @@
 as yet unclassified
 infoDeleteCourse: aCouseTitle
 
-	^ 'Course ', aCouseTitle, ' deleted.'
+	^ 'Die Veranstaltung ', aCouseTitle, ' wurde erfolgreich gelöscht.'.

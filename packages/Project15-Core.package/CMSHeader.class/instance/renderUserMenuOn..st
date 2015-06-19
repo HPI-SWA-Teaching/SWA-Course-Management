@@ -6,4 +6,4 @@ renderUserMenuOn: html
 					self session logout.
 					self rootComponent answer: nil.
 					self rootComponent setMainContentTo: CMSLoginComponent];
-				with: 'Ausloggen'.].
+				with: 'Abmelden'.].

@@ -1,3 +1,4 @@
 rendering
 renderContentOn: html
-	self subclassResponsibility
+
+	self subclassResponsibility.

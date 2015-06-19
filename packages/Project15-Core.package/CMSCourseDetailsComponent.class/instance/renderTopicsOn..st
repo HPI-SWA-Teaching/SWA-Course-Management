@@ -16,7 +16,7 @@ html div
 						html anchor
 							callback: [self createNewTopic];
 							class: 'btn btn-xs btn-success';
-							with: 'New Topic']].
+							with: 'Neues Thema erstellen']].
 		html div
 			class: 'box-body no-padding';
 			with: [
@@ -38,4 +38,4 @@ html div
 									html anchor
 										class: 'btn btn-xs btn-danger';
 										callback: [self course removeTopic: topic];
-										with: 'Delete']]]]]]].
+										with: 'Löschen']]]]]]].
