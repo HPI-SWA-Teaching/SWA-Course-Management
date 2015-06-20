@@ -1,7 +1,18 @@
-#datatable_filter {
-	background-color: green;
+.info-message, .error-message {
+	border-radius: 3px;
+	margin-bottom: 5px;
+	padding: 3px;
 }
 
-#datatable_filter > * {
-	caption: "";
+.info-message {
+	background-color: #dfffdf;
+    border: 2px #4dc18c solid;
+	color: #008d4c;
 }
+
+.error-message {
+	background-color: #f8dbd7;
+    border: 2px #dd4b39 solid;
+	color: #9b3428;
+}
+
