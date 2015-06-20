@@ -1,4 +1,4 @@
 login
 logout
 
-	self session logout.
+	self session logout

@@ -1,5 +1,6 @@
-as yet unclassified
+rendering
 renderNewCourseButtonOn: html
+
 	html div
 		class: 'box-tools';
 		with: [

@@ -2,4 +2,4 @@ accessing
 addNewMember: aCMSUser
 
 	self addMember: aCMSUser.
-	aCMSUser joinGroup: self.
+	aCMSUser joinGroup: self

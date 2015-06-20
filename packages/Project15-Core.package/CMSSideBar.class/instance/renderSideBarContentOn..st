@@ -1,5 +1,6 @@
 rendering
 renderSideBarContentOn: html
+
 	| user |
 	html listItem
 		class: 'header';
@@ -20,7 +21,7 @@ renderSideBarContentOn: html
 			html anchor
 				callback: [self rootComponent setMainContentTo: CMSUserListComponent];
 			with: [
-				html span: CMSUserListComponent caption.]].].
+				html span: CMSUserListComponent caption]]]
 
 			
 		

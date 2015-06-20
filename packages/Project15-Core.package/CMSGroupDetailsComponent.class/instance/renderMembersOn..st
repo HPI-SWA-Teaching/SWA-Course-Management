@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 renderMembersOn: html
 
 	html text: 'Gruppenmitglieder: '.
@@ -9,4 +9,4 @@ renderMembersOn: html
 	html table: [
 		(self group members asOrderedCollection sort: self class memberSortBlock) do: [:member |
 			html tableRow: [
-				html tableData: member username]]].
+				html tableData: member username]]]

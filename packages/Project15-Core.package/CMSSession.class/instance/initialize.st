@@ -2,4 +2,4 @@ initialization
 initialize 
 	
 	super initialize.
-	self messageComponent: CMSMessageComponent new.
+	self messageComponent: CMSMessageComponent new

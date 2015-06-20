@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 renderCoursesOn: html
 	
 	(self session user courses asOrderedCollection) sort do: [:course |

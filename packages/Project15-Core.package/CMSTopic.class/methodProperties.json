@@ -2,7 +2,7 @@
 	"class" : {
 		"named:" : "t.a. 6/5/2015 18:00" },
 	"instance" : {
-		"addGroup:" : "tk 6/9/2015 13:58",
+		"addGroup:" : "msc 6/20/2015 22:04",
 		"course" : "t.a. 6/5/2015 17:17",
 		"course:" : "t.a. 6/5/2015 17:17",
 		"description" : "t.a. 6/5/2015 17:17",
@@ -10,6 +10,6 @@
 		"groups" : "tk 6/9/2015 13:47",
 		"groups:" : "tk 6/9/2015 13:47",
 		"initialize" : "tk 6/9/2015 13:47",
-		"removeGroup:" : "tk 6/9/2015 13:58",
+		"removeGroup:" : "msc 6/20/2015 22:04",
 		"title" : "t.a. 6/5/2015 17:17",
 		"title:" : "t.a. 6/5/2015 17:17" } }

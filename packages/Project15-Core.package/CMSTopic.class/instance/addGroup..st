@@ -1,4 +1,4 @@
 accessing
 addGroup: aCMSGroup
 
-	self groups add: aCMSGroup.
+	self groups add: aCMSGroup

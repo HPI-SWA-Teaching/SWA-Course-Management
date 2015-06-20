@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 renderBreadcrumbAnchor: anchor text: text on: html
 
 	html listItem: [

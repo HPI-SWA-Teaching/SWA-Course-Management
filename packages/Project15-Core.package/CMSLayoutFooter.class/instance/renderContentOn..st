@@ -1,6 +1,6 @@
 rendering
 renderContentOn: html
 
-	html text: 'CMS Footer'.
+	html text: 'CMS Footer'
 
 	

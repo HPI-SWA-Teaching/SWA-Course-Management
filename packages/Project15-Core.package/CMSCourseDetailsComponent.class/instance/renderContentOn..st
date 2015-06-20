@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 renderContentOn: html
 
 	self renderGeneralInformationOn: html.
@@ -7,7 +7,7 @@ renderContentOn: html
 		with: [
 			html div
 				class: 'col-md-6';
-				with: [ self renderGroupsOn: html ].
+				with: [self renderGroupsOn: html].
 			html div
 				class: 'col-md-6';
-				with: [ self renderTopicsOn: html ]]
+				with: [self renderTopicsOn: html]]

@@ -1,5 +1,5 @@
-as yet unclassified
+rendering
 renderLastBreadcrumbText: text on: html
 
 	html listItem: [
-		html text: text.].
+		html text: text.]

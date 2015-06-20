@@ -7,7 +7,7 @@ initialize
 	self sidebarContent: CMSSideBar new.
 	self sidebarContent rootComponent: self.
 	self menuContent: CMSHeader new.
-	self menuContent rootComponent: self.
+	self menuContent rootComponent: self
 	"rendermenubar even if you are not signed in for develop purpose"
 	"self displayMenuBar."
 	

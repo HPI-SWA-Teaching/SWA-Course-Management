@@ -1,6 +1,6 @@
-as yet unclassified
+rendering
 renderContentOn: html
 
 	self renderHeaderOn: html.
 	html break.
-	self renderMembersOn: html.
+	self renderMembersOn: html

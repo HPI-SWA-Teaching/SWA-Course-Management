@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 renderTraceOn: html
 
-	self renderLastBreadcrumbText: self class caption on: html.
+	self renderLastBreadcrumbText: self class caption on: html

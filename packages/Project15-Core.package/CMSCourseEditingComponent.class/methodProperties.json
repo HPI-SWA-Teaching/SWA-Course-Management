@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"caption" : "msc 6/16/2015 15:57",
+		"caption" : "msc 6/20/2015 22:00",
 		"for:" : "tk 5/19/2015 13:15" },
 	"instance" : {
 		"changeBack" : "tk 6/12/2015 16:36",
@@ -13,10 +13,10 @@
 		"renderDescriptionFieldOn:" : "msc 6/16/2015 15:12",
 		"renderSemesterRowOn:" : "msc 6/16/2015 15:12",
 		"renderTitleRowOn:" : "msc 6/16/2015 15:12",
-		"renderTraceOn:" : "t.a. 6/9/2015 19:32",
-		"sendDeleteAnswer" : "tk 6/9/2015 16:39",
-		"sendSaveAnswer" : "tk 6/9/2015 17:25",
+		"renderTraceOn:" : "msc 6/20/2015 22:20",
+		"sendDeleteAnswer" : "msc 6/20/2015 22:20",
+		"sendSaveAnswer" : "msc 6/20/2015 22:20",
 		"setUpNewCourse" : "tk 6/9/2015 16:56",
 		"setUpWithCourse:" : "tk 6/9/2015 17:18",
-		"validateCourse" : "msc 6/19/2015 16:32",
+		"validateCourse" : "msc 6/20/2015 22:20",
 		"validateEditor" : "msc 6/19/2015 16:31" } }

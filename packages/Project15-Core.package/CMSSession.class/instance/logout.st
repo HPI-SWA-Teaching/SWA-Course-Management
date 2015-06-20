@@ -1,4 +1,4 @@
 accessing
 logout
 
-	self user: nil.
+	self user: nil

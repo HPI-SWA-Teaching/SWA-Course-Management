@@ -14,4 +14,4 @@ renderContentHeaderOn: html
 						html inserted 
 							class: 'fa fa-dashboard'.
 						html text: ' Home'.]].
-				mainContent renderTraceOn: html.].
+				mainContent renderTraceOn: html.]

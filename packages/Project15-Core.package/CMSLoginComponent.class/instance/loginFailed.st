@@ -1,4 +1,4 @@
 login
 loginFailed
 	
-	self session messageComponent infoMessage: (CMSMessageComponent errorLoginFailed).
+	self session messageComponent infoMessage: (CMSMessageComponent errorLoginFailed)

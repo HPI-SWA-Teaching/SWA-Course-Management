@@ -6,4 +6,4 @@ getDefaultGroupName
 	[self groups anySatisfy: [:group |
 		group title = (self class defaultGroupNamePrefix, number)]]
 		whileTrue: [number := number + 1].
-	^ self class defaultGroupNamePrefix, number.
+	^ self class defaultGroupNamePrefix, number

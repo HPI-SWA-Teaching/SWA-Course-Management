@@ -1,6 +1,6 @@
-as yet unclassified
+rendering
 renderBackLinkOn: html
 
 	html anchor
 		callback: [self returnToGroupView];
-		with: 'Zurück zur Gruppenübersicht'.
+		with: 'Zurück zur Gruppenübersicht'

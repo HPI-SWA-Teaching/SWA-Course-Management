@@ -4,9 +4,7 @@
 	"instance" : {
 		"createNewCourse" : "tk 6/12/2015 16:47",
 		"editCourse:" : "tk 6/12/2015 16:48",
-		"editor" : "tk 6/9/2015 17:21",
-		"enroleCourse:" : "msc 5/29/2015 14:47",
-		"initialize" : "msc 5/22/2015 20:14",
+		"enroleCourse:" : "msc 6/20/2015 22:21",
 		"renderCoursesOn:" : "msc 6/16/2015 14:56",
-		"renderNewCourseButtonOn:" : "msc 6/16/2015 15:09",
+		"renderNewCourseButtonOn:" : "msc 6/20/2015 22:22",
 		"shouldRenderNewButton" : "tk 5/29/2015 13:09:25.21" } }

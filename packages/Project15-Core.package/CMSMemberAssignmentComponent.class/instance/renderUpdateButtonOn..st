@@ -1,6 +1,6 @@
-as yet unclassified
+rendering
 renderUpdateButtonOn: html
 
 	html submitButton
 		callback: [];
-		with: 'Speichern'.
+		with: 'Speichern'

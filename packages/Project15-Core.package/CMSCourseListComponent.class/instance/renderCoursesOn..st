@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 renderCoursesOn: html
 
-	self subclassResponsibility.
+	self subclassResponsibility

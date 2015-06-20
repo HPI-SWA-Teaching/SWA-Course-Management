@@ -1,5 +1,6 @@
 rendering
 renderUserMenuOn: html
+
 	| user |
 	user := self session user.
 			html div
@@ -19,4 +20,4 @@ renderUserMenuOn: html
 						with: [
 							html inserted
 								class: 'fa fa-circle text-success'.
-							html text: ' ', (user isAdmin ifTrue: ['Admin'] ifFalse: ['User']).]].
+							html text: ' ', (user isAdmin ifTrue: ['Admin'] ifFalse: ['User'])]]

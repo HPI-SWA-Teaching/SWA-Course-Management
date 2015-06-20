@@ -9,6 +9,6 @@ renderContentOn: html
 		with: [
 			html unorderedList
 				class: 'nav navbar-nav';
-				with: [ self renderUserMenuOn: html. ].].
+				with: [self renderUserMenuOn: html]]
 			
 	

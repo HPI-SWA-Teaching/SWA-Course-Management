@@ -1,4 +1,4 @@
 accessing
 removeMember: aCMSUser
 
-	self members remove: aCMSUser.
+	self members remove: aCMSUser

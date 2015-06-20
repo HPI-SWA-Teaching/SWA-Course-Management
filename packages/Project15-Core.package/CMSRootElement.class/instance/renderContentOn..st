@@ -28,4 +28,4 @@ renderContentOn: html
 						with: [ self renderContentHeaderOn: html. ].
 					html div
 						class: 'content';		
-						with: self mainContent]].
+						with: self mainContent]]

@@ -1,4 +1,4 @@
 accessing
 footer
 
-	^footer
+	^ footer

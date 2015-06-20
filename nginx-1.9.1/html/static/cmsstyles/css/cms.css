@@ -1,0 +1,7 @@
+#datatable_filter {
+	background-color: green;
+}
+
+#datatable_filter > * {
+	caption: "";
+}

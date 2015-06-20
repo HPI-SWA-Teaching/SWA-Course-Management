@@ -5,4 +5,4 @@ addGroup
 	newGroup := self course createNewGroup.
 	(self session user isEnrolled: self course)
 		ifTrue: [newGroup addNewMember: self session user].
-	self assignMembers: newGroup.
+	self assignMembers: newGroup

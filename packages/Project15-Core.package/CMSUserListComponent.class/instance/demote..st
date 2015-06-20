@@ -1,5 +1,5 @@
-as yet unclassified
+updating
 demote: aUser
 		
 	aUser isAdmin: false.
-	self session messageComponent infoMessage: (CMSMessageComponent infoDemoteUser: aUser username).
+	self session messageComponent infoMessage: (CMSMessageComponent infoDemoteUser: aUser username)

@@ -1,4 +1,4 @@
 testing
 isMember: aCMSUser
 
-	^ self members includes: aCMSUser.
+	^ self members includes: aCMSUser

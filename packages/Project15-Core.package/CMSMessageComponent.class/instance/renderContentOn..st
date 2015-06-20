@@ -5,4 +5,4 @@ renderContentOn: html
 	html div
 		class: self messageType, '-', 'message';
 		with: self messageText.
-	self wasShown: true. 
+	self wasShown: true.

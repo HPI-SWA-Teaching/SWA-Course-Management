@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 renderPanelWithHeader: header content: content on: html
 
 	html div

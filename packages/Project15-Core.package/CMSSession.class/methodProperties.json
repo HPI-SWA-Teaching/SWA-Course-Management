@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "msc 6/18/2015 23:03",
+		"initialize" : "msc 6/20/2015 22:05",
 		"isLoggedIn" : "msc 5/19/2015 12:58",
-		"login:" : "msc 5/15/2015 12:30",
-		"logout" : "msc 5/15/2015 12:27",
+		"login:" : "msc 6/20/2015 22:05",
+		"logout" : "msc 6/20/2015 22:05",
 		"messageComponent" : "tk 5/29/2015 13:09:25.21",
 		"messageComponent:" : "tk 5/29/2015 13:09:25.21",
 		"user" : "msc 5/15/2015 12:22",

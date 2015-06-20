@@ -1,4 +1,4 @@
 accessing
 disband
 
-	self removeAllMembers.
+	self removeAllMembers

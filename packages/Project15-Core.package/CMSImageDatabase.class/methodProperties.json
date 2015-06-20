@@ -5,9 +5,9 @@
 	"instance" : {
 		"courseDb" : "msc 6/2/2015 17:30",
 		"courseDb:" : "msc 6/2/2015 17:30",
-		"initialize" : "tk 6/4/2015 17:08",
-		"registerCourse:" : "msc 6/2/2015 17:34",
-		"registerUser:" : "msc 6/2/2015 17:34",
-		"unregisterCourse:" : "msc 6/2/2015 17:34",
+		"initialize" : "msc 6/20/2015 22:11",
+		"registerCourse:" : "msc 6/20/2015 22:11",
+		"registerUser:" : "msc 6/20/2015 22:11",
+		"unregisterCourse:" : "msc 6/20/2015 22:11",
 		"userDb" : "msc 6/2/2015 17:30",
 		"userDb:" : "msc 6/2/2015 17:30" } }

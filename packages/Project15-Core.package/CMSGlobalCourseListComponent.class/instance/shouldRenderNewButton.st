@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 shouldRenderNewButton
 
 	^ self session user isAdmin.

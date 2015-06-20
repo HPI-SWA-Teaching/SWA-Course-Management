@@ -6,4 +6,4 @@ createNewTopicWith: aString
 	newTopic := (CMSTopic named: aString)
 		course: self.
 	self topics add: newTopic.
-	^ newTopic.
+	^ newTopic

@@ -1,4 +1,4 @@
 accessing
 rootComponent: aComponent
 
-	rootComponent := aComponent.
+	rootComponent := aComponent

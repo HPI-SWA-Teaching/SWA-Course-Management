@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 renderMembersOn: html
 
 	html table: [
@@ -15,4 +15,4 @@ renderMembersOn: html
 									[self group removeGroupMember: member]];
 								value: true]].
 						html tableData: member username]]].
-						html break.
+						html break

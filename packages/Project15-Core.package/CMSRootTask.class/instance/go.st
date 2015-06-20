@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 go
 
 	| loginAnswer user |
@@ -9,4 +9,4 @@ go
 		self session login: user.
 		self rootComponent mainContent:
 			(self rootComponent loadComponent: CMSUserCourseListComponent).
-		self call: self rootComponent].
+		self call: self rootComponent]

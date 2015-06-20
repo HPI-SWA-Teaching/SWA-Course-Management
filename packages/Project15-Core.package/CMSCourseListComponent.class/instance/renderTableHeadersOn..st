@@ -1,7 +1,8 @@
-as yet unclassified
+rendering
 renderTableHeadersOn: html
 
+	html tableHead: [
 	html tableRow: [
-		html tableData: 'Semester'.
-		html tableData: 'Lehrveranstaltung'.
-		html tableData: 'Zusatzinformationen']
+		html tableHeading: 'Semester'.
+		html tableHeading: 'Lehrveranstaltung'.
+		html tableHeading: 'Zusatzinformationen']]

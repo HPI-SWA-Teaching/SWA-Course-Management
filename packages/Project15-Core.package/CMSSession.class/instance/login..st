@@ -1,4 +1,4 @@
 accessing
 login: aUser
 
-	self user: aUser.
+	self user: aUser

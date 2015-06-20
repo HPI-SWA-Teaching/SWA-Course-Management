@@ -2,4 +2,4 @@ accessing
 removeAllMembers
 
 	self members copy do: [:member |
-		self removeGroupMember: member.]
+		self removeGroupMember: member]

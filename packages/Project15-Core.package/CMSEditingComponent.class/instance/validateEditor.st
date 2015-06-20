@@ -1,3 +1,4 @@
 validating
 validateEditor
+
 	self subclassResponsibility

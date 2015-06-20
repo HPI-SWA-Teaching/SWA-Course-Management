@@ -1,5 +1,5 @@
-as yet unclassified
+initialization
 initialize 
 
 	super initialize.
-	self rootComponent: CMSRootElement new.
+	self rootComponent: CMSRootElement new

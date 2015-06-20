@@ -11,4 +11,4 @@ validateLogin
 					user := CMSUser named: self username. 
 					CMSImageDatabase instance registerUser: user.
 					self answer: user]]
-		ifFalse: [self loginFailed].
+		ifFalse: [self loginFailed]

@@ -1,4 +1,4 @@
 initializing
 initialize
 
-	self members: Set new.
+	self members: Set new

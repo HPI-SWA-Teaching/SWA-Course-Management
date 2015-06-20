@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 renderTraceOn: html
 
 	self renderBreadcrumbAnchor: [self showCourse] text: (self group course title) on: html.

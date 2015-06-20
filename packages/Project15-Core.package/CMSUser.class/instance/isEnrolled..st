@@ -1,6 +1,6 @@
 testing
 isEnrolled: aCourse
 
-	^ self courses includes: aCourse.
+	^ self courses includes: aCourse
 
 	
