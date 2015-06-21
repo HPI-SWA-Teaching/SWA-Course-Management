@@ -1,7 +1,6 @@
 rendering
 renderContentOn: html
 	
-	html render: self session messageComponent.
 	html div
 		class: 'row';
 		with: [

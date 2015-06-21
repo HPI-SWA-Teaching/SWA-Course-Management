@@ -1,4 +1,4 @@
 as yet unclassified
 infoCreateTopic: aTopicTitle
 
-	^ 'Das Thema ', aTopicTitle, ' wurde erfolgreich gepeichert.'.
+	^ 'Das Thema ', aTopicTitle, ' wurde erfolgreich gespeichert.'.

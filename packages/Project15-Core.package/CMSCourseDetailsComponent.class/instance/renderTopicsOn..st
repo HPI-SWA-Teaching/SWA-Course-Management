@@ -26,17 +26,19 @@ renderTopicsOn: html
 						with: [
 							html tableRow: [
 								html tableHeading: 'Name'.
-								html tableData: ''.].
-							(self course topics sort: self class groupSortingBlock) do: [:topic |
-								html tableRow: [
-									html tableData: topic title.
-									"TODO:html tableData: [
-										html anchor
-										callback: [self viewGroup: group];
-										with: 'View']."
-									html tableData: [
-										self mayManageTopics ifTrue: [
-										html anchor
-											class: 'btn btn-xs btn-danger';
-											callback: [self course removeTopic: topic];
-											with: 'Löschen']]]]]]]
+								html tableHeading: 'Beschreibung'.
+								html tableHeading: ''.].
+								(self course topics sort: self class groupSortingBlock) do: [:topic |
+									html tableRow: [
+										html tableData: topic title.
+										html tableData: topic description.
+										"TODO:html tableData: [
+											html anchor
+											callback: [self viewGroup: group];
+											with: 'View']."
+										html tableData: [
+											self mayManageTopics ifTrue: [
+											html anchor
+												class: 'btn btn-xs btn-danger';
+												callback: [self course removeTopic: topic];
+												with: 'Löschen']]]]]]]

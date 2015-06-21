@@ -1,6 +1,6 @@
 .info-message, .error-message {
 	border-radius: 3px;
-	margin-bottom: 5px;
+	margin: 5px 0;
 	padding: 3px;
 }
 

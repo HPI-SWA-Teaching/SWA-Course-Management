@@ -1,4 +1,4 @@
 rendering
 shouldRenderNewButton
 
-	^ self session user isAdmin.
+	^ self session user isAdmin

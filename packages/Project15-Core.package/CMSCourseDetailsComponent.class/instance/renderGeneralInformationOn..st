@@ -23,9 +23,9 @@ renderGeneralInformationOn: html
 										html definitionList
 											class: 'dl-horizontal';
 											with: [
-												html definitionTerm: 'Veranstaltung:'.
+												html definitionTerm: 'Veranstaltung'.
 												html definitionData: self course title.
 												html definitionTerm: 'Semester'.
 												html definitionData: self course term asString.
-												html definitionTerm: 'Zusatzinformation:'.
+												html definitionTerm: 'Zusatzinformation'.
 												html definitionData: self course description]]]]]

@@ -1,7 +1,6 @@
 rendering
 renderContentOn: html
 
-	html render: self session messageComponent.
 	html div
 		class: 'row';
 		with:  [
@@ -17,7 +16,7 @@ renderContentOn: html
 									html heading
 										level3
 										class: 'box-title';
-										with: 'Lehrveranstaltungsverzeichnis'.
+										with: 'Veranstaltungsverzeichnis'.
 								self shouldRenderNewButton
 									ifTrue: [self renderNewCourseButtonOn: html]].
 							html div

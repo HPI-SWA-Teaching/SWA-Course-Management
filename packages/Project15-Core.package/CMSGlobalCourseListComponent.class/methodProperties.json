@@ -2,9 +2,9 @@
 	"class" : {
 		"caption" : "MarvMaster 6/5/2015 10:58:09.65" },
 	"instance" : {
-		"createNewCourse" : "tk 6/12/2015 16:47",
-		"editCourse:" : "tk 6/12/2015 16:48",
+		"createNewCourse" : "msc 6/21/2015 00:10",
+		"editCourse:" : "msc 6/21/2015 00:12",
 		"enroleCourse:" : "msc 6/20/2015 22:21",
 		"renderCoursesOn:" : "msc 6/16/2015 14:56",
 		"renderNewCourseButtonOn:" : "msc 6/20/2015 22:22",
-		"shouldRenderNewButton" : "tk 5/29/2015 13:09:25.21" } }
+		"shouldRenderNewButton" : "msc 6/21/2015 00:42" } }
