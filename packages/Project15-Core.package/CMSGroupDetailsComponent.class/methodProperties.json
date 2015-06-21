@@ -1,14 +1,15 @@
 {
 	"class" : {
-		"caption" : "msc 6/19/2015 16:23",
+		"caption" : "t.a. 6/19/2015 17:37",
+		"caption:" : "t.a. 6/19/2015 17:37",
 		"memberSortBlock" : "tk 6/2/2015 14:26" },
 	"instance" : {
-		"assignMembers" : "tk 6/12/2015 16:37",
+		"assignMembers" : "t.a. 6/19/2015 18:36",
 		"group" : "tk 6/2/2015 14:23",
 		"group:" : "tk 6/2/2015 14:23",
 		"mayAssignMembers" : "msc 6/20/2015 22:18",
-		"renderContentOn:" : "msc 6/20/2015 22:18",
-		"renderHeaderOn:" : "msc 6/20/2015 22:18",
-		"renderMembersOn:" : "msc 6/20/2015 22:18",
+		"renderContentOn:" : "t.a. 6/19/2015 18:25",
+		"renderHeaderOn:" : "t.a. 6/19/2015 18:29",
+		"renderMembersOn:" : "t.a. 6/19/2015 18:30",
 		"renderTraceOn:" : "msc 6/16/2015 15:37",
 		"showCourse" : "tk 6/12/2015 16:38" } }

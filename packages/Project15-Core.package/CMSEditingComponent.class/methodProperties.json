@@ -3,8 +3,10 @@
 		"for:" : "msc 6/20/2015 21:53" },
 	"instance" : {
 		"changeBack" : "tk 6/9/2015 16:51",
+		"renderBoxBodyOn:" : "t.a. 6/21/2015 16:20",
+		"renderBoxHeaderOn:" : "t.a. 6/21/2015 16:20",
 		"renderButtonsOn:" : "msc 6/16/2015 15:10",
-		"renderContentOn:" : "msc 6/20/2015 22:20",
+		"renderContentOn:" : "t.a. 6/21/2015 16:20",
 		"sendCancelAnswer" : "tk 6/9/2015 16:34",
 		"sendDeleteAnswer" : "tk 6/9/2015 16:33",
 		"sendSaveAnswer" : "tk 6/9/2015 16:33",

@@ -1,0 +1,22 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"changeBack" : "t.a. 6/20/2015 18:23",
+		"course" : "t.a. 6/20/2015 18:21",
+		"course:" : "t.a. 6/20/2015 18:21",
+		"originalTopic" : "t.a. 6/20/2015 18:21",
+		"originalTopic:" : "t.a. 6/20/2015 18:21",
+		"renderBoxBodyOn:" : "t.a. 6/20/2015 18:41",
+		"renderBoxHeaderOn:" : "t.a. 6/20/2015 18:26",
+		"renderButtonsOn:" : "t.a. 6/20/2015 19:46",
+		"renderDescriptionFieldOn:" : "t.a. 6/20/2015 18:39",
+		"renderParticipatingGroupsOn:" : "t.a. 6/20/2015 18:41",
+		"renderTitleFieldOn:" : "t.a. 6/20/2015 18:39",
+		"renderTraceOn:" : "t.a. 6/20/2015 18:39",
+		"sendDeleteAnswer" : "t.a. 6/20/2015 18:22",
+		"sendSaveAnswer" : "t.a. 6/20/2015 18:22",
+		"setUpNewTopic" : "t.a. 6/20/2015 18:51",
+		"topic" : "t.a. 6/20/2015 18:21",
+		"topic:" : "t.a. 6/20/2015 18:21",
+		"validateEditor" : "t.a. 6/20/2015 18:22" } }

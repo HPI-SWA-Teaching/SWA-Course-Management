@@ -3,6 +3,7 @@
 		"canBeRoot" : "tk 6/4/2015 17:13",
 		"initialize" : "msc 6/18/2015 22:53" },
 	"instance" : {
+		"children" : "msc 5/20/2015 21:11",
 		"components" : "msc 5/22/2015 18:07",
 		"components:" : "msc 5/22/2015 18:07",
 		"createComponent:" : "msc 6/20/2015 22:07",

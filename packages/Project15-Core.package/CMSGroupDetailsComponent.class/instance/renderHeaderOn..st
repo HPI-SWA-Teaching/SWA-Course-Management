@@ -1,8 +1,14 @@
-rendering
+as yet unclassified
 renderHeaderOn: html
 
-	html anchor
-		callback: [self showCourse];
-		with: 'Zurück zur Veranstaltung'.
-	html break.
-	html text: self group title
+	html heading
+		level3
+		class: 'box-title';	
+		with: 'Gruppenmitglieder'.
+	html div
+		class: 'box-tools';
+		with: [
+			html anchor
+				callback: [self assignMembers];
+				class: 'btn btn-xs btn-success';
+				with: 'Mitglieder bearbeiten'].

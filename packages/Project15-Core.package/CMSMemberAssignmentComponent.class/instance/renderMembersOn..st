@@ -1,10 +1,19 @@
-rendering
+as yet unclassified
 renderMembersOn: html
 
-	html table: [
-		html tableRow: [
-			html tableData.
-			html tableData: 'Aktuelle Gruppenmitglieder:'].
+	html div
+		class: 'box box-success';
+		with: [
+			html div
+				class: 'box-header';
+				with: [
+					html heading
+						level3
+						class: 'box-title';
+						with: 'Aktuelle Gruppenmitglieder'.].
+	html table  	
+		class: 'table';
+		with: [
 		(self group members asOrderedCollection sort: self class memberSortBlock)
 			do: [:member |
 				html tableRow: [
@@ -14,5 +23,4 @@ renderMembersOn: html
 								callback: [:v | v ifFalse:
 									[self group removeGroupMember: member]];
 								value: true]].
-						html tableData: member username]]].
-						html break
+						html tableData: member username]]]]

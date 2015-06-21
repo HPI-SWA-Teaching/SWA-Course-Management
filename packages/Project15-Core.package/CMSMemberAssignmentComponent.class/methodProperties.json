@@ -1,16 +1,18 @@
 {
 	"class" : {
-		"caption" : "msc 6/20/2015 23:24",
+		"caption" : "t.a. 6/19/2015 18:34",
+		"caption:" : "t.a. 6/19/2015 18:34",
 		"memberSortBlock" : "tk 6/2/2015 14:49" },
 	"instance" : {
 		"canRemoveMember:" : "tk 6/3/2015 08:52",
 		"group" : "tk 6/2/2015 14:48",
 		"group:" : "tk 6/2/2015 14:48",
 		"renderBackLinkOn:" : "msc 6/20/2015 22:15",
-		"renderCandidatesOn:" : "msc 6/19/2015 16:26",
-		"renderContentOn:" : "tk 6/5/2015 12:51",
-		"renderMembersOn:" : "msc 6/20/2015 22:15",
+		"renderCandidatesOn:" : "t.a. 6/19/2015 19:42",
+		"renderContentOn:" : "t.a. 6/20/2015 16:48",
+		"renderHeadBoxOn:" : "t.a. 6/19/2015 20:02",
+		"renderMembersOn:" : "t.a. 6/19/2015 19:45",
 		"renderTraceOn:" : "msc 6/20/2015 22:15",
-		"renderUpdateButtonOn:" : "msc 6/20/2015 22:15",
+		"renderUpdateButtonOn:" : "t.a. 6/19/2015 19:21",
 		"returnToGroupView" : "tk 6/12/2015 16:39",
 		"showCourse" : "tk 6/12/2015 16:40" } }

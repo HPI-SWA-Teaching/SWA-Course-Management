@@ -1,6 +1,7 @@
-rendering
+as yet unclassified
 renderUpdateButtonOn: html
 
-	html submitButton
+	html submitButton 
+		class:'btn btn-xs btn-success';
 		callback: [];
-		with: 'Speichern'
+		with: 'Speichern'.
