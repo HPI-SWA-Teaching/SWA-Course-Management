@@ -5,4 +5,4 @@ renderHeaderOn: html
 	html tableRow: [
 		html tableHeading: 'Benutzername'.
 		html tableHeading: 'Rolle'.
-		html tableHeading: 'Rolle ändern'.]]
+		html tableHeading: 'Rolle anpassen'.]]

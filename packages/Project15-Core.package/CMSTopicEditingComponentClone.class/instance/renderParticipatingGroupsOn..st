@@ -1,3 +1,0 @@
-rendering
-renderParticipatingGroupsOn: html
-	"TODO"
