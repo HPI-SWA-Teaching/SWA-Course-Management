@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 renderContentOn: html
 
 	self renderGeneralInformationOn: html.

@@ -28,14 +28,15 @@ renderTopicsOn: html
 								html tableHeading: 'Name'.
 								html tableHeading: 'Beschreibung'.
 								html tableHeading: ''.].
-								(self course topics sort: self class groupSortingBlock) do: [:topic |
+								((self course topics asOrderedCollection) sort: self class groupSortingBlock) do: [:topic |
 									html tableRow: [
 										html tableData: topic title.
 										html tableData: topic description.
-										"TODO:html tableData: [
+										html tableData: [
 											html anchor
-											callback: [self viewGroup: group];
-											with: 'View']."
+											class: 'btn btn-xs btn-primary';
+											callback: [self viewTopic: topic];
+											with: 'Anzeigen'].
 										html tableData: [
 											self mayManageTopics ifTrue: [
 											html anchor

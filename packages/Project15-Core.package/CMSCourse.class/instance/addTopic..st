@@ -1,5 +1,5 @@
 accessing
 addTopic: aCMSTopic
 
-	self topics add: aCMSTopic.
+	self topics at: aCMSTopic title asSymbol put: aCMSTopic.
 	aCMSTopic course: self

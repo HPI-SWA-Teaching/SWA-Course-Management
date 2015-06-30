@@ -6,4 +6,4 @@ initialize
 		title: '';
 		participents: Set new;
 		groups: OrderedCollection new;
-		topics: OrderedCollection new
+		topics: Dictionary new

@@ -11,7 +11,6 @@ renderNewTopicButtonOn: html
 	topicComponent := (rootComponent loadComponent: CMSTopicEditingComponent).
 	html render: topicComponent.
 	topicComponent setUpNewTopic.
-	Transcript show: topicComponent.
 		
 		
 	

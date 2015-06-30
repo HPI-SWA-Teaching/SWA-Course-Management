@@ -1,6 +1,7 @@
 {
 	"class" : {
 		"caption" : "msc 6/20/2015 22:00",
+		"caption:" : "msc 6/30/2015 16:38",
 		"for:" : "t.a. 6/5/2015 19:41" },
 	"instance" : {
 		"changeBack" : "tk 6/12/2015 16:43",
@@ -14,12 +15,12 @@
 		"renderContentOn:" : "msc 6/22/2015 13:59",
 		"renderDescriptionFieldOn:" : "t.a. 6/16/2015 15:26",
 		"renderParticipatingGroupsOn:" : "t.a. 6/16/2015 15:32",
-		"renderTitleFieldOn:" : "t.a. 6/16/2015 15:42",
-		"renderTraceOn:" : "msc 6/20/2015 22:19",
+		"renderTitleFieldOn:" : "msc 6/30/2015 17:37",
+		"renderTraceOn:" : "msc 6/30/2015 17:05",
 		"sendDeleteAnswer" : "msc 6/21/2015 00:35",
 		"sendSaveAnswer" : "msc 6/21/2015 00:27",
 		"setUpNewTopic" : "tk 6/9/2015 16:53",
 		"setUpWithTopic:" : "tk 6/9/2015 17:14",
 		"topic" : "tk 6/9/2015 17:23",
 		"topic:" : "t.a. 6/5/2015 19:44",
-		"validateEditor" : "msc 6/21/2015 00:18" } }
+		"validateEditor" : "msc 6/30/2015 18:36" } }

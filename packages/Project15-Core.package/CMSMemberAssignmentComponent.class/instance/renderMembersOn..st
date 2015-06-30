@@ -21,6 +21,7 @@ renderMembersOn: html
 						(self canRemoveMember: member) ifTrue: [
 							html checkbox
 								callback: [:v | v ifFalse:
-									[self group removeGroupMember: member]];
+									[self group removeGroupMember: member.
+									self session messageComponent infoMessage: 'Der Nutzer ', member username , ' wurde aus der Gruppe entfernt.']];
 								value: true]].
 						html tableData: member username]]]]
