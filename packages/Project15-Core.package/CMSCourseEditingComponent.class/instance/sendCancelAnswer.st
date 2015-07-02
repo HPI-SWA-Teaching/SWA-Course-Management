@@ -1,4 +1,0 @@
-validating
-sendCancelAnswer
-
-	self changeBack
