@@ -1,4 +1,0 @@
-validating
-validateEditor
-
-	self subclassResponsibility

@@ -31,7 +31,7 @@ renderGroupsOn: html
 							html tableData: ''.].
 						(self course groups sort: self class groupSortingBlock) do: [:group |
 							html tableRow: [
-								html tableData: group title.
+								html tableData: group title content.
 								html tableData: group members size.
 								html tableData: [
 									html anchor

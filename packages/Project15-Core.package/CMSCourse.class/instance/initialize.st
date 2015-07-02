@@ -1,9 +1,9 @@
 initialization
 initialize
 
-	self description: '';
+	self description: (CMSDescriptionString containing: '');
 		term: CMSSemester currentSemester;
-		title: '';
+		title: (CMSTitleString containing: '');
 		participents: Set new;
 		groups: OrderedCollection new;
 		topics: Dictionary new

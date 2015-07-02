@@ -11,5 +11,5 @@
 	"name" : "CMSCourseEditingComponent",
 	"pools" : [
 		 ],
-	"super" : "CMSEditingComponent",
+	"super" : "AnObsoleteCMSEditingComponent2",
 	"type" : "normal" }

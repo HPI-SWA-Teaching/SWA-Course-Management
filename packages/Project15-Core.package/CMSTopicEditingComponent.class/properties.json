@@ -1,7 +1,7 @@
 {
 	"category" : "Project15-Core",
 	"classinstvars" : [
-		"caption" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -12,5 +12,5 @@
 	"name" : "CMSTopicEditingComponent",
 	"pools" : [
 		 ],
-	"super" : "CMSEditingComponent",
+	"super" : "AnObsoleteCMSEditingComponent2",
 	"type" : "normal" }

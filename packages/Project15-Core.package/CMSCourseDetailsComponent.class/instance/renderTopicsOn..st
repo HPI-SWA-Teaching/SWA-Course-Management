@@ -30,8 +30,8 @@ renderTopicsOn: html
 								html tableHeading: ''.].
 								((self course topics asOrderedCollection) sort: self class groupSortingBlock) do: [:topic |
 									html tableRow: [
-										html tableData: topic title.
-										html tableData: topic description.
+										html tableData: topic title content.
+										html tableData: topic description content.
 										html tableData: [
 											html anchor
 											class: 'btn btn-xs btn-primary';

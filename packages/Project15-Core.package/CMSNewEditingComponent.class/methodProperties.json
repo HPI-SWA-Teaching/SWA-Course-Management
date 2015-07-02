@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"changeBack" : "tk 7/2/2015 10:59",
+		"editedObject" : "tk 7/1/2015 14:00",
+		"editedObject:" : "tk 7/1/2015 14:00",
+		"originalObject" : "tk 7/1/2015 15:32",
+		"originalObject:" : "tk 7/1/2015 15:32",
+		"prepareEditing:" : "tk 7/1/2015 15:33",
+		"renderButtonsOn:" : "tk 7/1/2015 16:59",
+		"renderContentOn:" : "tk 7/1/2015 17:06",
+		"renderEditingFieldsOn:" : "tk 7/1/2015 15:25",
+		"sendCancelAnswer" : "tk 7/2/2015 11:35",
+		"sendDeleteAnswer" : "tk 7/2/2015 11:09",
+		"sendSaveAnswer" : "tk 7/1/2015 15:40",
+		"validateEditor" : "tk 7/1/2015 15:28" } }

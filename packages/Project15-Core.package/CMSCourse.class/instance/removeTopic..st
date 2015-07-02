@@ -1,5 +1,5 @@
 accessing
 removeTopic: aCMSTopic
 
-	self topics removeKey: (aCMSTopic title asSymbol).
+	self topics removeKey: (aCMSTopic title content asSymbol).
 	aCMSTopic course: nil

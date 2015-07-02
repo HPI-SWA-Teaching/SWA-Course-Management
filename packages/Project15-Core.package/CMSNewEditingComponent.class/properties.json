@@ -1,0 +1,15 @@
+{
+	"category" : "Project15-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"editedObject",
+		"originalObject" ],
+	"name" : "CMSNewEditingComponent",
+	"pools" : [
+		 ],
+	"super" : "CMSEmbeddedComponent",
+	"type" : "normal" }

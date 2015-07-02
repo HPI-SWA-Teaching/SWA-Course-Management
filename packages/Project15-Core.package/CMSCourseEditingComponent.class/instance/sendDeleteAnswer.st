@@ -1,7 +1,7 @@
 validating
 sendDeleteAnswer
 
-	self originalCourse ifNotNil:
-		[CMSImageDatabase instance unregisterCourse: self originalCourse].
+	self originalObject ifNotNil:
+		[self originalObject unregister].
 	self changeBack
 	

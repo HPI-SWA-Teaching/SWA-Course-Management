@@ -3,13 +3,13 @@ setUp
 
 	self courseA:
 		(CMSCourse new
-			title: 'CourseA';
+			title: (CMSTitleString containing: 'CourseA');
 			term: (CMSSemester winter: self class testedYear));
 		courseB:
 		(CMSCourse new
-			title: 'CourseB';
+			title: (CMSTitleString containing: 'CourseB');
 			term: (CMSSemester winter: self class testedYear));
 		earlierCourseA:
 		(CMSCourse new
-			title: 'CourseA';
+			title: (CMSTitleString containing: 'CourseA');
 			term: (CMSSemester winter: (self class testedYear - 1)))

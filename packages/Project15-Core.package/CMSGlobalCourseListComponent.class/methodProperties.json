@@ -3,11 +3,11 @@
 		"caption" : "MarvMaster 6/5/2015 10:58:09.65" },
 	"instance" : {
 		"createNewCourse" : "msc 6/21/2015 00:10",
-		"editCourse:" : "msc 6/21/2015 00:12",
+		"editCourse:" : "tk 7/1/2015 15:35",
 		"editor" : "tk 6/9/2015 17:21",
 		"editor:" : "t.a. 6/19/2015 17:47",
-		"enroleCourse:" : "msc 6/20/2015 22:21",
+		"enroleCourse:" : "tk 7/2/2015 11:20",
 		"initialize" : "msc 5/22/2015 20:14",
-		"renderCoursesOn:" : "msc 6/16/2015 14:56",
+		"renderCoursesOn:" : "tk 7/2/2015 11:21",
 		"renderNewCourseButtonOn:" : "msc 6/20/2015 22:22",
 		"shouldRenderNewButton" : "msc 6/21/2015 00:42" } }

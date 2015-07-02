@@ -23,8 +23,8 @@ html div
 										class: 'dl-horizontal';
 										with: [
 											html definitionTerm: 'Veranstaltung:'.
-											html definitionData: self course title.
+											html definitionData: self course title content.
 											html definitionTerm: 'Semester'.
 											html definitionData: self course term asString.
 											html definitionTerm: 'Zusatzinformation:'.
-											html definitionData: self course description ]]]]].
+											html definitionData: self course description content]]]]].

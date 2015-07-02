@@ -1,4 +1,4 @@
 as yet unclassified
 named: aString
 
-	^ self new title: aString.
+	^ self new title: (CMSTitleString containing: aString).

@@ -3,7 +3,7 @@ renderContentHeaderOn: html
 
 	html heading
 		level: 1;
-		with: (mainContent class caption).
+		with: (mainContent caption).
 	html orderedList
 		class: 'breadcrumb';
 		with: [

@@ -2,7 +2,8 @@ as yet unclassified
 createNewTopic
 
 	self rootComponent
-		setMainContentTo: CMSTopicEditingComponent
+		setMainContentTo: CMSNewEditingComponent
 		preparedBy: [ :component |
-			component setUpNewTopic;
-				course: self course]
+			component
+				editedObject: (CMSTopic new course: self course);
+				originalObject: nil]

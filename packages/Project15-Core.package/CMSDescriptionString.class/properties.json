@@ -1,0 +1,14 @@
+{
+	"category" : "Project15-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"content" ],
+	"name" : "CMSDescriptionString",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
