@@ -2,6 +2,8 @@ as yet unclassified
 renderContentOn: html
 
 	html form: [
-		html table: [
+		html table 
+			class: 'cms-table';  
+			with:[
 			self renderEditingFieldsOn: html;
 				renderButtonsOn: html]]
