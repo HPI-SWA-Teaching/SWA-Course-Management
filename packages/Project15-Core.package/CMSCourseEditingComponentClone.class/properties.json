@@ -1,17 +1,15 @@
 {
 	"category" : "Project15-Core",
 	"classinstvars" : [
-		"assignmentDescriptions" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"title",
-		"members",
 		"course",
-		"topic" ],
-	"name" : "CMSGroup",
+		"originalCourse" ],
+	"name" : "CMSCourseEditingComponentClone",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "AnObsoleteCMSEditingComponentClone",
 	"type" : "normal" }

@@ -1,8 +1,10 @@
 as yet unclassified
 assignMembers
-
+ 
 	self rootComponent
-		setMainContentTo: CMSMemberAssignmentComponent
-		preparedBy: [ :component |
-			component group: (self group);
-				rebuildCaption]
+		setMainContentTo: CMSAssignmentComponent
+		preparedBy: [ :component | 
+			component prepareAssignmentFor: self group assining: CMSUser backTo: self;
+				caption: 'Mitglieder der Gruppe  ',
+					self group title asString,
+					' bearbeiten'.]

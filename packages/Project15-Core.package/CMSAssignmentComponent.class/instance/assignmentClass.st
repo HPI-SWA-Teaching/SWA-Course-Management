@@ -1,0 +1,4 @@
+accessing
+assignmentClass
+
+	^ assignmentClass

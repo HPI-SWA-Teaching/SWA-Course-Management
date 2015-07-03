@@ -1,0 +1,4 @@
+rendering
+candidateBoxTitle
+
+	^ 'Kandidaten'

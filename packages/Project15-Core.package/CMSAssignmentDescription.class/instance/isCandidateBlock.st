@@ -1,0 +1,4 @@
+accessing
+isCandidateBlock
+
+	^ isCandidateBlock

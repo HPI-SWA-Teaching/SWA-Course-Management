@@ -1,17 +1,16 @@
 {
 	"category" : "Project15-Core",
 	"classinstvars" : [
-		"assignmentDescriptions" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"title",
-		"members",
-		"course",
-		"topic" ],
-	"name" : "CMSGroup",
+		"predecessorComponent",
+		"predecessorElement",
+		"assignmentClass" ],
+	"name" : "CMSAssignmentComponent",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "CMSEmbeddedComponent",
 	"type" : "normal" }
