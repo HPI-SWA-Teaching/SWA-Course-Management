@@ -2,5 +2,7 @@ as yet unclassified
 createNewCourse
 
 	self rootComponent
-		setMainContentTo: CMSCourseEditingComponent
-		preparedBy: [ :component | component setUpNewCourse]
+		setMainContentTo: CMSNewEditingComponent
+		preparedBy: [ :component |
+			component editedObject: CMSCourse new;
+				originalObject: nil]

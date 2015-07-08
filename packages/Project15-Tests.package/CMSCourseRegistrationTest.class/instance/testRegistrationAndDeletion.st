@@ -6,10 +6,10 @@ testRegistrationAndDeletion
 
 	self deny: (CMSImageDatabase instance courseDb includes: course).
 
-	CMSImageDatabase instance registerCourse: course.
+	course register.
 
 	self assert: (CMSImageDatabase instance courseDb includes: course).
 
-	CMSImageDatabase instance unregisterCourse: course.
+	course unregister.
 
 	self deny: (CMSImageDatabase instance courseDb includes: course).

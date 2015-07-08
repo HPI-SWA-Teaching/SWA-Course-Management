@@ -5,8 +5,8 @@ createCourseSWA
 
 	userdb := CMSImageDatabase instance userDb.
 	
-	course := (CMSCourse new) title: (CMSTitleString containing: 'SWA');
-					description: (CMSDescriptionString containing: 'SoftwareArchitecture at HPI');
+	course := (CMSCourse new) title: (CMSSingleLineString containing: 'SWA');
+					description: (CMSMultilineString containing: 'SoftwareArchitecture at HPI');
 					term: (CMSSemester winter: 2015).
 	1 to: 100 do: [:userID |
 		(userdb at: ('student#' , userID) asSymbol) addCourse: course.].

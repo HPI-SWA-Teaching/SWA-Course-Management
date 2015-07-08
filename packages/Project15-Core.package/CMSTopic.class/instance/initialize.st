@@ -2,5 +2,5 @@ initializing
 initialize
 
 	self groups: OrderedCollection new.
-	self title: (CMSTitleString containing: '').
-	self description: (CMSDescriptionString containing: '')
+	self title: (CMSSingleLineString containing: '').
+	self description: (CMSMultilineString containing: '')

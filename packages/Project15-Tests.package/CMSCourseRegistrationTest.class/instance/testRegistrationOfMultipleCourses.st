@@ -2,8 +2,8 @@ running
 testRegistrationOfMultipleCourses
 
 	| courseA courseB |
-	courseA := CMSCourse new title: (CMSTitleString containing: 'Course A').
-	courseB := CMSCourse new title: (CMSTitleString containing: 'Course B').
+	courseA := CMSCourse named: 'CourseA'.
+	courseB := CMSCourse named: 'CourseB'.
 
 	self deny: (CMSImageDatabase instance courseDb includes: courseA).
 	self deny: (CMSImageDatabase instance courseDb includes: courseB).

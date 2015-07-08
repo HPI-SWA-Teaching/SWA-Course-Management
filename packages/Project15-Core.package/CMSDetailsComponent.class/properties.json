@@ -1,0 +1,14 @@
+{
+	"category" : "Project15-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"data" ],
+	"name" : "CMSDetailsComponent",
+	"pools" : [
+		 ],
+	"super" : "CMSEmbeddedComponent",
+	"type" : "normal" }

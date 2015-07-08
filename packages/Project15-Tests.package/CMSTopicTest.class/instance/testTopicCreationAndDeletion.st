@@ -13,7 +13,6 @@ testTopicCreationAndDeletion
 	self assert: topic course = course.
 	self assert: topic title = self class topicName.
 
-	course removeTopic: topic.
+	topic unregister.
 
 	self assert: course topics isEmpty.
-	self deny: topic course = course.

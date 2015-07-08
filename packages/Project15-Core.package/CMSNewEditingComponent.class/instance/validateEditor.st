@@ -1,4 +1,4 @@
-as yet unclassified
+validating
 validateEditor
 
 	^ self editedObject validate

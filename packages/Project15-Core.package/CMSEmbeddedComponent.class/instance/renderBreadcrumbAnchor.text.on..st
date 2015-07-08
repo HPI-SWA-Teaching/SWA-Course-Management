@@ -1,7 +1,7 @@
 rendering
-renderBreadcrumbAnchor: anchor text: text on: html
+renderBreadcrumbAnchor: callback text: text on: html
 
 	html listItem: [
 		html anchor
-			callback: anchor;
+			callback: callback;
 			with: text.]

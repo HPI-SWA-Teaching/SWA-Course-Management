@@ -1,0 +1,4 @@
+accessing
+generalStructure
+
+	^ generalStructure

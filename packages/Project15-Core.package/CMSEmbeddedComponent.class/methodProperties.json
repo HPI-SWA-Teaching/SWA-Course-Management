@@ -3,12 +3,18 @@
 		"caption" : "MarvMaster 6/5/2015 10:58:09.65",
 		"rootedAt:" : "tk 6/2/2015 13:47" },
 	"instance" : {
+		"assign:to:" : "tk 7/7/2015 14:52",
 		"caption" : "tk 7/1/2015 12:31",
 		"caption:" : "tk 7/1/2015 12:30",
-		"renderBreadcrumbAnchor:text:on:" : "msc 6/16/2015 16:05",
+		"edit:" : "tk 7/7/2015 13:40",
+		"editNew:" : "tk 7/8/2015 11:21",
+		"editNew:with:" : "tk 7/8/2015 11:21",
+		"getTraceDescription" : "tk 7/8/2015 12:02",
+		"renderBreadcrumbAnchor:text:on:" : "tk 7/8/2015 11:44",
 		"renderLastBreadcrumbText:on:" : "msc 6/20/2015 22:24",
 		"renderPanelWithHeader:content:on:" : "msc 6/16/2015 16:04",
-		"renderTraceOn:" : "msc 6/20/2015 22:24",
+		"renderTraceOn:" : "tk 7/8/2015 12:29",
 		"renderTraceSpacerOn:" : "MarvMaster 6/5/2015 10:58:09.65",
 		"rootComponent" : "tk 6/2/2015 13:46",
-		"rootComponent:" : "tk 6/2/2015 13:46" } }
+		"rootComponent:" : "tk 6/2/2015 13:46",
+		"view:" : "tk 7/7/2015 13:39" } }

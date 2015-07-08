@@ -1,4 +1,0 @@
-accessing
-isCandidateBlock
-
-	^ isCandidateBlock

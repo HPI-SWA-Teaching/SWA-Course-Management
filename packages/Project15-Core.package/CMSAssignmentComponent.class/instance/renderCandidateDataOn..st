@@ -13,4 +13,4 @@ renderCandidateDataOn: html
 								html checkbox
 									callback: [:v |
 										v ifTrue: [description addCandidateBlock value: self predecessorElement value: candidate]].
-								html text: candidate title]]]]].
+								html text: candidate title content]]]]].

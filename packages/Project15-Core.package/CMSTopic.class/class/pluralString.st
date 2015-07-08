@@ -1,0 +1,4 @@
+accessing
+pluralString
+
+	^ 'Themen'

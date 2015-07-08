@@ -8,6 +8,6 @@ testGroupCreationAndDeletion
 
 	self deny: course groups isEmpty.
 
-	course removeGroup: group.
+	group unregister.
 
 	self assert: course groups isEmpty.

@@ -9,7 +9,7 @@ testAutomaticGroupNameGeneration
 	self assert: (group1 title = (CMSCourse defaultGroupNamePrefix, 1)).
 	self assert: (group2 title = (CMSCourse defaultGroupNamePrefix, 2)).
 
-	course removeGroup: group1.
+	group1 unregister.
 	group1 := course createNewGroup.
 
 	self assert: (group1 title = (CMSCourse defaultGroupNamePrefix, 1)).

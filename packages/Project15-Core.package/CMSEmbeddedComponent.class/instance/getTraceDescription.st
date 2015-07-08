@@ -1,0 +1,4 @@
+accessing
+getTraceDescription
+
+	self subclassResponsibility

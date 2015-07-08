@@ -12,19 +12,19 @@ testRegistrationOfIdenticalCourses
 	self deny: (CMSImageDatabase instance courseDb includes: courseA).
 	self deny: (CMSImageDatabase instance courseDb includes: courseB).
 
-	CMSImageDatabase instance registerCourse: courseA.
+	courseA register.
 
 	self assert: (CMSImageDatabase instance courseDb includes: courseA).
 
-	CMSImageDatabase instance registerCourse: courseB.
+	courseB register.
 
 	self assert: (CMSImageDatabase instance courseDb includes: courseB).
 
-	CMSImageDatabase instance unregisterCourse: courseA.
+	courseA unregister.
 
 	self assert: (CMSImageDatabase instance courseDb includes: courseB).
 	self deny: (CMSImageDatabase instance courseDb includes: courseA).
 
-	CMSImageDatabase instance unregisterCourse: courseB.
+	courseB unregister.
 
 	self deny: (CMSImageDatabase instance courseDb includes: courseB).

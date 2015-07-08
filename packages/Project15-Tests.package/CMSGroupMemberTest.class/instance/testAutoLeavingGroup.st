@@ -11,7 +11,7 @@ testAutoLeavingGroup
 	self assert: (member participatesIn: group).
 	self assert: (group isMember: member).
 
-	member remove: course.
+	member leaveCourse: course.
 
 	self deny: (member participatesIn: group).
 	self deny: (group isMember: member)

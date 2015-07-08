@@ -7,22 +7,21 @@ renderSideBarContentOn: html
 		with: 'Overview'.
 	html listItem: [
 		html anchor
-			callback: [self rootComponent setMainContentTo: CMSGlobalCourseListComponent];
+			callback: [self rootComponent setMainContentTo: CMSDetailsComponent
+						preparedBy: [:component | component data: #allCourses]];
 			with: [
 				html span: CMSGlobalCourseListComponent caption.]].
 	html listItem: [
 		html anchor
-			callback: [self rootComponent setMainContentTo: CMSUserCourseListComponent];
+			callback: [self rootComponent setMainContentTo: CMSDetailsComponent
+						preparedBy: [:component | component data: #userCourses]];
 			with: [
 				html span: CMSUserCourseListComponent caption.]].
 	user := self session user.
 	user isAdmin ifTrue: [
 		html listItem: [
 			html anchor
-				callback: [self rootComponent setMainContentTo: CMSUserListComponent];
+				callback: [self rootComponent setMainContentTo: CMSDetailsComponent
+							preparedBy: [:component | component data: #userList]];
 			with: [
 				html span: CMSUserListComponent caption]]]
-
-			
-		
-				

@@ -13,7 +13,7 @@ testEnrolementAndLeaving
 	self assert: (participant courses includes: course).
 	self assert: (course participents includes: participant).
 
-	participant remove: course.
+	participant leaveCourse: course.
 
 	self deny: (participant courses includes: course).
 	self deny: (course participents includes: participant)

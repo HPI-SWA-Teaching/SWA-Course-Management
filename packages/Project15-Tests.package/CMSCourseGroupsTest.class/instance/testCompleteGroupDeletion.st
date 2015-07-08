@@ -11,7 +11,7 @@ testCompleteGroupDeletion
 	self assert: (group isMember: member).
 	self assert: (member participatesIn: group).
 
-	course removeGroup: group.
+	group unregister.
 
 	self assert: course groups isEmpty.
 	self deny: (member participatesIn: group)

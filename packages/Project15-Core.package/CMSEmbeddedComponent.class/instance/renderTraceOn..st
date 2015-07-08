@@ -1,4 +1,6 @@
 rendering
 renderTraceOn: html
 
-	self renderLastBreadcrumbText: self class caption on: html
+	self getTraceDescription do: [:crumb |
+		self renderBreadcrumbAnchor: [self view: crumb second] text: crumb first on: html].
+	self renderLastBreadcrumbText: self caption on: html

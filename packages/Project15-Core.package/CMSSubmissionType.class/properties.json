@@ -1,0 +1,15 @@
+{
+	"category" : "Project15-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"title",
+		"extensions" ],
+	"name" : "CMSSubmissionType",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -13,4 +13,4 @@ renderMembersDataOn: html
 								html checkbox value: true;
 									callback: [:v |
 										v ifFalse: [description removeMemberBlock value: self predecessorElement value: member]].
-								html text: member title]]]]].
+								html text: member title content]]]]].

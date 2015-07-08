@@ -2,6 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testRegistrationAndDeletion" : "tk 6/3/2015 09:25",
-		"testRegistrationOfIdenticalCourses" : "tk 6/3/2015 09:59",
-		"testRegistrationOfMultipleCourses" : "tk 7/1/2015 15:14" } }
+		"testRegistrationAndDeletion" : "tk 7/8/2015 12:51",
+		"testRegistrationOfIdenticalCourses" : "tk 7/8/2015 12:52",
+		"testRegistrationOfMultipleCourses" : "tk 7/8/2015 12:53" } }

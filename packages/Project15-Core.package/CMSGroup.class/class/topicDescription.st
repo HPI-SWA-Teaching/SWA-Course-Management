@@ -1,4 +1,4 @@
-constructors
+as yet unclassified
 topicDescription
 	
 	^CMSAssignmentDescription new allItems: [:group| group course topics];

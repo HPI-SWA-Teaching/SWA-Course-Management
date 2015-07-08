@@ -1,4 +1,4 @@
-constructors
+as yet unclassified
 userDescription
 	
 	^CMSAssignmentDescription new allItems: [:group| group course participents];

@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"componentAfterEditing" : "tk 7/3/2015 11:27" },
+	"instance" : {
+		"extensions" : "tk 7/3/2015 10:29",
+		"extensions:" : "tk 7/3/2015 10:29",
+		"getEditingDirectives" : "tk 7/3/2015 10:32",
+		"initialize" : "tk 7/3/2015 10:30",
+		"register" : "tk 7/3/2015 11:26",
+		"renderEditingFieldsFor:On:" : "tk 7/3/2015 11:13",
+		"title" : "tk 7/3/2015 10:29",
+		"title:" : "tk 7/3/2015 10:29",
+		"unregister" : "tk 7/3/2015 11:30",
+		"validate" : "tk 7/3/2015 11:26" } }

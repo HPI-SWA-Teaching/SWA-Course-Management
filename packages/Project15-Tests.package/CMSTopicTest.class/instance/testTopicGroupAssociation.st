@@ -9,23 +9,23 @@ testTopicGroupAssociation
 
 	self assert: topic1 groups isEmpty.
 	self assert: topic2 groups isEmpty.
-	self assert: group1 topic isNil.
-	self assert: group2 topic isNil.
+	self assert: group1 topics isEmpty.
+	self assert: group2 topics isEmpty.
 
-	group1 chooseTopic: topic1.
+	group1 addTopic: topic1.
 
 	self deny: topic1 groups isEmpty.
 	self assert: (topic1 groups includes: group1).
-	self assert: group1 topic = topic1.
+	self assert: (group1 topics includes: topic1).
 
-	group2 chooseTopic: topic2.
+	group2 addTopic: topic2.
 
 	self deny: topic2 groups isEmpty.
 	self assert: (topic2 groups includes: group2).
-	self assert: group2 topic = topic2.
+	self assert: (group2 topics includes: topic2).
 
-	group1 chooseTopic: topic2.
+	group1 addTopic: topic2.
 
-	self assert: topic1 groups isEmpty.
+	self deny: topic1 groups isEmpty.
 	self assert: (topic2 groups includes: group1).
-	self assert: group1 topic = topic2.
+	self assert: (group1 topics includes: topic2).
