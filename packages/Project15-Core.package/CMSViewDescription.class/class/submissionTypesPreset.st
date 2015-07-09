@@ -12,12 +12,13 @@ submissionTypesPreset
 				data: [:ignore | CMSImageDatabase instance submissionTypeDb];
 				buttons: {{'Artefakt anlegen'. 'btn btn-xs btn-success'. [:component :submissionType | [component editNew: CMSSubmissionType]]. [:user | user isAdmin]}};
 				structure:
-					{{'Name'. [:ignore :html :submissionType | html text: submissionType title content].}.
-					{'Extentions'. [:ignore :html :submissionType | html text: submissionType extensions content].}.
+					{{'Name'. [:ignore :html :submissionType | html text: submissionType title content]. [:user :type | true]}.
+					{'Extentions'. [:ignore :html :submissionType | html text: submissionType extensions content]. [:user :type | true]}.
 					{''. [:component :html :submissionType |
 						html anchor callback: [component view: submissionType];
 							class: 'btn btn-xs btn-primary';
-							with: 'Ansehen'].	[:user :submissionType | true]}.
+							with: 'Ansehen'].
+						[:user :submissionType | true]}.
 					{''. [:component :html :submissionType |
 						html anchor callback: [component edit: submissionType];
 							class: 'btn btn-xs btn-primary';
