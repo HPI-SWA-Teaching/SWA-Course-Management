@@ -3,7 +3,7 @@ renderContentOn: html
 
 	html anchor
 		class: 'logo';
-		with: 'New De[h]li'.
+		with: 'New Del[h]i'.
 	html div
 		class: 'navbar navbar-static-top';
 		with: [

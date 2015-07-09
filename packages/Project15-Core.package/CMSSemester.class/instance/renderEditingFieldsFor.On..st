@@ -1,4 +1,4 @@
-accessing
+rendering
 renderEditingFieldsFor: anObject On: html
 
 	html select 

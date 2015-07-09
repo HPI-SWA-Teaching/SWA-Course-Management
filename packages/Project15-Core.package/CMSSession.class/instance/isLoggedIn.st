@@ -1,4 +1,4 @@
-accessing
+authentication
 isLoggedIn
 
 	^ self user isNil not
