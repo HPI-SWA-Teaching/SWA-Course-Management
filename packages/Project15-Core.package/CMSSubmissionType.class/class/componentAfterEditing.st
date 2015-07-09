@@ -1,4 +1,4 @@
 as yet unclassified
 componentAfterEditing
 
-	^ CMSSubmissionTypesComponent.
+	^ CMSSubmissionComponent.

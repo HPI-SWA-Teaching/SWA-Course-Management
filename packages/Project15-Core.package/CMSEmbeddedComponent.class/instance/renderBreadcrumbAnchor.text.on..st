@@ -1,7 +1,9 @@
 rendering
 renderBreadcrumbAnchor: callback text: text on: html
 
-	html listItem: [
-		html anchor
-			callback: callback;
-			with: text.]
+	text isEmpty 
+		ifFalse: [
+			html listItem: [
+				html anchor
+					callback: callback;
+					with: text.]].

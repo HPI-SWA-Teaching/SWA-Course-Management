@@ -1,4 +1,4 @@
-as yet unclassified
-infoLeftCourse: aCourseTitle
+infomessages
+infoLeftCourse: aCourse
 
-	^ 'Du wurdest aus der Veranstaltung ', aCourseTitle , ' ausgeschrieben.'.
+	^ 'Du wurdest aus der Veranstaltung ', aCourse title content, ' ausgeschrieben.'.

@@ -1,4 +1,4 @@
-as yet unclassified
+validating
 validate
 
 	self title content ifEmpty: [^false].

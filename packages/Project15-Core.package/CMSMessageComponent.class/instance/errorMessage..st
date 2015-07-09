@@ -1,4 +1,4 @@
-message_types
+messagetypes
 errorMessage: aString
 
 	self 

@@ -1,4 +1,4 @@
-as yet unclassified
+errormessages
 errorMissingCourseTitle
 
 	^ 'Bitte gebe die Bezeichnung der Veranstaltung ein.'.

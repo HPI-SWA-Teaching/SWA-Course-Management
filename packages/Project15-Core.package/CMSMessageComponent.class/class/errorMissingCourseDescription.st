@@ -1,4 +1,4 @@
-as yet unclassified
+errormessages
 errorMissingCourseDescription
 
 	^ 'Bitte gebe eine Beschreibung der Veranstaltung ein.'.

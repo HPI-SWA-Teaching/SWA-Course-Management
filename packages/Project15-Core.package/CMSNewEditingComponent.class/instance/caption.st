@@ -1,4 +1,6 @@
 as yet unclassified
 caption
 
-	^ self editedObject class singularString, ' bearbeiten'
+	self originalObject isNil
+		ifTrue: [^ self editedObject class singularString, ' anlegen']
+		ifFalse: [^ self editedObject class singularString, ' bearbeiten'].

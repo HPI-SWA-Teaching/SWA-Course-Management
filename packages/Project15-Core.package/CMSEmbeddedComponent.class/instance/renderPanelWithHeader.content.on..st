@@ -1,6 +1,6 @@
 rendering
 renderPanelWithHeader: header content: content on: html
-
+	
 	html div
 		class: 'box box-default';
 		with: [

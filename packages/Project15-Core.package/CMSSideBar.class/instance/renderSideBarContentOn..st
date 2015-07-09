@@ -18,6 +18,7 @@ renderSideBarContentOn: html
 			with: [
 				html span: CMSUserCourseListComponent caption.]].
 	user := self session user.
+	"display admin menue items"
 	user isAdmin ifTrue: [
 		html listItem: [
 			html anchor
@@ -30,4 +31,4 @@ renderSideBarContentOn: html
 				callback: [self rootComponent setMainContentTo: CMSDetailsComponent
 							preparedBy: [:component | component data: #submissionTypes]];
 			with: [
-				html span: CMSSubmissionTypesComponent caption]]].
+				html span: CMSSubmissionComponent caption]]].

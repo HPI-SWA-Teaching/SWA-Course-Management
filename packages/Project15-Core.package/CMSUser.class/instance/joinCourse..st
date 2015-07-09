@@ -1,4 +1,4 @@
 accessing
 joinCourse: aCourse
 
-	^ self courses addNewElement: aCourse
+	^ self courses addNewElement: aCourse.

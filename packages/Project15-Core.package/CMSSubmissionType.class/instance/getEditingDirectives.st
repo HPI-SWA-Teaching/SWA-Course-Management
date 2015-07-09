@@ -1,5 +1,5 @@
 as yet unclassified
 getEditingDirectives
 
-	^ {{'Abgabe-Typ'. self title}.
-		{'Erweiterungen'. self extensions}}
+	^ {{'Abgabeart'. self title}.
+		{'Erlaubte Dateitypen'. self extensions}}

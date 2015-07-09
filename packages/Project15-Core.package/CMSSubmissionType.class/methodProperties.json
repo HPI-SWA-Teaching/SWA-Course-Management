@@ -1,14 +1,14 @@
 {
 	"class" : {
-		"componentAfterEditing" : "msc 7/9/2015 13:08",
-		"detailsPreset" : "msc 7/9/2015 13:28",
+		"componentAfterEditing" : "msc 7/9/2015 22:37",
+		"detailsPreset" : "msc 7/9/2015 22:24",
 		"named:" : "msc 7/9/2015 13:09",
-		"singularString" : "msc 7/9/2015 13:07" },
+		"singularString" : "msc 7/9/2015 21:58" },
 	"instance" : {
 		"extensions" : "tk 7/3/2015 10:29",
 		"extensions:" : "tk 7/3/2015 10:29",
-		"getEditingDirectives" : "tk 7/3/2015 10:32",
-		"getEditingTraceDescription" : "tk 7/9/2015 15:47",
+		"getEditingDirectives" : "msc 7/9/2015 22:01",
+		"getEditingTraceDescription" : "msc 7/9/2015 22:49",
 		"initialize" : "tk 7/9/2015 15:29",
 		"register" : "tk 7/3/2015 11:26",
 		"renderEditingFieldsFor:On:" : "tk 7/3/2015 11:13",
