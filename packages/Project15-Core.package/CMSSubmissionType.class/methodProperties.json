@@ -1,11 +1,15 @@
 {
 	"class" : {
-		"componentAfterEditing" : "tk 7/3/2015 11:27" },
+		"componentAfterEditing" : "msc 7/9/2015 13:08",
+		"detailsPreset" : "msc 7/9/2015 13:10",
+		"named:" : "msc 7/9/2015 13:09",
+		"singularString" : "msc 7/9/2015 13:07" },
 	"instance" : {
 		"extensions" : "tk 7/3/2015 10:29",
 		"extensions:" : "tk 7/3/2015 10:29",
 		"getEditingDirectives" : "tk 7/3/2015 10:32",
-		"initialize" : "tk 7/3/2015 10:30",
+		"getEditingTraceDescription" : "msc 7/9/2015 12:55",
+		"initialize" : "msc 7/9/2015 12:53",
 		"register" : "tk 7/3/2015 11:26",
 		"renderEditingFieldsFor:On:" : "tk 7/3/2015 11:13",
 		"title" : "tk 7/3/2015 10:29",

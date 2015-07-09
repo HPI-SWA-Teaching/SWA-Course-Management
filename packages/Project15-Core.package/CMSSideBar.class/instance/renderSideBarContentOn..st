@@ -24,4 +24,10 @@ renderSideBarContentOn: html
 				callback: [self rootComponent setMainContentTo: CMSDetailsComponent
 							preparedBy: [:component | component data: #userList]];
 			with: [
-				html span: CMSUserListComponent caption]]]
+				html span: CMSUserListComponent caption]].
+		html listItem: [
+			html anchor
+				callback: [self rootComponent setMainContentTo: CMSDetailsComponent
+							preparedBy: [:component | component data: #submissionTypes]];
+			with: [
+				html span: CMSSubmissionTypesComponent caption]]].

@@ -1,5 +1,5 @@
 as yet unclassified
 initialize
 
-	self title: (CMSSingleLineString containing: '');
-		extensions: (CMSSingleLineString containing: '')
+	self title: (CMSSingleLineString containing: '').
+	self extensions: (CMSMultilineString containing: '')

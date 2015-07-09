@@ -12,8 +12,4 @@ renderContentOn: html
 						with: [
 							html div
 								class: 'box-header';
-								with: [self renderHeaderOn: html ].
-		
-							html div
-								class: 'box-body no-padding';
-								with: [ self renderMembersOn: html.]]]]
+								with: [self renderHeaderOn: html]]]].

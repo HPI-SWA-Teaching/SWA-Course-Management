@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"rootComponent" ],
-	"name" : "CMSMenu",
+		"submissionTypes" ],
+	"name" : "CMSSubmissionTypesComponent",
 	"pools" : [
 		 ],
-	"super" : "WAComponent",
+	"super" : "CMSEmbeddedComponent",
 	"type" : "normal" }
