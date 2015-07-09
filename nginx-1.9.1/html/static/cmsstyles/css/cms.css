@@ -16,3 +16,19 @@
 	color: #9b3428;
 }
 
+.btn-group.cms-edit-btn-group {
+	margin-top: 3em;
+}
+
+.btn-group .cms-btn-small {
+	margin: 0.5em 1em 0.5 0;
+	min-width: 6.5em;
+	min-height: 2.5em;
+	width: auto;
+}
+
+.cms-btn-small {
+	margin: 0.5em 1em 0.5 0;
+	min-width: 6.5em;
+	width: auto;
+}

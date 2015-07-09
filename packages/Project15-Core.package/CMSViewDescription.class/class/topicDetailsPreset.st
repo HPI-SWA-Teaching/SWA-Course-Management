@@ -13,6 +13,6 @@ topicDetailsPreset
 			{CMSTableViewDescription new
 				header: 'Teilnehmende Gruppen';
 				data: [:topic | topic groups];
-				buttons: {{'Gruppen wählen'. 'btn btn-xs btn-success'. [:component :topic | [component assign: CMSGroup to: topic]]. [:user | user isAdmin]}};
+				buttons: {{'Gruppen wählen'. 'btn btn-xs btn-success cms-btn-small'. [:component :topic | [component assign: CMSGroup to: topic]]. [:user | user isAdmin]}};
 				structure:
 					{{'Name'. [:ignore :html :group | html text: group title content]. [:user :member | true]}}}

@@ -17,11 +17,11 @@ userCourseListPresetFor: aCMSUser
 					{'Beschreibung'. [:ignore :html :course | html text: course description content]. [:user :course | true]}.
 					{''. [:component :html :course |
 						html anchor callback: [component view: course];
-							class: 'btn btn-xs btn-primary';
+							class: 'btn btn-xs btn-primary cms-btn-small';
 							with: 'Ansehen'].
 						[:user :course | true]}.
 					{''. [:component :html :course |
 						html anchor callback: [aCMSUser leaveCourse: course];
-							class: 'btn btn-xs btn-danger';
+							class: 'btn btn-xs btn-danger cms-btn-small';
 							with: 'Ausschreiben'].
 						[:user :course | true]}}}

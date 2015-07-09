@@ -13,18 +13,18 @@ courseDetailsPreset
 			{CMSTableViewDescription new
 				header: 'Gruppen';
 				data: [:course | course groups];
-				buttons: {{'Neue Gruppe'. 'btn btn-xs btn-success'. [:component :course | [component assign: CMSUser to: (CMSGroup for: course)]]. [:user | true]}};
+				buttons: {{'Neue Gruppe'. 'btn btn-xs btn-success cms-btn-small'. [:component :course | [component assign: CMSUser to: (CMSGroup for: course)]]. [:user | true]}};
 				structure:
 					{{'Gruppe'. [:ignore :html :group | html text: group title content]. [:user :group | true]}.
 					{'Anzahl Mitglieder'. [:ignore :html :group | html text: group members size]. [:user :group | true]}.
 					{''. [:component :html :group |
 						html anchor callback: [component view: group];
-							class: 'btn btn-xs btn-primary';
+							class: 'btn btn-xs btn-primary cms-btn-small';
 							with: 'Ansehen'].
 						[:user :group | true]}.
 					{''. [:component :html :group |
 						html anchor callback: [group unregister];
-							class: 'btn btn-xs btn-danger';
+							class: 'btn btn-xs btn-danger cms-btn-small';
 							with: 'Löschen'].
 						[:user :group | user isAdmin]}}.
 			CMSTableViewDescription new
@@ -36,12 +36,12 @@ courseDetailsPreset
 					{'Beschreibung'. [:ignore :html :topic | html text: topic description content]. [:user :topic | true]}.
 					{''. [:component :html :topic |
 						html anchor callback: [component view: topic];
-							class: 'btn btn-xs btn-primary';
+							class: 'btn btn-xs btn-primary cms-btn-small';
 							with: 'Ansehen'].
 						[:user :topic | true]}.
 					{''. [:component :html :topic |
 						html anchor callback: [topic unregister];
-							class: 'btn btn-xs btn-danger';
+							class: 'btn btn-xs btn-danger cms-btn-small';
 							with: 'Löschen'].
 						[:user :topic | user isAdmin]}}.
 			CMSTableViewDescription new
