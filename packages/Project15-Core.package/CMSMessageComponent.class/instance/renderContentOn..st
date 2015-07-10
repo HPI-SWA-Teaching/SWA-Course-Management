@@ -2,7 +2,10 @@ rendering
 renderContentOn: html
 
 	self wasShown ifFalse: [
-		html div
-			class: 'col-md-6 ', self messageType, '-', 'message';
-			with: self messageText.
-		self wasShown: true].
+		html div 
+			class: 'row';
+			with: [
+				html div
+				class: 'col-md-6 ', self messageType, '-', 'message';
+				with: self messageText.
+			self wasShown: true]].

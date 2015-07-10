@@ -15,7 +15,7 @@ submissionTypesPreset
 					{{'Name'. [:ignore :html :submissionType | html text: submissionType title content]. [:user :type | true]}.
 					{'Dateitypen'. [:ignore :html :submissionType | html text: submissionType extensions content]. [:user :type | true]}.
 					{''. [:component :html :submissionType |
-						html anchor callback: [component edit: submissionType. self session infoMessage: 'SUBMISSIONTYPE'];
+						html anchor callback: [component edit: submissionType];
 							class: 'btn btn-xs btn-primary cms-btn-small';
 							with: 'Ansehen'].
 						[:user :submissionType | user isAdmin]}}}
