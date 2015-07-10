@@ -5,5 +5,5 @@ renderContentOn: html
 		html table 
 			class: 'cms-table';  
 			with:[
-			self renderEditingFieldsOn: html;
-				renderButtonsOn: html]]
+				self renderEditingFieldsOn: html;
+				renderButtonsOn: html]].
