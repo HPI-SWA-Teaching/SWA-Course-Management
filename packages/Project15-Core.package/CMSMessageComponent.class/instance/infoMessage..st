@@ -1,6 +1,6 @@
 messagetypes
 infoMessage: aString
 
-	self messageText: aString content.
-	self messageType: 'info' content.
+	self messageText: aString.
+	self messageType: 'info'.
 	self wasShown: false.
