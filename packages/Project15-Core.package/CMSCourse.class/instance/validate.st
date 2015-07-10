@@ -1,6 +1,6 @@
 validation
 validate
 
-	self title content isEmpty ifTrue: [^false].
-	self description content isEmpty ifTrue: [^false].
-	^true
+	self title content isEmpty ifTrue: [^'Bitte Titel eingeben'].
+	self description content isEmpty ifTrue: [^'Bitte Beschreibung eingeben'].
+	^''
