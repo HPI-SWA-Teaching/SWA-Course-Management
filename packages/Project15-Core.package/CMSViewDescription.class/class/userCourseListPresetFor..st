@@ -21,7 +21,7 @@ userCourseListPresetFor: aCMSUser
 							with: 'Ansehen'].
 						[:user :course | true]}.
 					{''. [:component :html :course |
-						html anchor callback: [aCMSUser leaveCourse: course];
+						html anchor callback: [component session messageComponent infoMessage: (aCMSUser leaveCourse: course)];
 							class: 'btn btn-xs btn-danger cms-btn-small';
 							with: 'Ausschreiben'].
 						[:user :course | true]}}}

@@ -6,7 +6,7 @@ validateEditor
 	isValid := message isEmpty.
 
 	isValid 
-		ifTrue:  [self session messageComponent infoMessage: 'hat geklappt.']
+		ifTrue:  [self session messageComponent infoMessage: (CMSMessageComponent infoSaveObject: self editedObject).]
 		ifFalse: [self session messageComponent errorMessage: message].
 	^ isValid.
 	

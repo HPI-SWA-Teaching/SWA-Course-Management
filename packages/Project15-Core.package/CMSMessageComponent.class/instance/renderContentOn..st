@@ -1,11 +1,9 @@
 rendering
 renderContentOn: html
 
-	self wasShown ifFalse: [
-		html div 
-			class: 'row';
-			with: [
-				html div
+	self wasShown 
+		ifFalse: [
+			html div
 				class: 'col-md-6 ', self messageType, '-', 'message';
 				with: self messageText.
-			self wasShown: true]].
+			self wasShown: true].

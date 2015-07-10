@@ -1,4 +1,4 @@
 infomessages
-infoDemoteUser: aUsername
+infoDemoteUser: aUser
 
-	^ 'Die Rolle des Benutzers ', aUsername, ' wurde auf User geändert.'.
+	^ 'Die Rolle des Benutzers ', aUser username content, ' wurde auf Student geändert.'.

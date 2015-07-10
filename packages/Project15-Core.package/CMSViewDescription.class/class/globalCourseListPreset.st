@@ -21,7 +21,7 @@ globalCourseListPreset
 							with: 'Ansehen'].
 						[:user :course | true]}.
 					{''. [:component :html :course |
-						html anchor callback: [component session user joinCourse: course];
+						html anchor callback: [component session messageComponent infoMessage: (component session user joinCourse: course)];
 							class: 'btn btn-xs btn-success cms-btn-small';
 							with: 'Einschreiben'].
 						[:user :course | (user isEnrolled: course) not]}.

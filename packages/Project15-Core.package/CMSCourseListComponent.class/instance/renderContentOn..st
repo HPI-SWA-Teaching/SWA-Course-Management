@@ -26,4 +26,4 @@ renderContentOn: html
 										class: 'table';
 										with: [
 											self renderTableHeadersOn: html.
-											self renderCoursesOn: html]]]]]
+											self renderCoursesOn: html]]]]].

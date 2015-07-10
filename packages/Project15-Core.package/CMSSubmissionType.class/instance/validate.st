@@ -7,5 +7,6 @@ validate
 	self extensions content 
 		ifEmpty: [^ CMSMessageComponent errorMissingSubmissionFileType].
 
-	(self extensions content matchesRegex: '\.\w+(\, \.\w+)*') ifFalse: [^ CMSMessageComponent errorNotValidFileType].
-		^''. 
+	(self extensions content matchesRegex: '\.\w+(\, \.\w+)*') 
+		ifFalse: [^ CMSMessageComponent errorNotValidFileType].
+	^ ''. 

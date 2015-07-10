@@ -1,4 +1,4 @@
 errormessages
 errorMissingCourseTitle
 
-	^ 'Bitte gebe die Bezeichnung der Veranstaltung ein.'.
+	^ 'Bitte gebe einen Titel der Veranstaltung ein.'.

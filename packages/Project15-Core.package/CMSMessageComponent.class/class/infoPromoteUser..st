@@ -1,4 +1,4 @@
 infomessages
-infoPromoteUser: aUsername
+infoPromoteUser: aUser
 
-	^ 'Die Rolle des Benutzers ' , aUsername, ' wurde auf Admin geändert.'.
+	^ 'Die Rolle des Benutzers ' , aUser username content, ' wurde auf Admin geändert.'.

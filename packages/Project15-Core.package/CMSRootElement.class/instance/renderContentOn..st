@@ -17,7 +17,6 @@ renderContentOn: html
 						class: 'content-header';
 						with: [ 
 							self renderContentHeaderOn: html.
-							"display info or error messages"
 						 	html render: self session messageComponent].
 					html div
 						class: 'content';		
