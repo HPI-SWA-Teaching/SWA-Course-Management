@@ -11,7 +11,8 @@
 		"term",
 		"participents",
 		"groups",
-		"topics" ],
+		"topics",
+		"submissions" ],
 	"name" : "CMSCourse",
 	"pools" : [
 		 ],

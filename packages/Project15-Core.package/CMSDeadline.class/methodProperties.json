@@ -1,0 +1,25 @@
+{
+	"class" : {
+		"extraSpace" : "tk 7/10/2015 14:19" },
+	"instance" : {
+		"asString" : "tk 7/10/2015 14:46",
+		"day" : "tk 7/10/2015 13:41",
+		"day:" : "tk 7/10/2015 13:41",
+		"hour" : "tk 7/10/2015 13:41",
+		"hour:" : "tk 7/10/2015 13:41",
+		"initialize" : "tk 7/10/2015 14:25",
+		"minute" : "tk 7/10/2015 13:41",
+		"minute:" : "tk 7/10/2015 13:41",
+		"month" : "tk 7/10/2015 13:41",
+		"month:" : "tk 7/10/2015 13:41",
+		"renderDateInputOn:" : "tk 7/10/2015 13:58",
+		"renderDayInputOn:" : "tk 7/10/2015 14:18",
+		"renderEditingFieldsFor:On:" : "tk 7/10/2015 14:17",
+		"renderHourInputOn:" : "tk 7/10/2015 14:18",
+		"renderMinuteInputOn:" : "tk 7/10/2015 14:18",
+		"renderMonthInputOn:" : "tk 7/10/2015 14:09",
+		"renderTimeInputOn:" : "tk 7/10/2015 13:40",
+		"renderYearInputOn:" : "tk 7/10/2015 14:18",
+		"validate" : "tk 7/10/2015 14:34",
+		"year" : "tk 7/10/2015 13:41",
+		"year:" : "tk 7/10/2015 13:41" } }

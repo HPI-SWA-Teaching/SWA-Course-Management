@@ -1,4 +1,4 @@
 as yet unclassified
 changeBack
 
-	self view: self editedObject
+	self changeBackBlock value: self

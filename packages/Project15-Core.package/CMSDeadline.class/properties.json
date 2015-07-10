@@ -1,0 +1,18 @@
+{
+	"category" : "Project15-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"year",
+		"month",
+		"day",
+		"hour",
+		"minute" ],
+	"name" : "CMSDeadline",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -10,7 +10,8 @@
 		"isAdmin",
 		"courses",
 		"groups",
-		"topics" ],
+		"topics",
+		"submissions" ],
 	"name" : "CMSUser",
 	"pools" : [
 		 ],

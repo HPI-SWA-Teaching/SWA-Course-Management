@@ -9,7 +9,8 @@
 		"title",
 		"members",
 		"course",
-		"topics" ],
+		"topics",
+		"submissions" ],
 	"name" : "CMSGroup",
 	"pools" : [
 		 ],

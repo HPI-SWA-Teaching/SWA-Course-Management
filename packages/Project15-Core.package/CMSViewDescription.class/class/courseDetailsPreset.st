@@ -49,4 +49,22 @@ courseDetailsPreset
 				data: [:course | course participents];
 				buttons: #();
 				structure:
-					{{'Name'. [:ignore :html :user | html text: user title content]. [:user :topic | true]}}}
+					{{'Name'. [:ignore :html :user | html text: user title content]. [:user :topic | true]}}.
+			CMSTableViewDescription new
+				header: 'Abgaben';
+				data: [:course | course submissions];
+				buttons: {{'Neue Abgabe'. 'btn btn-xs btn-success'. [:component :course | [component editNew: CMSSubmission with: [:submission | submission course: course]]]. [:user | user isAdmin]}};
+				structure:
+					{{'Name'. [:ignore :html :submission | html text: submission title content]. [:user :submission | true]}.
+					{'Artefakt'. [:ignore :html :submission | html text: submission type title content]. [:user : submission | true]}.
+					{'Abgabe'. [:ignore :html :submission | html text: submission deadline asString]. [:user : submission | true]}.
+					{''. [:component :html :submission |
+						html anchor callback: [component view: submission];
+							class: 'btn btn-xs btn-primary cms-btn-small';
+							with: 'Ansehen'].
+						[:user :submission | true]}.
+					{''. [:component :html :submission |
+						html anchor callback: [component edit: submission];
+							class: 'btn btn-xs btn-primary cms-btn-small';
+							with: 'Bearbeiten'].
+						[:user :submission | user isAdmin]}}}

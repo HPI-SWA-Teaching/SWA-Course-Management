@@ -1,7 +1,7 @@
 {
 	"category" : "Project15-Core",
 	"classinstvars" : [
-		 ],
+		"assignmentDescriptions" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -9,7 +9,10 @@
 		"title",
 		"description",
 		"type",
-		"assignments" ],
+		"assignments",
+		"groups",
+		"course",
+		"deadline" ],
 	"name" : "CMSSubmission",
 	"pools" : [
 		 ],

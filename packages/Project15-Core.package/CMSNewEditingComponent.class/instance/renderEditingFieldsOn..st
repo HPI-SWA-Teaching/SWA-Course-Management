@@ -5,4 +5,6 @@ renderEditingFieldsOn: html
 		do: [ :directive | 
 			html tableRow: [ 
 				html text: directive first.
-				directive second renderEditingFieldsFor: self editedObject On: html]]
+				html break.
+				directive second renderEditingFieldsFor: self editedObject On: html.
+				html break]]
