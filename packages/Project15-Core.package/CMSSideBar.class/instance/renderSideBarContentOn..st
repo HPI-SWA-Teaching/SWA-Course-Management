@@ -17,6 +17,18 @@ renderSideBarContentOn: html
 						preparedBy: [:component | component data: #userCourses]];
 			with: [
 				html span: CMSUserCourseListComponent caption.]].
+	html listItem: [
+		html anchor
+			callback: [self rootComponent setMainContentTo: CMSDetailsComponent
+						preparedBy: [:component | component data: #userGroups]];
+			with: [
+				html span: 'Meine Gruppen'.]].
+	html listItem: [
+		html anchor
+			callback: [self rootComponent setMainContentTo: CMSDetailsComponent
+						preparedBy: [:component | component data: #userSubmissions]];
+			with: [
+				html span: 'Meine Abgaben'.]].
 	user := self session user.
 	"display admin menue items"
 	user isAdmin ifTrue: [

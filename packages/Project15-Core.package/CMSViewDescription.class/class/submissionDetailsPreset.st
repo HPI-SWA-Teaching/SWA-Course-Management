@@ -4,7 +4,7 @@ submissionDetailsPreset
 	^ self new
 		header: 'Abgabeübersicht';
 		traceDescription: [:submission | {{'Alle Lehrveranstaltungen'. #allCourses}.
-			{submission title content. submission}}];
+			{submission course title content. submission course}}];
 		buttons: #(); "Keine Buttons"
 		generalStructure:
 			{{'Bezeichnung'. [:submission | submission title content]}.

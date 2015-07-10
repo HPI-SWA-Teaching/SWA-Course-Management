@@ -26,4 +26,16 @@ groupDetailsPreset
 						html anchor callback: [component view: topic];
 							class: 'btn btn-xs btn-primary cms-btn-small';
 							with: 'Ansehen'].
-						[:user :topic | true]}}}
+						[:user :topic | true]}}.
+			CMSTableViewDescription new
+				header: 'Abgaben';
+				data: [:group | group submissions];
+				buttons: #();
+				structure:
+					{{'Abgabe'. [:ignore :html :submission | html text: submission title content]. [:user :submission | true]}.
+					{'Termin'. [:ignore :html :submission | html text: submission deadline asString]. [:user :submission | true]}.
+					{''. [:component :html :submission |
+						html anchor callback: [component view: submission];
+							class: 'btn btn-xs btn-primary cms-btn-small';
+							with: 'Ansehen'].
+						[:user :submission | true]}}}
