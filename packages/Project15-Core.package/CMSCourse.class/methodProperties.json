@@ -4,7 +4,9 @@
 		"defaultGroupNamePrefix" : "tk 5/31/2015 10:43",
 		"detailsPreset" : "tk 7/3/2015 14:01",
 		"named:" : "tk 7/8/2015 12:54",
-		"singularString" : "tk 7/8/2015 14:09" },
+		"pluralString" : "tk 7/14/2015 14:52",
+		"singularString" : "tk 7/8/2015 14:09",
+		"sortBlock" : "tk 7/14/2015 14:54" },
 	"instance" : {
 		"<" : "tk 5/15/2015 16:38",
 		"<=" : "tk 5/15/2015 16:39",

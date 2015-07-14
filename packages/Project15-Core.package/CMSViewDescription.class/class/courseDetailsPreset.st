@@ -4,7 +4,7 @@ courseDetailsPreset
 	^ self new
 		header: 'Veranstaltungsübersicht';
 		traceDescription: [:ignore | {{'Alle Lehrveranstaltungen'. #allCourses}}];
-		buttons: #(); "Keine Buttons"
+		buttons: {{'Bearbeiten'. 'btn btn-xs btn-success csm-btn-small'. [:component :course | [component edit: course]]. [:user :course | user isAdmin]}};
 		generalStructure:
 			{{'Veranstaltung'. [:course | course title content]}.
 			{'Semester'. [:course | course term asString]}.
@@ -13,7 +13,7 @@ courseDetailsPreset
 			{CMSTableViewDescription new
 				header: 'Gruppen';
 				data: [:course | course groups];
-				buttons: {{'Neue Gruppe'. 'btn btn-xs btn-success cms-btn-small'. [:component :course | [component assign: CMSUser to: (CMSGroup for: course)]]. [:user | true]}};
+				buttons: {{'Neue Gruppe'. 'btn btn-xs btn-success cms-btn-small'. [:component :course | [component assign: CMSUser to: (CMSGroup for: course)]]. [:user :course | (user isEnrolled: course) | user isAdmin]}};
 				structure:
 					{{'Gruppe'. [:ignore :html :group | html text: group title content]. [:user :group | true]}.
 					{'Anzahl Mitglieder'. [:ignore :html :group | html text: group members size]. [:user :group | true]}.
@@ -30,7 +30,7 @@ courseDetailsPreset
 			CMSTableViewDescription new
 				header: 'Themen';
 				data: [:course | course topics];
-				buttons: {{'Neues Thema'. 'btn btn-xs btn-success'. [:component :course | [component editNew: CMSTopic with: [:topic | topic course: course]]]. [:user | true]}};
+				buttons: {{'Neues Thema'. 'btn btn-xs btn-success'. [:component :course | [component editNew: CMSTopic with: [:topic | topic course: course]]]. [:user :course | true]}};
 				structure:
 					{{'Thema'. [:ignore :html :topic | html text: topic title content]. [:user :topic | true]}.
 					{'Beschreibung'. [:ignore :html :topic | html text: topic description content]. [:user :topic | true]}.
@@ -53,7 +53,7 @@ courseDetailsPreset
 			CMSTableViewDescription new
 				header: 'Abgaben';
 				data: [:course | course submissions];
-				buttons: {{'Neue Abgabe'. 'btn btn-xs btn-success'. [:component :course | [component editNew: CMSSubmission with: [:submission | submission course: course]]]. [:user | user isAdmin]}};
+				buttons: {{'Neue Abgabe'. 'btn btn-xs btn-success'. [:component :course | [component editNew: CMSSubmission with: [:submission | submission course: course]]]. [:user :course | user isAdmin]}};
 				structure:
 					{{'Name'. [:ignore :html :submission | html text: submission title content]. [:user :submission | true]}.
 					{'Artefakt'. [:ignore :html :submission | html text: submission type title content]. [:user : submission | true]}.

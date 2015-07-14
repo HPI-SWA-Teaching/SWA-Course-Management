@@ -1,4 +1,4 @@
 rendering
 membersBoxTitle
 
-	^ 'Mitglieder'
+	^ 'Gewählte ', self assignmentClass pluralString

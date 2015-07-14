@@ -1,4 +1,4 @@
 rendering
 candidateBoxTitle
 
-	^ 'Kandidaten'
+	^ 'Mögliche ', self assignmentClass pluralString

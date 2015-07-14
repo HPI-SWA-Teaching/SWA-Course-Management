@@ -2,7 +2,8 @@ rendering
 renderTableContentOf: description On: html
 
 	| tableData |
-	tableData := description data value: self data.
+	tableData := (description data value: self data) asOrderedCollection.
+	tableData ifNotEmpty: [tableData sort: tableData first class sortBlock].
 	html div class: 'box-body no-pading';
 		with: [html table
 			class: 'table';
