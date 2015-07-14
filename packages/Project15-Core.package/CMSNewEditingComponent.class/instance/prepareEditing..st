@@ -1,5 +1,5 @@
 accessing
 prepareEditing: anObject
 
-	self editedObject: anObject copy.
+	self editedObject: anObject veryDeepCopy.
 	self originalObject: anObject

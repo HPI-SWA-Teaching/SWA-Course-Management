@@ -6,8 +6,7 @@ groupDetailsPreset
 		traceDescription: [:group | {{'Alle Lehrveranstaltungen'. #allCourses}.
 			{group course title content. group course}}];
 		buttons: #(); "Keine Buttons"
-		generalStructure:
-			{{'Gruppe'. [:group | group title content]}};
+		generalStructure: #();
 		tables:
 			{CMSTableViewDescription new
 				header: 'Mitglieder';

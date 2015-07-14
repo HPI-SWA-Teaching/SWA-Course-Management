@@ -4,11 +4,8 @@ renderContentHeaderOn: html
 	self mainContent getTraceDescription ifNotEmpty:
 		[html anchor
 			class: 'btn btn-xs btn-primary cms-btn-small';
-			callback: [self view: self mainContent getTraceDescription last second];
-			with: [
-				html span
-					class: 'glyphicons glyphicons-arrow-left'.
-				html text: 'Zurück']].
+			callback: [self mainContent view: self mainContent getTraceDescription last second];
+			with: [html text: 'Zurück']].
 	html heading
 		level: 1;
 		with: (self mainContent caption).

@@ -2,13 +2,16 @@
 	"class" : {
 		"courseDetailsPreset" : "tk 7/14/2015 14:34",
 		"globalCourseListPreset" : "tk 7/14/2015 14:21",
-		"groupDetailsPreset" : "tk 7/14/2015 14:23",
+		"groupDetailsPreset" : "tk 7/14/2015 16:01",
 		"submissionDetailsPreset" : "tk 7/14/2015 14:35",
 		"submissionTypesPreset" : "tk 7/14/2015 14:22",
 		"topicDetailsPreset" : "tk 7/14/2015 14:37",
+		"userCourseListPreset" : "tk 7/14/2015 16:27",
 		"userCourseListPresetFor:" : "msc 7/10/2015 15:04",
-		"userGroupListPresetFor:" : "tk 7/10/2015 16:29",
+		"userGroupListPreset" : "tk 7/14/2015 16:26",
+		"userGroupListPresetFor:" : "tk 7/14/2015 16:26",
 		"userListPreset" : "msc 7/10/2015 15:21",
+		"userSubmissionListPreset" : "tk 7/14/2015 16:25",
 		"userSubmissionListPresetFor:" : "tk 7/10/2015 16:29" },
 	"instance" : {
 		"buttons" : "tk 7/3/2015 12:26",

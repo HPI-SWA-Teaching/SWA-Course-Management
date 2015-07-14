@@ -1,7 +1,7 @@
 {
 	"category" : "Project15-Core",
 	"classinstvars" : [
-		 ],
+		"globalPresets" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",

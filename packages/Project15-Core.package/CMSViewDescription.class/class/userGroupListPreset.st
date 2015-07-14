@@ -1,5 +1,5 @@
 as yet unclassified
-userGroupListPresetFor: aCMSUser
+userGroupListPreset
 
 	^ self new
 		header: 'Meine Gruppen';

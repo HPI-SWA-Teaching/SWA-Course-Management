@@ -2,11 +2,14 @@ rendering
 renderTableContentOf: description On: html
 
 	| tableData |
-	tableData := (description data value: self data) asOrderedCollection.
+	tableData := (description data value:
+		(self data isSymbol ifTrue: [self session user] ifFalse: [self data]))
+		asOrderedCollection.
 	tableData ifNotEmpty: [tableData sort: tableData first class sortBlock].
 	html div class: 'box-body no-pading';
 		with: [html table
 			class: 'table';
+			id: description header;
 			with: [
 				html tableRow: [
 					description structure do: [:column |
