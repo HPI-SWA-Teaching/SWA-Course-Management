@@ -4,6 +4,6 @@ initializeUsers
 	| userdb |
 
 	userdb := CMSImageDatabase instance.
-	1 to: 100 do: [:userID|
-		userdb registerUser: (CMSUser named: ('student#', userID))].
-	userdb registerUser: ((CMSUser named: 'admin') isAdmin: true). 
+	self names do: [:name|
+		userdb registerUser: (CMSUser named: name)].
+	userdb registerUser: ((CMSUser named: 'Admin') isAdmin: true). 

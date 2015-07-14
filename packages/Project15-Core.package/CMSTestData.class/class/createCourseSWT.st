@@ -1,19 +1,20 @@
 as yet unclassified
 createCourseSWT
 
-	| userdb course |
+	| userdb course db |
 
-	userdb := CMSImageDatabase instance userDb.
+	db := CMSImageDatabase instance userDb.
+	userdb := db values.
 	
 	course := (CMSCourse new) title: (CMSSingleLineString containing: 'SWT');
 					description: (CMSMultilineString containing: 'SoftwareEngineering at HPI');
 					term: (CMSSemester summer: 2015).
-	1 to: 50 do: [:userID |
-		(userdb at: ('student#' , userID) asSymbol) addCourse: course.].
+	userdb do: [:user |
+		user addCourse: course.].
 	0 to: 4 do: [:groupID |
 		| currentGroup |
 		currentGroup := course createNewGroup.
 			1 to: 10 do: [ :studentNumber |
-				currentGroup addNewMember: (userdb at: ('student#', ((groupID * 10) + studentNumber)) asSymbol)]].
-	(userdb at: #admin asSymbol) addCourse: course.
+				currentGroup addNewMember: (userdb at: studentNumber).]].
+	(db at: #Admin asSymbol) addCourse: course.
 	^course.
