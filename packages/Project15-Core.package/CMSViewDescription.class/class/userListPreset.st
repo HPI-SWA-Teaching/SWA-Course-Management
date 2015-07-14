@@ -2,7 +2,7 @@ as yet unclassified
 userListPreset
 
 	^ self new
-		header: 'Wenn Sie das hier lesen können, ist irgendetwas schiefgelaufen.';
+		header: 'Benutzerverwaltung';
 		traceDescription: [:ignore | {}];
 		buttons: #();
 		generalStructure: #();

@@ -2,13 +2,13 @@ as yet unclassified
 userSubmissionListPreset
 
 	^ self new
-		header: 'Meine Gruppen';
+		header: 'Meine Abgaben';
 		traceDescription: [:ignore | {}];
 		buttons: #();
 		generalStructure: #();
 		tables:
 			{CMSTableViewDescription new
-				header: 'Veranstaltungen';
+				header: 'Abgaben';
 				data: [:user | user collectAllSubmissions];
 				buttons: #();
 				structure:
@@ -21,6 +21,6 @@ userSubmissionListPreset
 						[:user :submission | true]}.
 					{''. [:component :html :submission |
 						html anchor callback: [component view: submission course];
-							class: 'btn btn-xs btn-danger cms-btn-small';
+							class: 'btn btn-xs btn-primary cms-btn-small';
 							with: 'Veranstaltung ansehen'].
 						[:user :submission | true]}}}

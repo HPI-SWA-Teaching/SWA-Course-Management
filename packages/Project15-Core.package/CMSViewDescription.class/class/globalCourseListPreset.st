@@ -2,7 +2,7 @@ as yet unclassified
 globalCourseListPreset
 
 	^ self new
-		header: 'Veranstaltungsübersicht';
+		header: 'Alle Lehrveranstaltungen';
 		traceDescription: [:ignore | {}];
 		buttons: #();
 		generalStructure: #();

@@ -7,9 +7,6 @@ renderHeadBoxOn: html
 				html div
 					class: 'box-header';
 					with: [	
-						html anchor
-							callback: [self returnToPredecessor];
-							with: self returnAnchorText.
 						html submitButton 
 							class:'btn btn-xs btn-success';
 							callback: [];

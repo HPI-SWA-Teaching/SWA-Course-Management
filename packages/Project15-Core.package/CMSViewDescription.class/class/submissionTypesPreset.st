@@ -2,7 +2,7 @@ as yet unclassified
 submissionTypesPreset
 
 	^ self new
-		header: '';
+		header: 'Alle Abgabeartefakte';
 		traceDescription: [:ignore | {}];
 		buttons: #(); "no buttons"
 		generalStructure: #();

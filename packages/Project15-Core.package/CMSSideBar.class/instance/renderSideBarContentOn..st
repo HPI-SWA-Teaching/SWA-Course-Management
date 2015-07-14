@@ -5,30 +5,18 @@ renderSideBarContentOn: html
 	html listItem
 		class: 'header';
 		with: 'Overview'.
+	html listItem
+		with: [
+			html anchor
+				callback: [self rootComponent setMainContentTo: CMSDetailsComponent
+					preparedBy: [:component | component data: #userProfile]];
+				with: 'Mein Profil'].
 	html listItem: [
 		html anchor
 			callback: [self rootComponent setMainContentTo: CMSDetailsComponent
 						preparedBy: [:component | component data: #allCourses]];
 			with: [
-				html span: CMSGlobalCourseListComponent caption.]].
-	html listItem: [
-		html anchor
-			callback: [self rootComponent setMainContentTo: CMSDetailsComponent
-						preparedBy: [:component | component data: #userCourses]];
-			with: [
-				html span: CMSUserCourseListComponent caption.]].
-	html listItem: [
-		html anchor
-			callback: [self rootComponent setMainContentTo: CMSDetailsComponent
-						preparedBy: [:component | component data: #userGroups]];
-			with: [
-				html span: 'Meine Gruppen'.]].
-	html listItem: [
-		html anchor
-			callback: [self rootComponent setMainContentTo: CMSDetailsComponent
-						preparedBy: [:component | component data: #userSubmissions]];
-			with: [
-				html span: 'Meine Abgaben'.]].
+				html span: 'Alle Lehrveranstaltungen']].
 	user := self session user.
 	"display admin menue items"
 	user isAdmin ifTrue: [
@@ -37,10 +25,10 @@ renderSideBarContentOn: html
 				callback: [self rootComponent setMainContentTo: CMSDetailsComponent
 							preparedBy: [:component | component data: #userList]];
 			with: [
-				html span: CMSUserListComponent caption]].
+				html span: 'Benutzerverwaltung']].
 		html listItem: [
 			html anchor
 				callback: [self rootComponent setMainContentTo: CMSDetailsComponent
 							preparedBy: [:component | component data: #submissionTypes]];
 			with: [
-				html span: CMSSubmissionComponent caption]]].
+				html span: 'Alle Abgabeartefakte']]].

@@ -1,5 +1,5 @@
 as yet unclassified
 getEditingTraceDescription
 
-	^ {{'Alle Lehrveranstaltungen'. #allCourses}.
+	^ {{CMSViewDescription globalCourseListPreset header. #allCourses}.
 		{self title content. self}}

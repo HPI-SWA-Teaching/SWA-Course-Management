@@ -8,11 +8,11 @@ userGroupListPreset
 		generalStructure: #();
 		tables:
 			{CMSTableViewDescription new
-				header: 'Veranstaltungen';
+				header: 'Gruppen';
 				data: [:user | user groups];
 				buttons: #();
 				structure:
-					{{'Semester'. [:ignore :html :group | html text: group title content]. [:user :group | true]}.
+					{{'Name'. [:ignore :html :group | html text: group title content]. [:user :group | true]}.
 					{'Lehrveranstaltung'. [:ignore :html :group | html text: group course title content]. [:user :group | true]}.
 					{''. [:component :html :group |
 						html anchor callback: [component view: group];

@@ -3,8 +3,6 @@ defaultGlobalPresets
 
 	^ Dictionary newFrom:
 		{#allCourses -> #globalCourseListPreset.
-		#userCourses -> #userCourseListPreset.
-		#userGroups -> #userGroupListPreset.
-		#userSubmissions -> #userSubmissionListPreset.
 		#userList -> #userListPreset.
+		#userProfile -> #userProfilePreset.
 		#submissionTypes -> #submissionTypesPreset}
