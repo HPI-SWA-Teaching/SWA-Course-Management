@@ -9,5 +9,5 @@ go
 		self session login: user.
 		self rootComponent
 			setMainContentTo: CMSDetailsComponent
-			preparedBy: [:component | component data: #userCourses].
+			preparedBy: [:component | component data: #userProfile].
 		self call: self rootComponent]
