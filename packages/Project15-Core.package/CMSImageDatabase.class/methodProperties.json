@@ -5,7 +5,9 @@
 	"instance" : {
 		"courseDb" : "msc 6/2/2015 17:30",
 		"courseDb:" : "msc 6/2/2015 17:30",
+		"findUserByName:" : "msc 7/17/2015 12:46",
 		"initialize" : "tk 7/3/2015 11:10",
+		"isUserRegistered:" : "msc 7/17/2015 13:09",
 		"registerCourse:" : "msc 6/20/2015 22:11",
 		"registerSubmissionType:" : "tk 7/3/2015 11:11",
 		"registerUser:" : "tk 7/8/2015 13:55",
