@@ -1,4 +1,0 @@
-validating
-sendDeleteAnswer
-
-	self subclassResponsibility

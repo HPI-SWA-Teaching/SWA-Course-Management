@@ -1,5 +1,9 @@
 as yet unclassified
 getEditingTraceDescription
 
-	^ {{'Abgabeartefakte'. #submissionTypes}.
-		{self title content. self}}
+	^ {Dictionary newFrom:
+			{#label -> (CMSDetailsComponent submissionTypesPreset at: #header).
+			#destination -> #submissionTypes}.
+		Dictionary newFrom:
+			{#label -> self title content.
+			#destination -> self}}

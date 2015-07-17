@@ -2,7 +2,11 @@ accessing
 defaultGlobalPresets
 
 	^ Dictionary newFrom:
-		{#allCourses -> #globalCourseListPreset.
-		#userList -> #userListPreset.
-		#userProfile -> #userProfilePreset.
-		#submissionTypes -> #submissionTypesPreset}
+		{#allCourses -> self globalCourseListPreset.
+		#userList -> self userListPreset.
+		#userProfile -> self userProfilePreset.
+		#submissionTypes -> self submissionTypesPreset.
+		CMSCourse -> self courseDetailsPreset.
+		CMSGroup -> self groupDetailsPreset.
+		CMSTopic -> self topicDetailsPreset.
+		CMSSubmission -> self submissionDetailsPreset}

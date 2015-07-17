@@ -1,5 +1,9 @@
 as yet unclassified
 getEditingTraceDescription
 
-	^ {{CMSViewDescription globalCourseListPreset header. #allCourses}.
-		{self title content. self}}
+	^ {Dictionary newFrom:
+			{#label -> (CMSDetailsComponent globalCourseListPreset at: #header).
+			#destination -> #allCourses}.
+		Dictionary newFrom:
+			{#label -> self title content.
+			#destination -> self}}

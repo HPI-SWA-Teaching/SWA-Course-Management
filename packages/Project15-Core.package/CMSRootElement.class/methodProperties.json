@@ -3,6 +3,7 @@
 		"canBeRoot" : "tk 6/4/2015 17:13",
 		"initialize" : "msc 6/18/2015 22:53" },
 	"instance" : {
+		"children" : "msc 5/20/2015 21:11",
 		"components" : "msc 5/22/2015 18:07",
 		"components:" : "msc 5/22/2015 18:07",
 		"createComponent:" : "msc 6/20/2015 22:07",
@@ -15,8 +16,10 @@
 		"mainContent:" : "msc 5/15/2015 15:34",
 		"menuBar" : "msc 7/17/2015 11:48",
 		"menuBar:" : "msc 7/17/2015 11:48",
+		"menuContent" : "msc 6/20/2015 22:08",
+		"menuContent:" : "MarvMaster 5/21/2015 13:50",
 		"renderContentBreadcrumbOn:" : "msc 7/17/2015 12:04",
-		"renderContentHeaderOn:" : "msc 7/17/2015 12:05",
+		"renderContentHeaderOn:" : "tk 7/17/2015 14:51",
 		"renderContentMenuBarOn:" : "msc 7/17/2015 11:52",
 		"renderContentOn:" : "msc 7/17/2015 11:54",
 		"renderContentSideBarOn:" : "msc 7/17/2015 11:55",
@@ -26,4 +29,6 @@
 		"setMainContentTo:preparedBy:" : "tk 6/12/2015 16:31",
 		"sideBar" : "msc 7/17/2015 11:49",
 		"sideBar:" : "msc 7/17/2015 11:49",
+		"sidebarContent" : "t.a. 6/9/2015 17:22",
+		"sidebarContent:" : "t.a. 6/9/2015 17:22",
 		"updateRoot:" : "msc 7/17/2015 11:25" } }

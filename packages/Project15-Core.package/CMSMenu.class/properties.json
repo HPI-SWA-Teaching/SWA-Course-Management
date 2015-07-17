@@ -1,0 +1,14 @@
+{
+	"category" : "Project15-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"rootComponent" ],
+	"name" : "CMSMenu",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

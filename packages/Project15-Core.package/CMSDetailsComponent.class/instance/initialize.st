@@ -2,4 +2,4 @@ initialization
 initialize
 
 	super initialize.
-	self data: #userCourses
+	self data: #userProfile

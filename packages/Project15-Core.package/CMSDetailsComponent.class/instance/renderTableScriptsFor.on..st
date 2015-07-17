@@ -1,7 +1,7 @@
 rendering - dispatch
 renderTableScriptsFor: preset on: html
 
-	(preset tables collect: [:table | table header]) do: [:header |
+	((preset at: #tables) collect: [:table | table at: #header]) do: [:header |
 		html script:
 			'$(function () {
 	        		$(''#', header ,''').DataTable({
