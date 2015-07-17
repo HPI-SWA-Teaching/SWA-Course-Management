@@ -1,5 +1,5 @@
 rendering
 displayMenuBar
 
-	self menuContent: CMSMenu new.
-	self menuContent rootComponent: self
+	self menuBar: CMSMenu new.
+	self menuBar rootComponent: self

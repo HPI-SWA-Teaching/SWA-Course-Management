@@ -9,4 +9,4 @@ validate
 
 	(self extensions content matchesRegex: '\.\w+(\, \.\w+)*') 
 		ifFalse: [^ CMSMessageComponent errorNotValidFileType].
-	^ ''. 
+	^ ''

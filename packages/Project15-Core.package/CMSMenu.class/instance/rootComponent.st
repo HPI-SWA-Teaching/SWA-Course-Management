@@ -1,4 +1,0 @@
-accessing
-rootComponent
-
-	^rootComponent.

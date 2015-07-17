@@ -1,4 +1,4 @@
 comparing
 > aCMSSemester
 
-	^ aCMSSemester < self.
+	^ aCMSSemester < self

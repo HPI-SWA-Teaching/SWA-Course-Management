@@ -6,4 +6,4 @@ validate
 
 	self description content
 		ifEmpty: [^ CMSMessageComponent errorMissingTopicDescription].
-	^ ''.
+	^ ''
