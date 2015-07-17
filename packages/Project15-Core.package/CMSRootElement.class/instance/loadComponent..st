@@ -1,5 +1,5 @@
-as yet unclassified
+component
 loadComponent: aComponentClass
 
 	^ self components at: aComponentClass
-		ifAbsent: [self createComponent: aComponentClass].
+		ifAbsent: [self createComponent: aComponentClass]

@@ -8,9 +8,9 @@
 	"instvars" : [
 		"components",
 		"mainContent",
-		"menuContent",
-		"footer",
-		"sidebarContent" ],
+		"menuBar",
+		"sideBar",
+		"footer" ],
 	"name" : "CMSRootElement",
 	"pools" : [
 		 ],

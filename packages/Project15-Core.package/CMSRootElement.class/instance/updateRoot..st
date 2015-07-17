@@ -7,4 +7,4 @@ updateRoot: anHtmlRoot
 	anHtmlRoot stylesheet url: 'https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'.
 	anHtmlRoot stylesheet url: 'static/dist/css/AdminLTE.min.css'.
 	anHtmlRoot stylesheet url: 'static/dist/css/skins/skin-blue.min.css'.
-	anHtmlRoot bodyAttributes addClass: 'skin-blue'.
+	anHtmlRoot bodyAttributes addClass: 'skin-blue'

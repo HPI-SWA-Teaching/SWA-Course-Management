@@ -20,5 +20,5 @@ renderContentHeaderOn: html
 					with: [
 						html inserted 
 							class: 'fa fa-dashboard'.
-						html text: ' Home'.]].
-			self mainContent renderTraceOn: html.]
+						html text: ' Home']].
+			self mainContent renderTraceOn: html]

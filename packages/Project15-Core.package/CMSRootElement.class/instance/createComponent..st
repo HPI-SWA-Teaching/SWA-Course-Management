@@ -1,4 +1,4 @@
-as yet unclassified
+component
 createComponent: aComponentClass 
 
 	| newComponent |
