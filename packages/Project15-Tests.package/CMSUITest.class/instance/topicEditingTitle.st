@@ -1,4 +1,4 @@
 accessing
 topicEditingTitle
 
-	^ driver findElementByClassName: 'text'.
+	^ driver findElementByXPath: '/html/body/div[1]/div[3]/div[2]/form/input'
