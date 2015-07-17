@@ -2,8 +2,18 @@
 	"class" : {
 		 },
 	"instance" : {
-		"renderContentOn:" : "msc 6/20/2015 22:05",
-		"renderSideBarContentOn:" : "mg 7/17/2015 12:23",
-		"renderUserMenuOn:" : "tk 7/8/2015 13:57",
+		"renderAdminItemsOn:with:" : "msc 7/17/2015 14:55",
+		"renderContentOn:" : "msc 7/17/2015 15:11",
+		"renderSideBarContentOn:" : "msc 7/17/2015 15:14",
+		"renderSideBarHeaderOn:" : "msc 7/17/2015 15:08",
+		"renderSideBarItemCoursesOn:" : "msc 7/17/2015 14:49",
+		"renderSideBarItemProfileOn:" : "msc 7/17/2015 14:18",
+		"renderSideBarItemSubmissionsOn:" : "msc 7/17/2015 14:51",
+		"renderSideBarItemUsersOn:" : "msc 7/17/2015 14:51",
+		"renderUserImageOn:" : "msc 7/17/2015 15:15",
+		"renderUserItemsOn:" : "msc 7/17/2015 15:04",
+		"renderUserMenuOn:" : "msc 7/17/2015 15:17",
+		"renderUserNameOn:with:" : "msc 7/17/2015 15:16",
+		"renderUserRoleOn:with:" : "msc 7/17/2015 15:17",
 		"rootComponent" : "t.a. 6/9/2015 18:15",
 		"rootComponent:" : "t.a. 6/9/2015 18:15" } }
