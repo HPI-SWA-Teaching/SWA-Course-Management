@@ -1,0 +1,14 @@
+{
+	"category" : "Project15-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CMSUserCourseListComponent",
+	"pools" : [
+		 ],
+	"super" : "CMSCourseListComponent",
+	"type" : "normal" }

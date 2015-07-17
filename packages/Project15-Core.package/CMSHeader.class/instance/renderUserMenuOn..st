@@ -2,7 +2,8 @@ rendering
 renderUserMenuOn: html
 
 	html listItem: [
-			html anchor 
+			html anchor
+				id: 'logout'; 
 				callback: [
 					self session logout.
 					self rootComponent answer: nil.
