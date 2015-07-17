@@ -8,6 +8,7 @@ renderMainContentOn: html
 				class: 'content-header';
 				with: [ 
 					self renderContentHeaderOn: html.
+					self renderContentBreadcrumbOn: html.
 				 	html render: self session messageComponent].
 			html div
 				class: 'content';		
