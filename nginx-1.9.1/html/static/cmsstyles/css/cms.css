@@ -38,3 +38,14 @@
 	right: 0;
 	left: 0%;
 }
+
+.content-header > .breadcrumb > li > a:HOVER {
+	text-decoration: underline;
+}
+
+#Themen td {
+  max-width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
