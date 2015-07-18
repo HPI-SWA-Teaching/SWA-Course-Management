@@ -32,3 +32,9 @@
 	min-width: 6.5em;
 	width: auto;
 }
+
+.content-wrapper {
+	position: absolute;
+	right: 0;
+	left: 0%;
+}
