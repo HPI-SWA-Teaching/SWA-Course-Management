@@ -37,19 +37,33 @@
 }*/
 
 .edit-form input,
-.edit-form  textarea {
+.edit-form  textarea, 
+.edit-form select  {
 	width: 500px;
 }
 
-.edit-form textarea {
-	height: 200px;
+.edit-form .number {
+	width: 30px;
 }
+
+.edit-form textarea {
+	height: 150px;
+}
+
+.edit-form select,
+.edit-form .number {
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
 .edit-form .form-control {
-	border-radius: 8px;
+	border-radius: 4px;
 	-webkit-box-shadow: inset 2px 3px 18px -17px rgba(56,55,56,1);
 	-moz-box-shadow: inset 2px 3px 18px -17px rgba(56,55,56,1);
 	box-shadow: inset 2px 3px 18px -17px rgba(56,55,56,1);
 }
+
 
 .table > tbody > tr > td, 
 .table > tbody > tr > th, 
@@ -77,13 +91,20 @@
 }
 
 #cms-content {
-	min-height: 548px;
+	min-height: 580px;
 	height: 100%;
 }
 
 #Themen td:nth-child(2){
-  max-width: 200px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+	max-width: 200px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}  
+
+#Veranstaltungen td:nth-child(3) {
+	max-width: 200px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
