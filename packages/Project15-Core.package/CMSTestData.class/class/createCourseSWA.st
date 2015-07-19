@@ -17,4 +17,5 @@ createCourseSWA
 			1 to: 10 do: [ :studentNumber |
 				currentGroup addNewMember: (userdb at: studentNumber).]].
 	(db at: #Admin asSymbol) addCourse: course.
-	^course.
+	self initializeTestData: course.
+	^ course.

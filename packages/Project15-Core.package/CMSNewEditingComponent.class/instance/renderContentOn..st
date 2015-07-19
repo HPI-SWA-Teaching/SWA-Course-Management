@@ -1,9 +1,10 @@
-as yet unclassified
+rendering
 renderContentOn: html
 
-	html form: [
-		html table 
-			class: 'cms-table';  
-			with:[
-				self renderEditingFieldsOn: html;
-				renderButtonsOn: html]].
+	html form
+		class: 'edit-form';
+		with: [
+			html table 
+				with: [
+					self renderEditingFieldsOn: html;
+					renderButtonsOn: html]].

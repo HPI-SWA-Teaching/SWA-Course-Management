@@ -5,4 +5,4 @@ chooseTopic: aCMSTopic
 		self topic removeGroup: self].
 
 	self topic: aCMSTopic.
-	aCMSTopic addGroup: self.
+	aCMSTopic addGroup: self

@@ -16,10 +16,6 @@
 	color: #9b3428;
 }
 
-.btn-group.cms-edit-btn-group {
-	margin-top: 3em;
-}
-
 .btn-group .cms-btn-small {
 	margin: 0.5em 1em 0.5 0;
 	min-width: 6.5em;
@@ -29,22 +25,64 @@
 
 .cms-btn-small {
 	margin: 0.5em 1em 0.5 0;
-	min-width: 6.5em;
+	min-width: 6.0em;
 	width: auto;
 }
 
-.content-wrapper {
-	position: absolute;
-	right: 0;
-	left: 0%;
+/*.box-body {
+	max-height: 350px;
+	height: auto;
+	overflow-x: hidden;
+	overflow-y: auto;
+}*/
+
+.edit-form input,
+.edit-form  textarea {
+	width: 500px;
+}
+
+.edit-form textarea {
+	height: 200px;
+}
+.edit-form .form-control {
+	border-radius: 8px;
+	-webkit-box-shadow: inset 2px 3px 18px -17px rgba(56,55,56,1);
+	-moz-box-shadow: inset 2px 3px 18px -17px rgba(56,55,56,1);
+	box-shadow: inset 2px 3px 18px -17px rgba(56,55,56,1);
+}
+
+.table > tbody > tr > td, 
+.table > tbody > tr > th, 
+.table > tfoot > tr > td, 
+.table > tfoot > tr > th, 
+.table > thead > tr > td, 
+.table > thead > tr > th {
+	line-height: 1.2;
+}
+
+.col-md-6,
+.col-md-9,
+.col-md-12 {
+	padding-left: 10px;
+	padding-right: 0px;
+}
+.col-md-6:last-child,
+.col-md-9:last-child,
+.col-md-12:last-child {
+	padding-right: 10px;
 }
 
 .content-header > .breadcrumb > li > a:HOVER {
 	text-decoration: underline;
 }
 
-#Themen td {
-  max-width: 250px;
+#cms-content {
+	min-height: 548px;
+	height: 100%;
+}
+
+#Themen td:nth-child(2){
+  max-width: 200px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;

@@ -6,7 +6,7 @@ renderTableContentOf: description On: html
 		(self data isSymbol ifTrue: [self session user] ifFalse: [self data]))
 		asOrderedCollection.
 	tableData ifNotEmpty: [tableData sort: tableData first class sortBlock].
-	html div class: 'box-body no-pading';
+	html div class: 'box-body no-padding';
 		with: [html table
 			class: 'table';
 			id: (description at: #header);

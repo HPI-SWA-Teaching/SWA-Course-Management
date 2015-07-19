@@ -1,7 +1,8 @@
 rendering
 renderMainContentOn: html
 
-	html div 
+	html div
+		id: 'cms-content'; 
 		class: 'content-wrapper';
 		with: [
 			html div

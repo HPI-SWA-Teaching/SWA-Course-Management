@@ -11,9 +11,7 @@ userRoleAssignmentTable
 			Dictionary newFrom:
 				{#label -> 'Rang'.
 				#contentRenderer -> [:ignore :html :user |
-					html text: (user isAdmin
-						ifTrue: ['Admin']
-						ifFalse: ['Student'])]}.
+					html text: user roleAsString]}.
 			Dictionary newFrom:
 				{#contentRenderer -> [:component :html :user |
 					html anchor callback:

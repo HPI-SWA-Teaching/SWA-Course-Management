@@ -1,11 +1,11 @@
-as yet unclassified
+rendering
 renderButtonsOn: html
 
 	| isUserAdmin|
 	isUserAdmin := self session user isAdmin.
 
 	html div 
-		class: 'btn-group cms-edit-btn-group pull-left';
+		class: 'btn-group pull-left';
 		with: [
 			html submitButton 
 				class: 'btn btn-xs btn-primary cms-btn-small', (isUserAdmin ifFalse: [' disabled'] ifTrue: ['']);

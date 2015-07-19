@@ -2,7 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
+		"renderButtonLogoutOn:" : "msc 7/17/2015 15:44",
 		"renderContentOn:" : "msc 7/9/2015 23:50",
-		"renderUserMenuOn:" : "mg 7/9/2015 14:30",
+		"renderUserMenuOn:" : "msc 7/17/2015 15:44",
 		"rootComponent" : "t.a. 6/9/2015 18:13",
 		"rootComponent:" : "t.a. 6/9/2015 18:13" } }

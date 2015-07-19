@@ -12,7 +12,7 @@ topicDetailsPreset
 				#destination -> topic course}}].
 		#buttons -> {Dictionary newFrom:
 			{#label -> 'Bearbeiten'.
-			#class -> 'btn btn-xs btn-success csm-btn-small'.
+			#class -> 'btn btn-xs btn-success cms-btn-small'.
 			#callbackConstructor -> [:component :topic |
 				[component edit: topic]].
 			#visibilityTest -> [:user :topic | (user groups anySatisfy: [:group | group topics includes: topic]) | user isAdmin]}}.
