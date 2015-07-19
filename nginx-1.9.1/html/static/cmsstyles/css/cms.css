@@ -36,10 +36,13 @@
 	overflow-y: auto;
 }*/
 
-.edit-form input,
+.edit-form input, input.form-control.number,
 .edit-form  textarea, 
 .edit-form select  {
 	width: 500px;
+}
+
+.edit-form .form-contro.number {
 }
 
 .edit-form .number {
