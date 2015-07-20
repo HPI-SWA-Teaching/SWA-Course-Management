@@ -2,4 +2,5 @@ initialization
 initialize
 
 	super initialize.
-	self data: #userProfile
+	self data: #userProfile;
+		detailsPresets: self class defaultGlobalPresets

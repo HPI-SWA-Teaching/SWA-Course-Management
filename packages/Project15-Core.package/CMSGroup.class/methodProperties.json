@@ -1,16 +1,10 @@
 {
 	"class" : {
-		"assignmentDescriptions" : "t.a. 7/3/2015 17:57",
-		"assignmentDescriptions:" : "t.a. 7/3/2015 17:54",
-		"defaultDescriptions" : "t.a. 7/3/2015 18:00",
-		"detailsPreset" : "tk 7/3/2015 15:59",
 		"for:" : "tk 7/7/2015 13:55",
 		"named:" : "tk 7/3/2015 10:26",
 		"pluralString" : "tk 7/8/2015 14:59",
 		"singularString" : "tk 7/8/2015 14:08",
-		"sortBlock" : "t.a. 7/3/2015 18:20",
-		"topicDescription" : "tk 7/8/2015 12:24",
-		"userDescription" : "tk 7/8/2015 12:24" },
+		"sortBlock" : "t.a. 7/3/2015 18:20" },
 	"instance" : {
 		"addMember:" : "msc 6/20/2015 22:12",
 		"addNewMember:" : "msc 6/20/2015 22:12",

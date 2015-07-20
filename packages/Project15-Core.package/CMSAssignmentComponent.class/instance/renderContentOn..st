@@ -10,7 +10,7 @@ renderContentOn: html
 					with: [self renderHeadBoxOn: html].		
 				html div
 					class: 'col-md-6';
-					with:[self renderCandidatesBoxOn: html].
+					with:[self renderBoxFor: #candidates On: html].
 				html div
 					class: 'col-md-6';
-					with:[self renderMembersBoxOn: html.]]]
+					with:[self renderBoxFor: #members On: html.]]]

@@ -1,4 +1,4 @@
-accessing
+presets - details
 defaultGlobalPresets
 
 	^ Dictionary newFrom:
