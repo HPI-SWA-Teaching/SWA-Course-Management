@@ -12,7 +12,7 @@ submissionDetailsPreset
 				#destination -> submission course}}].
 		#buttons -> {Dictionary newFrom:
 			{#label -> 'Bearbeiten'.
-			#class -> 'btn btn-xs btn-success csm-btn-small'.
+			#class -> 'btn btn-xs btn-success cms-btn-small'.
 			#callbackConstructor -> [:component :submission |
 				[component edit: submission]].
 			#visibilityTest -> [:user :submission | user isAdmin]}}.

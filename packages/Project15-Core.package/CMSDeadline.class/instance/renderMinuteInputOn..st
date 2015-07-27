@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 renderMinuteInputOn: html
 
 	html numberInput

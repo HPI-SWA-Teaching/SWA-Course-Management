@@ -9,4 +9,4 @@ renderPanelWithHeader: header content: content on: html
 				with: header.
 			html div
 				class: 'box-body';
-				with: content.]
+				with: content]

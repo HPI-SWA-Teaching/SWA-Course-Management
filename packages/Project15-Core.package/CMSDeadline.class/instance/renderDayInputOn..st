@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 renderDayInputOn: html
 
 	html numberInput

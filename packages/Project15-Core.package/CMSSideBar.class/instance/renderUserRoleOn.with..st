@@ -1,9 +1,6 @@
 rendering
 renderUserRoleOn: html with: aCMSUser
 
-	html anchor
-		url: '#';
-		with: [
-			html inserted
-				class: 'fa fa-circle text-success'.
-				html text: ' ', aCMSUser roleAsString]
+	html label 
+		class: 'cms-label-small cms-vertical';
+		with: aCMSUser roleAsString

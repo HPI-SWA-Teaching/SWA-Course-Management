@@ -1,3 +1,28 @@
+#cms-content {
+	min-height: 580px;
+	height: 100%;
+}
+
+.cms-horizontal {
+	display: inline;
+}
+
+.cms-vertical {
+	display: block;
+}
+
+.col-md-6,
+.col-md-9,
+.col-md-12 {
+	padding-left: 10px;
+	padding-right: 0px;
+}
+.col-md-6:LAST-CHILD,
+.col-md-9:LAST-CHILD,
+.col-md-12:LAST-CHILD {
+	padding-right: 10px;
+}
+
 .info-message, .error-message {
 	border-radius: 3px;
 	margin: 5px 0;
@@ -16,6 +41,27 @@
 	color: #9b3428;
 }
 
+.cms-btn-small {
+	margin: 0.5em 1em 0.5 0;
+	min-width: 6.0em;
+	width: auto;
+}
+
+.cms-label-small {
+	font-size: 80%;
+	font-weight: normal;
+}
+
+.cms-label-default {
+	font-size: 100%;
+	font-weight: bold;
+}
+
+.cms-label-large {
+	font-size: 120%;
+	font-weight: bold;
+}
+
 .btn-group .cms-btn-small {
 	margin: 0.5em 1em 0.5 0;
 	min-width: 6.5em;
@@ -23,18 +69,10 @@
 	width: auto;
 }
 
-.cms-btn-small {
-	margin: 0.5em 1em 0.5 0;
-	min-width: 6.0em;
-	width: auto;
+.cms-btn-back {
+	vertical-align: baseline;
+	padding: 0 10px 0 0;
 }
-
-/*.box-body {
-	max-height: 350px;
-	height: auto;
-	overflow-x: hidden;
-	overflow-y: auto;
-}*/
 
 .edit-form input, input.form-control.number,
 .edit-form  textarea, 
@@ -64,7 +102,6 @@
 	box-shadow: inset 2px 3px 18px -17px rgba(56,55,56,1);
 }
 
-
 .table > tbody > tr > td, 
 .table > tbody > tr > th, 
 .table > tfoot > tr > td, 
@@ -74,25 +111,8 @@
 	line-height: 1.2;
 }
 
-.col-md-6,
-.col-md-9,
-.col-md-12 {
-	padding-left: 10px;
-	padding-right: 0px;
-}
-.col-md-6:last-child,
-.col-md-9:last-child,
-.col-md-12:last-child {
-	padding-right: 10px;
-}
-
 .content-header > .breadcrumb > li > a:HOVER {
 	text-decoration: underline;
-}
-
-#cms-content {
-	min-height: 580px;
-	height: 100%;
 }
 
 #Themen td:nth-child(2){

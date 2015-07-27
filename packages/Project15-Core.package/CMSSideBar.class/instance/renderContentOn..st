@@ -4,5 +4,5 @@ renderContentOn: html
 	html div
 		class: 'sidebar';
 		with: [
-			self renderUserMenuOn: html.
+			self renderUserPanelOn: html.
 			self renderSideBarContentOn: html]

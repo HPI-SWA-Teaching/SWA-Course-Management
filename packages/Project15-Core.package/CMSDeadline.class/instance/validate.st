@@ -1,4 +1,4 @@
-as yet unclassified
+validating
 validate
 
 	((0 to: 59) rangeIncludes: self minute) ifFalse: [^ 'Inkorrekte Zeitangabe (Minuten)'].

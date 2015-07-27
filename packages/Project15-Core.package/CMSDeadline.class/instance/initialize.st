@@ -1,4 +1,4 @@
-as yet unclassified
+initializing
 initialize
 
 	self minute: 59;
