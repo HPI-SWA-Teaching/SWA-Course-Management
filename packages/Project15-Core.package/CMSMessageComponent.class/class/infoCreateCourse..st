@@ -1,4 +1,4 @@
 infomessages
 infoCreateCourse: aCourseTitle
 
-	^ 'Die Veranstaltung ', aCourseTitle, ' wurde erfolgreich gepeichert.'.
+	^ 'Die Veranstaltung ', aCourseTitle, ' wurde erfolgreich gepeichert.'

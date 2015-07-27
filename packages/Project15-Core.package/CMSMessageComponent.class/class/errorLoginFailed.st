@@ -1,4 +1,4 @@
 errormessages
 errorLoginFailed
 
-	^ 'Bitte überprüfe die Eingabe Deines Usernamen und Deines Passwortes.'.
+	^ 'Bitte überprüfe die Eingabe Deines Usernamen und Deines Passwortes.'

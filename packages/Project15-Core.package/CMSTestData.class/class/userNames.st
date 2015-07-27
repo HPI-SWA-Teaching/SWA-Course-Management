@@ -7,5 +7,5 @@ userNames
 	surnames := {'Müller' . 'Schmidt' . 'Schneider' . 'Fischer' . 'Meyer' . 'Weber' . 'Schulz' . 'Wagner' . 'Becker' . 'Hoffmann' . 'Korhonen' . 'Virtanen' . 'Mäkinen' . 'Nieminen' . 'Mäkelä' . 'Hämäläinen' . 'Laine' . 'Heikkinen' . 'Koskinen' . 'Järvinen' . 'Lehtonen' . 'Lehtinen' . 'Saarinen' . 'Salminen' . 'Heinonen' . 'Niemi'}.
 
 	res := OrderedCollection new.
-	1 to: (forenames size)-1 do: [:pos | res add: ((forenames at: pos), ' ',(surnames at: pos)) ].
-	^res.
+	1 to: (forenames size)-1 do: [:pos | res add: ((forenames at: pos), ' ',(surnames at: pos))].
+	^ res

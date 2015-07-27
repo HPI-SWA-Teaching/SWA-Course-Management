@@ -1,4 +1,4 @@
 as yet unclassified
 sortBlock
 	
-	^[:a :b| a title <= b title].
+	^ [:a :b| a title <= b title]

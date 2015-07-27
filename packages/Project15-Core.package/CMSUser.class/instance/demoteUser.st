@@ -2,6 +2,6 @@ accessing
 demoteUser
 
 	self isAdmin: false.
-	^ CMSMessageComponent infoDemoteUser: self
+	^ CMSMessageComponent infoUserRoleChanged: self
 
 	

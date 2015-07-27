@@ -11,11 +11,11 @@ createCourseSWT
 					term: (CMSSemester summer: 2015).
 	self initTopicsForCourse: course.
 	userdb do: [:user |
-		user addCourse: course.].
+		user addCourse: course].
 	0 to: 4 do: [:groupID |
 		| currentGroup |
 		currentGroup := course createNewGroup.
 			1 to: 10 do: [ :studentNumber |
-				currentGroup addNewMember: (userdb at: studentNumber).]].
+				currentGroup addNewMember: (userdb at: studentNumber)]].
 	(db at: #Admin asSymbol) addCourse: course.
-	^course.
+	^ course

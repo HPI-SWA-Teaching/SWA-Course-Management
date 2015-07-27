@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"named:" : "tk 7/8/2015 13:54",
+		"named:" : "msc 7/27/2015 09:13",
 		"pluralString" : "tk 7/8/2015 14:05",
 		"singularString" : "tk 7/8/2015 14:08",
 		"sortBlock" : "t.a. 7/3/2015 18:15" },
@@ -11,7 +11,7 @@
 		"collectAllSubmissions" : "tk 7/10/2015 16:41",
 		"courses" : "MarvMaster 6/3/2015 16:03",
 		"courses:" : "msc 5/22/2015 19:06",
-		"demoteUser" : "msc 7/17/2015 15:22",
+		"demoteUser" : "msc 7/27/2015 09:21",
 		"groups" : "tk 5/29/2015 13:38",
 		"groups:" : "tk 5/29/2015 13:38",
 		"initialize" : "tk 7/10/2015 13:15",
@@ -26,7 +26,7 @@
 		"leaveGroup:" : "msc 6/20/2015 22:03",
 		"leaveTopic:" : "msc 7/9/2015 21:13",
 		"participatesIn:" : "msc 6/20/2015 22:04",
-		"promoteUser" : "msc 7/17/2015 15:22",
+		"promoteUser" : "msc 7/27/2015 09:21",
 		"remove:" : "msc 7/17/2015 15:22",
 		"removeSubmission:" : "tk 7/10/2015 13:13",
 		"roleAsString" : "msc 7/17/2015 16:41",

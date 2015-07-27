@@ -1,4 +1,4 @@
 infomessages
 infoSaveCourse: aCourseTitle
 
-	^ 'Die Veranstaltung ', aCourseTitle, ' wurde erfolgreich geändert..'.
+	^ 'Die Veranstaltung ', aCourseTitle, ' wurde erfolgreich geändert.'
