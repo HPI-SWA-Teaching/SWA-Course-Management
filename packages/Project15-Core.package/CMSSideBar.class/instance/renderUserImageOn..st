@@ -5,6 +5,6 @@ renderUserImageOn: html
 		class: 'pull-left image';
 		with: [
 			 html image
-				url: 'static/dist/img/user2-160x160.jpg';
 				class: 'img-circle';
+				url: '/static/styles/img/user2-160x160.jpg';
 				altText: 'User Image']

@@ -1,4 +1,4 @@
 accessing
-rootComponent: anObject
+rootComponent: aComponent
 
-	rootComponent := anObject
+	rootComponent := aComponent
