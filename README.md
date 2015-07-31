@@ -7,43 +7,63 @@ Es können Lehrveranstaltungen und Benutzer verwaltet, Abgaben für einzelne Ben
 
 ## Installation
 ### Vorbereitung
-Repo clonen
-Download Squeak 4.5
+Download Squeak Version 4.5
 
 ### Seaside im Image installieren
 Installation in der Workspace ausführen:
-Metacello new
+```Metacello new
 	smalltalkhubUser: 'Seaside' project: 'MetacelloConfigurations';
 	configuration: 'Seaside3';
 	load: #('WebClient' 'Development' 'Email' 'JQuery' 'JQueryUI' 'REST' 'RSS').
-SwaLint hardReset.
+SwaLint hardReset ```
 
 Anschließend per Seaside Control Panel einen neuen 'WAWebServerWebAdapter anlegen.
-Das Encoding auf UTF-8 stellen und 'WAWebServerWebAdapter starten.
+Das Encoding sollte auf 'UTF-8' gesetzt werden, damit Umlaute entsprechend angezeigt werden. Anschließend den WAWebServerAdaptor starten.
 
 ### Sourcen im Image einbinden
 Im Monticello Browser neues FileTree Respository hinzufügen.
-Anschließend 
+Anschließend die Packages `Project15-Core` und `Project15-Test` laden. 
 
 ### Selenium für UI Tests im Image installieren
-im Monticello Browser zum Package Project15-Core neues HTTP-Repository hinzufügen:
-```MCHttpRepository
+im Monticello Browser zum Package Project15-Core ein neues HTTP-Repository hinzufügen:
+```
+MCHttpRepository
   location: 'http://ss3.gemstone.com/ss/Parasol'
   user: ''
   password: ''
+```
 
-Anschließend Selenium (Version: 2.46) als Standalone downloaden unter: http://www.seleniumhq.org/download/
+Anschließend Selenium (Version: 2.46) als Standalone herunterladen unter: http://www.seleniumhq.org/download/ 
+und starten.
 
 ### Seaside konfigurieren
+Seasidekonfiguration in der Workspace ausführen:
+```
 | application |
 (application:= WAAdmin register: self asApplicationAt: 'cms').
 application isApplication ifTrue: [
     application preferenceAt: #sessionClass put: CMSSession.
 	application preferenceAt: #rootClass put: CMSRootTask]
+```
 		
 ### Nginx Webserver starten
-Für das Course Management System wurde Nginx als Webserver eingebunden und kann aus dem Repository gestartet werden.
-./SWT15-Project-15/master/nginx-1.9.1
+Für das Course Management System wurde Nginx als Webserver eingebunden und kann aus dem Repository-Verzeichnis `./SWT15-Project-15/nginx-1.9.1` gestartet werden.
+Das Course Management System ist via http://localhost/cms erreichbar.
+
+In der Konfigurationsdatei `./SWT15-Project-15/nginx-1.9.1/nginx.conf` können Host und Port angepasst werden.
+```
+server {
+    listen       80;
+    server_name  localhost;
+}
+```
+
+### Hinweise:
+Mit Hilfe der klassen-seitigen Methode initializeTestData können in der Workspace Testdatensätze, wie Benutzer und Lehrveranstaltungen erzeugt werden.
+`CMSTestData initializeTestData`
+
+Die Anmeldung mit Adminrechten erfolgt unter dem Usernamen 'Admin'.
+
 
 ## Erweiterungsmöglichkeiten
 Das Course Management System könnte um folgende Features erweitert werden:
