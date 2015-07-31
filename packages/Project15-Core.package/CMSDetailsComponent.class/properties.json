@@ -4,10 +4,9 @@
 		"globalPresets" ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "TA 7/20/2015 13:02",
 	"instvars" : [
-		"data",
-		"detailsPresets" ],
+		"data" ],
 	"name" : "CMSDetailsComponent",
 	"pools" : [
 		 ],

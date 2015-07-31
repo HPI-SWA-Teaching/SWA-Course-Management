@@ -4,13 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "TA 7/31/2015 22:04",
 	"instvars" : [
 		"components",
 		"mainContent",
 		"menuBar",
-		"sideBar",
-		"footer" ],
+		"sideBar" ],
 	"name" : "CMSRootElement",
 	"pools" : [
 		 ],

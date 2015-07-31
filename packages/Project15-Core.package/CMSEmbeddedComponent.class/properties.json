@@ -4,10 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "TA 7/20/2015 12:46",
 	"instvars" : [
 		"rootComponent",
-		"caption" ],
+		"caption",
+		"detailsPresets" ],
 	"name" : "CMSEmbeddedComponent",
 	"pools" : [
 		 ],
