@@ -1,0 +1,14 @@
+{
+	"category" : "Project15-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"deadlineA" ],
+	"name" : "CMSDeadlineTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

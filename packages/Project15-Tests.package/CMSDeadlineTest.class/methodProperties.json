@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "tk 7/31/2015 13:38",
+		"testValidDay" : "tk 7/31/2015 13:51",
+		"testValidHour" : "tk 7/31/2015 13:40",
+		"testValidLeapDay" : "tk 7/31/2015 13:55",
+		"testValidMinute" : "tk 7/31/2015 13:40",
+		"testValidMonth" : "tk 7/31/2015 13:50" } }

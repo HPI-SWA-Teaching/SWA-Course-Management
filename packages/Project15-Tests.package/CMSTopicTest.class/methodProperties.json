@@ -3,4 +3,5 @@
 		"topicName" : "tk 6/9/2015 13:30" },
 	"instance" : {
 		"testTopicCreationAndDeletion" : "tk 7/7/2015 14:13",
-		"testTopicGroupAssociation" : "tk 7/8/2015 11:35" } }
+		"testTopicGroupAssociation" : "tk 7/8/2015 11:35",
+		"testValidation" : "tk 7/31/2015 14:38" } }
