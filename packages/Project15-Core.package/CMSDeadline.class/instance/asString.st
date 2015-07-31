@@ -1,4 +1,4 @@
-as yet unclassified
+conversion
 asString
 
 	^ self day asTwoCharacterString, '. ',

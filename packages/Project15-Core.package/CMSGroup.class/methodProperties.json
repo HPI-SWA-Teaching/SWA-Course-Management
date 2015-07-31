@@ -1,10 +1,16 @@
 {
 	"class" : {
+		"assignmentDescriptions" : "t.a. 7/3/2015 17:57",
+		"assignmentDescriptions:" : "t.a. 7/3/2015 17:54",
+		"defaultDescriptions" : "t.a. 7/3/2015 18:00",
+		"detailsPreset" : "tk 7/3/2015 15:59",
 		"for:" : "tk 7/7/2015 13:55",
 		"named:" : "msc 7/27/2015 09:02",
 		"pluralString" : "tk 7/8/2015 14:59",
 		"singularString" : "tk 7/8/2015 14:08",
-		"sortBlock" : "t.a. 7/3/2015 18:20" },
+		"sortBlock" : "t.a. 7/3/2015 18:20",
+		"topicDescription" : "tk 7/8/2015 12:24",
+		"userDescription" : "tk 7/8/2015 12:24" },
 	"instance" : {
 		"addMember:" : "msc 6/20/2015 22:12",
 		"addNewMember:" : "msc 6/20/2015 22:12",
@@ -29,6 +35,8 @@
 		"submissions:" : "tk 7/10/2015 13:14",
 		"title" : "tk 5/29/2015 13:33",
 		"title:" : "tk 5/29/2015 13:33",
+		"topic" : "tk 6/9/2015 13:23",
+		"topic:" : "tk 6/9/2015 13:23",
 		"topics" : "tk 7/3/2015 16:00",
 		"topics:" : "tk 7/3/2015 16:00",
 		"unregister" : "tk 7/7/2015 13:59" } }

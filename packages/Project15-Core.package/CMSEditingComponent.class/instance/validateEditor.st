@@ -1,0 +1,3 @@
+validating
+validateEditor
+	self subclassResponsibility

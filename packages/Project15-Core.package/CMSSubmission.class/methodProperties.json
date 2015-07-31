@@ -1,8 +1,14 @@
 {
 	"class" : {
+		"assignmentDescriptions" : "tk 7/10/2015 12:27",
+		"assignmentDescriptions:" : "tk 7/10/2015 12:26",
+		"defaultDescriptions" : "tk 7/10/2015 12:28",
+		"detailsPreset" : "tk 7/10/2015 13:10",
+		"groupDescription" : "tk 7/10/2015 12:30",
 		"pluralString" : "tk 7/10/2015 12:55",
 		"singularString" : "tk 7/10/2015 12:55",
-		"sortBlock" : "tk 7/14/2015 14:48" },
+		"sortBlock" : "tk 7/14/2015 14:48",
+		"userDescription" : "tk 7/10/2015 12:32" },
 	"instance" : {
 		"assignments" : "tk 7/3/2015 10:39",
 		"assignments:" : "tk 7/3/2015 10:39",

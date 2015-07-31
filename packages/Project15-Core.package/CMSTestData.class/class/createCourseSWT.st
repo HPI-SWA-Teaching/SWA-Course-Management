@@ -9,7 +9,7 @@ createCourseSWT
 	course := (CMSCourse new) title: (CMSSingleLineString containing: 'SWT');
 					description: (CMSMultilineString containing: 'SoftwareEngineering at HPI');
 					term: (CMSSemester summer: 2015).
-	self initTopicsForCourse: course.
+	self initializeTopicsForCourse: course.
 	userdb do: [:user |
 		user addCourse: course].
 	0 to: 4 do: [:groupID |

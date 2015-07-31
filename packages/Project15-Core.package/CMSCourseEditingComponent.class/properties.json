@@ -1,0 +1,15 @@
+{
+	"category" : "Project15-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"course",
+		"originalCourse" ],
+	"name" : "CMSCourseEditingComponent",
+	"pools" : [
+		 ],
+	"super" : "CMSEditingComponent",
+	"type" : "normal" }

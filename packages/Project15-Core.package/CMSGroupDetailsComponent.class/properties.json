@@ -1,0 +1,14 @@
+{
+	"category" : "Project15-Core",
+	"classinstvars" : [
+		"caption" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"group" ],
+	"name" : "CMSGroupDetailsComponent",
+	"pools" : [
+		 ],
+	"super" : "CMSEmbeddedComponent",
+	"type" : "normal" }

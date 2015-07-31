@@ -1,0 +1,4 @@
+constants
+componentAfterEditing
+
+	^ CMSGlobalCourseListComponent

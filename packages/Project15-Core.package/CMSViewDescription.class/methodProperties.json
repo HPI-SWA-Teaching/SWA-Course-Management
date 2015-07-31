@@ -1,0 +1,26 @@
+{
+	"class" : {
+		"courseDetailsPreset" : "msc 7/10/2015 16:46",
+		"globalCourseListPreset" : "msc 7/10/2015 15:02",
+		"groupDetailsPreset" : "tk 7/10/2015 16:46",
+		"submissionDetailsPreset" : "tk 7/10/2015 16:57",
+		"submissionTypesPreset" : "msc 7/10/2015 12:50",
+		"topicDetailsPreset" : "msc 7/10/2015 00:31",
+		"userCourseListPresetFor:" : "msc 7/10/2015 15:04",
+		"userGroupListPresetFor:" : "tk 7/10/2015 16:29",
+		"userListPreset" : "msc 7/10/2015 15:21",
+		"userSubmissionListPresetFor:" : "tk 7/10/2015 16:29" },
+	"instance" : {
+		"buttons" : "tk 7/3/2015 12:26",
+		"buttons:" : "tk 7/3/2015 12:26",
+		"data" : "tk 7/3/2015 11:35",
+		"data:" : "tk 7/3/2015 11:35",
+		"generalStructure" : "tk 7/3/2015 11:35",
+		"generalStructure:" : "tk 7/3/2015 11:35",
+		"header" : "tk 7/3/2015 12:11",
+		"header:" : "tk 7/3/2015 12:11",
+		"initialize" : "tk 7/3/2015 12:27",
+		"tables" : "tk 7/3/2015 11:35",
+		"tables:" : "tk 7/3/2015 11:35",
+		"traceDescription" : "tk 7/8/2015 11:48",
+		"traceDescription:" : "tk 7/8/2015 11:48" } }
