@@ -26,30 +26,36 @@ Anschließend die Packages `Project15-Core` und `Project15-Test` laden.
 
 ### Selenium für UI Tests im Image installieren
 im Monticello Browser zum Package Project15-Core ein neues HTTP-Repository hinzufügen:
-```MCHttpRepository
+```
+MCHttpRepository
   location: 'http://ss3.gemstone.com/ss/Parasol'
   user: ''
-  password: ''```
+  password: ''
+```
 
 Anschließend Selenium (Version: 2.46) als Standalone herunterladen unter: http://www.seleniumhq.org/download/ 
 und starten.
 
 ### Seaside konfigurieren
 Seasidekonfiguration in der Workspace ausführen:
-```| application |
+```
+| application |
 (application:= WAAdmin register: self asApplicationAt: 'cms').
 application isApplication ifTrue: [
     application preferenceAt: #sessionClass put: CMSSession.
-	application preferenceAt: #rootClass put: CMSRootTask]```
+	application preferenceAt: #rootClass put: CMSRootTask]
+```
 		
 ### Nginx Webserver starten
 Für das Course Management System wurde Nginx als Webserver eingebunden und kann aus dem Repository-Verzeichnis `./SWT15-Project-15/nginx-1.9.1` gestartet werden.
 Das Course Management System ist via http://localhost/cms erreichbar.
 
 In der Konfigurationsdatei `./SWT15-Project-15/nginx-1.9.1/nginx.conf` können Host und Port angepasst werden.
-```server {
+```
+server {
     listen       80;
     server_name  localhost;
+}
 ```
 
 ### Hinweise:
