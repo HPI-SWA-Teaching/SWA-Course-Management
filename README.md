@@ -1,7 +1,7 @@
 # Course Management System
-[![Build Status](https://travis-ci.org/hpi-swa-teaching/SWT15-Project-15.svg)](https://travis-ci.org/hpi-swa-teaching/SWT15-Project-15)
+[![Build Status](https://travis-ci.org/hpi-swa-teaching/SWA-Course-Management.svg)](https://travis-ci.org/hpi-swa-teaching/SWA-Course-Management)
 ===================
-![screenshot](https://raw.githubusercontent.com/hpi-swa-teaching/SWT15-Project-15/master/docs/cms_screenshot.png)
+![screenshot](https://raw.githubusercontent.com/hpi-swa-teaching/SWA-Course-Management/master/docs/cms_screenshot.png)
 Das Course Management System ist eine Webanwendung, die mit dem web application framework Seaside (Version 3.1.2) entwickelt wurde. 
 Es können Lehrveranstaltungen und Benutzer verwaltet, Abgaben für einzelne Benutzer oder Gruppen terminiert, sowie Themen für einzelne Lehrveranstaltungen festgelegt werden.
 
@@ -47,10 +47,10 @@ application isApplication ifTrue: [
 ```
 		
 ### Nginx Webserver starten
-Für das Course Management System wurde Nginx als Webserver eingebunden und kann aus dem Repository-Verzeichnis `./SWT15-Project-15/nginx-1.9.1` gestartet werden.
+Für das Course Management System wurde Nginx als Webserver eingebunden und kann aus dem Repository-Verzeichnis `./SWA-Course-Management/nginx-1.9.1` gestartet werden.
 Das Course Management System ist via http://localhost/cms erreichbar.
 
-In der Konfigurationsdatei `./SWT15-Project-15/nginx-1.9.1/nginx.conf` können Host und Port angepasst werden.
+In der Konfigurationsdatei `./SWA-Course-Management/nginx-1.9.1/nginx.conf` können Host und Port angepasst werden.
 ```
 server {
     listen       80;
@@ -72,4 +72,4 @@ Das Course Management System könnte um folgende Features erweitert werden:
 - Abgabeartefakte hochladen
 - Abgabeartefakte herunterladen
 
-Die User Stories sind unter dem nachfolgenden Link dokumentiert: https://raw.githubusercontent.com/hpi-swa-teaching/SWT15-Project-15/master/docs/userstories.txt
+Die User Stories sind unter dem nachfolgenden Link dokumentiert: https://raw.githubusercontent.com/hpi-swa-teaching/SWA-Course-Management/master/docs/userstories.txt
